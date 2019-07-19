@@ -1,0 +1,472 @@
+	{% extends "base.html" %}
+	{% block content %}
+	<link rel="stylesheet" href="{{url_for('static',filename='Download.css') }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<div class="text-center" style:"margin-bottom:150px">	
+   		<h1>Crop SNPdb Data Download</h1>
+ 	<div class="header_content" style="margin-bottom:150px">
+		<p>Download genotype matrices for all canola and wheat samples in the database by chromosome.</p></br>
+		<p style="font-size:12px"><i>Brassica</i> chromosome size and SNP number shown for <i>B. napus</i> (A and C genomes) and <i>B. juncea</i> (B genome).</p>
+		<table class="tg">
+			<tr>
+				<th class="tg-yw4l" colspan="7"><i>Brassica</i> 60k bulk download<br></th>
+				<th class="tg-akf0"></th>
+				<th class="tg-yw4l" colspan="4">Wheat 90k bulk download</th>
+			</tr>
+			<tr>
+				<td class="tg-yw4l">Chr</td>
+				<td class="tg-yw4l">Size (Mb)</td>
+				<td class="tg-yw4l">SNP#</td>
+				<td class="tg-yw4l"><i>B.napus</i></td>
+				<td class="tg-yw4l"><i>B.juncea</i></td>
+				<td class="tg-yw4l"><i>B.rapa</i></td>
+				<td class="tg-yw4l"><i>B.oleracea</i></td>
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">Chr</td>
+				<td class="tg-yw4l">Size (Mb)</td>
+				<td class="tg-yw4l">SNP#</td>
+				<td class="tg-yw4l"><i>T.aestivum</i></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A01</td>
+				<td class="tg-yw4l">31.16</td>
+				<td class="tg-yw4l">2061</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A01.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A01.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A01.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">1A<br></td>
+				<td class="tg-yw4l">594.10</td>
+				<td class="tg-yw4l">3439</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr1A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A02<br></td>
+				<td class="tg-yw4l">31.34</td>
+				<td class="tg-yw4l">1699</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A02.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A02.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A02.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">1B<br></td>
+				<td class="tg-yw4l">689.85</td>
+				<td class="tg-yw4l">4072</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr1B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A03<br></td>
+				<td class="tg-yw4l">39.49</td>
+				<td class="tg-yw4l">2878</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A03.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A03.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A03.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">1D<br></td>
+				<td class="tg-yw4l">495.45</td>
+				<td class="tg-yw4l">2979</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr1D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A04<br></td>
+				<td class="tg-yw4l">23.31</td>
+				<td class="tg-yw4l">2056</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A04.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A04.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A04.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">2A<br></td>
+				<td class="tg-yw4l">780.80</td>
+				<td class="tg-yw4l">4166</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr2A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A05<br></td>
+				<td class="tg-yw4l">28.60</td>
+				<td class="tg-yw4l">2102</td>
+
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A05.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A05.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A05.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">2B<br></td>
+				<td class="tg-yw4l">801.26</td>
+				<td class="tg-yw4l">5839</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr2B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A06<br></td>
+				<td class="tg-yw4l">31.90</td>
+				<td class="tg-yw4l">1977</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A06.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A06.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A06.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">2D<br></td>
+				<td class="tg-yw4l">651.85</td>
+				<td class="tg-yw4l">3526</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr2D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A07<br></td>
+				<td class="tg-yw4l">28.90</td>
+				<td class="tg-yw4l">2422</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A07.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A07.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A07.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">3A<br></td>
+				<td class="tg-yw4l">750.84</td>
+				<td class="tg-yw4l">3317</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr3A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A08<br></td>
+				<td class="tg-yw4l">21.74</td>
+				<td class="tg-yw4l">1364</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A08.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A08.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A08.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">3B<br></td>
+				<td class="tg-yw4l">830.83</td>
+				<td class="tg-yw4l">3795</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr3B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A09<br></td>
+				<td class="tg-yw4l">46.72</td>
+				<td class="tg-yw4l">2406</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A09.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A09.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A09.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">3D<br></td>
+				<td class="tg-yw4l">615.55</td>
+				<td class="tg-yw4l">2549</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr3D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">A10<br></td>
+				<td class="tg-yw4l">19.96</td>
+				<td class="tg-yw4l">2078</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_A10.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_A10.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_A10.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">4A<br></td>
+				<td class="tg-yw4l">744.59</td>
+				<td class="tg-yw4l">3048</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr4A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C01<br></td>
+				<td class="tg-yw4l">47.95</td>
+				<td class="tg-yw4l">3595</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C01.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C1.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">4B<br></td>
+				<td class="tg-yw4l">673.62</td>
+				<td class="tg-yw4l">2717</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr4B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C02<br></td>
+				<td class="tg-yw4l">58.66</td>
+				<td class="tg-yw4l">3571</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C02.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C2.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">4D<br></td>
+				<td class="tg-yw4l">509.86</td>
+				<td class="tg-yw4l">1849</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr4D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C03<br></td>
+				<td class="tg-yw4l">71.85</td>
+				<td class="tg-yw4l">3659</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C03.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C3.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">5A<br></td>
+				<td class="tg-yw4l">709.77</td>
+				<td class="tg-yw4l">3575</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr5A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C04<br></td>
+				<td class="tg-yw4l">61.04</td>
+				<td class="tg-yw4l">4630</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C04.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C4.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">5B<br></td>
+				<td class="tg-yw4l">713.15</td>
+				<td class="tg-yw4l">4349</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr5B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C05<br></td>
+				<td class="tg-yw4l">52.72</td>
+				<td class="tg-yw4l">1427</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C05.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C5.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+
+				<td class="tg-yw4l">5D<br></td>
+				<td class="tg-yw4l">566.08</td>
+				<td class="tg-yw4l">2940</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr5D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C06<br></td>
+				<td class="tg-yw4l">44.61</td>
+				<td class="tg-yw4l">1960</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C06.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C6.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">6A<br></td>
+				<td class="tg-yw4l">618.08</td>
+				<td class="tg-yw4l">3226</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr6A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C07<br></td>
+				<td class="tg-yw4l">52.50</td>
+				<td class="tg-yw4l">2594</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C07.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C7.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">6B<br></td>
+				<td class="tg-yw4l">720.99</td>
+				<td class="tg-yw4l">3513</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr6B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C08<br></td>
+				<td class="tg-yw4l">46.29</td>
+				<td class="tg-yw4l">1947</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C08.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C8.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">6D<br></td>
+				<td class="tg-yw4l">473.59</td>
+				<td class="tg-yw4l">2280</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr6D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">C09<br></td>
+				<td class="tg-yw4l">60.21</td>
+				<td class="tg-yw4l">1473</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_C09.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_C9.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">7A<br></td>
+				<td class="tg-yw4l">736.71</td>
+				<td class="tg-yw4l">3766</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr7A.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B01<br></td>
+				<td class="tg-yw4l">45.93</td>
+				<td class="tg-yw4l">324</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B01.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">7B<br></td>
+				<td class="tg-yw4l">750.62</td>
+				<td class="tg-yw4l">3338</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr7B.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B02</td>
+				<td class="tg-yw4l">67.31</td>
+				<td class="tg-yw4l">415</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B02.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">7D<br></td>
+				<td class="tg-yw4l">638.69</td>
+				<td class="tg-yw4l">2815</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chr7D.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B03</td>
+				<td class="tg-yw4l">58.66</td>
+				<td class="tg-yw4l">435</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B03.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">Pan<br></td>
+				<td class="tg-yw4l">365.49</td>
+				<td class="tg-yw4l">626</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_Pan_BP_CH.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B04</td>
+				<td class="tg-yw4l">43.48</td>
+				<td class="tg-yw4l">209</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B04.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-yw4l">Unplaced</td>
+				<td class="tg-yw4l">480.98</td>
+				<td class="tg-yw4l">873</td>
+				<td class="tg-yw4l"><a href='data/Triticum_aestivum_RefSeq_v1_and_Pan_chrUn.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B05</td>
+				<td class="tg-yw4l">64.15</td>
+				<td class="tg-yw4l">339</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B05.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B06</td>
+				<td class="tg-yw4l">36.77</td>
+				<td class="tg-yw4l">319</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B06.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B07</td>
+				<td class="tg-yw4l">43.07</td>
+				<td class="tg-yw4l">262</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B07.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+			</tr>
+			<tr>
+				<td class="tg-yw4l">B08</td>
+				<td class="tg-yw4l">69.94</td>
+				<td class="tg-yw4l">306</td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_B08.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l">-</td>
+				<td class="tg-yw4l">-</td>
+
+				<td class="tg-akf0"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+			</tr>
+			<tr>
+				<td class="tg-yw4l">Unplaced</td>
+				<td class="tg-yw4l">51.33</td>
+				<td class="tg-yw4l">1057</td>
+				<td class="tg-yw4l"><a href='data/Brassica_napus_Darmor_v81_Unplaced.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_juncea_v1.5_Unplaced.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_rapa_v3_Unplaced.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-yw4l"><a href='data/Brassica_oleracea_v2.1_Unplaced.csv'><button class="btn"><i class="fa fa-download"></i></button></a><br></td>
+				<td class="tg-akf0"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+				<td class="tg-blank"></td>
+			</tr>
+
+		</table> 
+	</div>
+	
+	
+		{% endblock %}	

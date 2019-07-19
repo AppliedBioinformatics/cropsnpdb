@@ -1,0 +1,42 @@
+h1 {
+    line-height:1.5em;
+}
+#searchform {
+    margin: 25px 0px 80px 0px;
+    padding:20px;
+    padding-left:15%;
+    padding-right:15%;
+}
+/* Container for flexboxes */
+.row-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    min-width: 1000px; /*set because buttons not wrapping right*/
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 40px;
+    color: #434848;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.well {
+    background-color: #eee;
+    white-space: normal;
+    min-width:1000px; /*set because buttons not wrapping right*/
+}
+.alert {
+    display:inline-block;
+}
+

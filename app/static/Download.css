@@ -1,0 +1,67 @@
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.btn {
+padding:0px
+}
+
+table.tg {
+border-collapse:collapse;
+border-spacing:0;
+border-color:#aabcfe;
+margin-left:auto;
+margin-right:auto;
+}
+
+table.tg td{
+font-family:Arial, sans-serif;
+font-size:14px;
+padding:3px 5px;
+border-style:solid;
+border-width:0px;
+overflow:hidden;
+word-break:normal;
+color:#669;
+background-color:#e8edff;
+}
+table.tg th{
+font-family:Arial, sans-serif;
+font-size:14px;
+font-weight:normal;
+padding:10px 5px;
+border-style:solid;
+border-width:0px;
+overflow:hidden;
+word-break:normal;
+color:#039;
+background-color:#b9c9fe;
+}
+table.tg .tg-baqh{
+font-weight:bold;
+text-align:center;
+vertical-align:top
+}
+table.tg .tg-9hbo{
+font-weight:bold;
+vertical-align:top;
+}
+table.tg .tg-yw4l{
+vertical-align:top;
+font-weight:bold
+}
+table.tg .tg-blank{
+vertical-align:top;
+background-color:#ffffff;
+color:#ffffff;
+}
+table.tg .tg-akf0{
+background-color:#ffffff;
+color:#ffffff;
+vertical-align:top;
+width:30px
+}

@@ -1,0 +1,94 @@
+	{% extends "base.html" %}
+	{% block content %}
+	<link rel="stylesheet" href="{{url_for('static',filename='SNPSubmit.css') }}">
+	<script type="text/javascript">
+	function submitAlert() {
+		alert("Thank you for your submission. Files will be checked and uploaded. Please be patient.");
+		return true;
+	}
+	</script>
+	<div class="text-center">
+		<h1>Crop SNPdb Data Upload</h1>
+			<p>
+			A genotype file 
+				<a href='/static/snps.csv'>(example)</a>
+				and a corresponding cultivar file 
+				<a href='/static/cultivars.csv'>(example)</a>
+				are required submission (max. file size 50MB).<br>
+			Optionally, GenCall scores in the genotype file format can also be uploaded.<br>
+			Queries can be directed to 
+			 <a href="mailto:dave.edwards@uwa.edu.au" target="_top">dave.edwards@uwa.edu.au</a>.
+		<br>
+		{% if fileSubmit %}
+			<div class="alert alert-success alert-dismissible" style="text-align: center" role="alert">
+			<span type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+				<p>Data successfully submitted with genotype file: {{fileSubmit}} </p>
+				<p>Pending validation checks and email verification, data will be added to CropSNPdb. </p>
+			</div>
+		{% endif %}
+		{% if error %}
+			<div class="alert alert-danger alert-dismissible" style="text-align: center" role="alert">
+			<span type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+  			Required input files not provided, do not exist or are too big (&gt;50Mb)! Please ensure genotype and cultivar CSV files are included.
+	
+		{% endif %}
+		{% if success %}
+			<div class="alert alert-success alert-dismissible" style="text-align: center" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			{{success}}
+			</div>
+		{% endif %}
+		{%if message %}
+			<div class="text-center">
+				{{message|safe}}
+			</div>
+		{% endif %}
+	</div>
+	<form action="" method="post" name="SNPSubmit" enctype = "multipart/form-data">
+		<div id="searchform">
+			<div class="well">
+				<fieldset>
+					<legend>Genotypes form</legend>
+					<div class="container-fluid">
+						<div class="row-fluid">
+							<div class="col-md-4">
+								<label for="Email">Email address<a tooltip="Database curators will contact you at this email address to verify the data and confirm addition to CropSNPdb.">[?]</a></label>
+								{{ form.Email }}
+							</div>
+							<div class="col-md-3">
+								<label for="SNPArray">SNP Array<a tooltip="Select the SNP array your data was collected with. If you would like to submit data from a different SNP array, contact us and we will add the array to the database.">[?]</a></label>
+								{{ form.SNPArray }}
+							</div>
+		                                        <div class="col-md-3">
+								<label for="SNPFile">Genotypes<a tooltip="SNP matrix with accessions as columns and SNPs as rows.">[?]</a></label>
+								{{ form.SNPFile }}
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="well">
+				<fieldset>
+					<legend>Cultivar and genotype quality form</legend>
+					<div class="container-fluid">
+						<div class="row-fluid">
+							<div class="col-md-4">
+								<label for="qualityFile">Genotype quality<a tooltip="Genotype quality matrix with accessions as columns and quality scores as rows.">[?]</a></label>
+								{{ form.qualityFile }}
+							</div>
+							<div class="col-md-4">
+								<label for="CultivarFile">Cultivars<a tooltip="Two-column text file of accessions and corresponding cultivar names">[?]</a></label>
+								{{ form.CultivarFile }}
+							</div>
+							<div class="col-md-3" style="padding-left:55px;padding-top:30px">
+								<input type="submit" value="Submit"  onclick="return submitAlert();">
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+	</form>
+	</div>
+	{% endblock %}	

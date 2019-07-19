@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			{{title}} - CropSNPdb
+		</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" type=text/css href="{{ url_for('static', filename='base.css') }}">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+	<script src="{{ url_for('static', filename='base.js') }}"></script>
+	
+	</head>
+	<body>
+		<div id=wrapper class="clearfix">
+		     <nav class="navbar navbar-default navbar-fixed-top">
+		          <div class="container">
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#NavComponents" aria-expanded"false">
+		                  <i class="glyphicon glyphicon-align-center"></i>
+		                </button>
+		                <a class="navbar-brand navbar-left" href="#">CropSNPdb</a>
+				<a href="#" class="navbar-left"><img src="{{url_for('static', filename='logo_notext.png')}}" style="padding-left:5px;width:50px;height:55px;"></a>
+		
+		            </div>
+		            <div class="collapse navbar-collapse" id="NavComponents">         
+		 
+		              <ul class="nav navbar-nav navbar-right" style="font-size:20px">
+		                        <li><a href="/home">Home</a></li>
+		                        <li><a href="/search">Search</a></li>
+		                        <li><a href="/download">Download</a></li>
+		                        <li><a href="/submit">Upload</a></li>
+		                </ul>
+		 
+		              
+		            </div>
+		          </div>
+		        </nav>
+			<div class="main-container">
+				{% block content %}{% endblock %}
+			</div> <!-- #main-container -->
+			<div class="footer">
+				<p>
+				<a href="http://appliedbioinformatics.com.au/index.php/Main_Page" target="_blank">Applied Bioinformatics Group</a><br>
+				Version 1.0, August 2018<br>
+				Contact us: <a href="mailto:Dave.Edwards@uwa.edu.au">Dave.Edwards@uwa.edu.au</a><br>
+				</p>
+				<!--<img src="{{url_for('static', filename='logo_100px.png')}}" />-->
+			</div> <!-- #footer -->
+		</div> <!--end wrapper-->
+	</body>
+</html>

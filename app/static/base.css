@@ -1,0 +1,146 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+html {
+height:100%;
+margin:0;
+padding:0;
+}
+body {
+display: flex;
+flex-direction: column;
+height:100%;
+/*padding-top: 60px; 
+position: relative; */
+font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+line-height: 20px;
+color: #666;
+background-color: #fff;
+font-size:16px;
+white-space: nowrap;
+margin-bottom:10%;
+}
+#wrapper {
+min-height:100%;
+position: relative;
+margin:20px 20px;
+}
+
+.main-container {
+/*flex: 1 0 auto;*/
+/*margin: 100px 100px 100px 100px;*/
+}
+p:after {
+content: none;
+}
+
+p:before{
+content: none;
+}
+
+.header {
+font-size:200%;
+padding-top:15px;
+padding-bottom:15px;
+} 
+
+.text-center {
+margin-top:100px;
+}
+#Message {
+position:absolute;
+border:1px;
+}
+
+#bottomMessage span{
+position:relative;
+}
+@media (min-width: 768px) {
+    nav.navbar {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-header {
+        height: 80px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-toggle {
+        margin-top: 5px;
+    }
+}
+.navbar-brand{
+font-size: 180% !important;
+}
+.nav a{
+font-size: 120% !important;
+}
+.footer {
+  height:80px;
+  /*line-height: 100%;
+  position: absolute;*/
+  width: 100%;
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom:0px;
+  /*padding: 20px;*/
+  background-color: #efefef;
+  /*flex-shrink: 0;*/
+}
+.footer p {
+  font-size:14px;
+  text-align: left;
+  padding:10px;
+}
+
+/*Prettify the add and remove buttons*/
+input[type=button]:hover {
+    background-color:#4CAF50;
+}
+
+input[type=button] {
+  background-color: #929292;
+    border: 1;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+[tooltip]{
+  margin:2px;
+  position:relative;
+  display:inline-block;
+}
+
+
+[tooltip]::after {
+    content: attr(tooltip);
+    position: absolute;
+    left:50%;
+    top:-6px;
+    transform: translateX(-50%)   translateY(-100%);
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    padding:4px 2px;
+    font-size: 12px;
+    min-width: 120px;
+    border-radius: 5px;
+    pointer-events: none;
+    padding: 4px 4px;
+    z-index:99;
+    opacity:0;
+}
+
+[tooltip]:hover::after,[tooltip]:hover::before {
+   opacity:1
+}
+

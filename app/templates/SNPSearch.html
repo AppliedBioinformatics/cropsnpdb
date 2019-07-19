@@ -1,0 +1,296 @@
+{%extends "base.html" %}
+{%block content %}
+
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='SNPSearch.css')}}">
+<script> 
+var chromosomesWithSpecies = {{ chromosomesWithSpecies|tojson}}; 
+var chipsWithSpecies = {{ chipsWithSpecies|tojson}}; 
+var speciesWithCultivars = {{ speciesWithCultivar|tojson}};
+{% if results %}
+var results = {{results|tojson}};
+{% endif %}
+{% if gbrowseLink %}
+var gbrowseLink = {{gbrowseLink|tojson}};
+{% endif %}
+</script>	
+<script type='text/javascript' src="static/SNPSearch.js?filever=<?=filesize('static/SNPSearch.js')?>"></script>
+<div id="myModal" class="modal" role="dialog">
+	<!-- Modal content -->
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">
+				<span aria-hidden="true">×</span>
+                	</button>
+			<h3 class="modal-title">Additional SNP information</h3>
+		</div>
+		<br>		
+		<p>To view SNP in genome annotation track follow the GBrowse link.</p>
+		<div id="informationBox">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-2">
+						<b>Chip name</b>
+					</div>
+					<div class="col-md-10">
+						<p id="chipName"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Species</b>
+					</div>
+					<div class="col-md-10">
+						<p id="species"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Line</b>
+					</div>
+					<div class="col-md-10">
+						<p id="cultivar"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Accession</b>
+					</div>
+					<div class="col-md-10">
+						<p id="accession"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>GenCall Score</b>
+					</div>
+					<div class="col-md-10">
+						<p>NA</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>SNPid</b>
+					</div>
+					<div class="col-md-10">
+						<p id="snpId"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Chromosome</b>
+					</div>
+					<div class="col-md-10">
+						<p id="chromosome"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>SNP Coordinate</b>
+					</div>
+					<div class="col-md-10">
+						<p id="coordinate"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>SNP</b>
+					</div>
+					<div class="col-md-10">
+						<p id="referenceSNP"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Strand</b>
+					</div>
+					<div class="col-md-10">
+						<p id="referenceStrand"></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Source sequence</b>
+					</div>
+					<div class="col-md-10">
+						<p id="sourceSeq" ></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>GBrowse</b>
+					</div>
+					<div class="col-md-10">
+						<p><a id="gbrowseLink"></a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-2">
+						<b>Reference DOI</b>
+					</div>
+					<div class="col-md-10">
+						<p><a id="snpref"></a></p>
+					</div>
+				</div>
+			</div> <!-- end modal body-->
+			<!--<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>-->
+		</div> <!-- end information box-->
+	</div> <!-- end modal content-->
+</div> <!-- end modal-->
+
+
+<!--<div class="text-center">-->
+	<div id="intro" class="text-center">
+		<h2>Crop SNPdb Search</h2>
+		<h4>A query tool for SNP chip markers in crops</h4>
+		<br />
+		<p>Please input your search in the form below. Results will be dumped to the screen below the submission form.</p>
+	</div>
+	<br />
+	{% if error %}
+	<div class="alert alert-danger alert-dismissible" style="text-align: center" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		{{error}}
+	</div>
+	{% endif %}
+	{% if success %}
+	<div class="alert alert-success alert-dismissible" style="text-align: center" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		{{success}}
+	</div>
+	{% endif %}
+	<form action="" method="post" name="SNPSearch">
+		<div id="searchform">
+			<div class="well">
+				<fieldset>
+					<legend>Select genotypes</legend>
+					<div class="container-fluid">
+						<div class="row-fluid">
+							<div class="col-md-3" style="padding-bottom:10px">
+								<label for="Chip">SNP chip<a tooltip="Select the genotyping array (SNP chip) that you would like to query. The SNP chip for canola and other Brassica species is the Brassica60k Infinium array, and the SNP chip for wheat is the Wheat90k iSelect Infinium array.">[?]</a></label>
+								{{ form.Chip }}
+							</div>
+							<div class="col-md-3">
+								<label for="Cultivars">Lines<a tooltip="Complete list of all available lines, including cultivars and experimental lines.">[?]</a></label>
+								{{ form.Cultivars(style="max-width:100%") }}
+							</div>
+		                                        <div class="col-md-1" style="padding-top:30px">
+								<input type="button" value="&gt;&gt;" id="addButton" />
+								<br>
+								<input type="button" value="&lt;&lt" id="removeButton" />
+								<br>
+							</div>
+							<div class="col-md-3">
+								<label for="Cultivars">Selected lines<a tooltip="Lines that have been selected for querying. Users can add or remove lines from this box using the adjacent buttons.">[?]</a></label>
+								{{ form.QueryCultivars(style="max-width:100%") }}
+							</div>
+						</div>
+						<div class="row-fluid">
+							<div class="col-md-3">
+								<label for="Specie">Species<a tooltip="Select the species you would like to query. Reference genome versions used for mapping SNP probes are appended to species name.">[?]</a></label>
+								{{ form.Specie }}
+							</div>
+						</div>
+
+					</div>
+				</fieldset>
+			</div>
+
+			<div class="well">
+				<fieldset>	
+					<legend>Genomic region</legend>
+					<div class="container-fluid">
+						<div class="row-fluid">
+							<div class="col-md-3">
+								<label for="ChromDrop">Chromosome<a tooltip="Select chromosome for querying. Reference genomes used are linked on the Home page.">[?]</a></label>
+								{{ form.ChromDrop }}
+							</div>
+							<div class="col-md-3">
+								<label for="CoordinationFrom">Coordinates from<a tooltip="Starting chromosome coordinate for query. Coordinates are 1-based.">[?]</a></label>
+								{{ form.CoordinationFrom }}
+							</div>
+		                                        <div class="col-md-3">
+								<label for="CoordinationTo">Coordinates to<a tooltip="End chromosome coordinate for query. Coordinates are 1-based.">[?]</a></label>
+								{{ form.CoordinationTo }}
+							</div>
+							 <div class="col-md-3">
+								<div id="submitFiller"></div>
+								<input id="submitButton" type="submit" value="Submit">
+							</div>
+
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<!--<div id="intro" class="text-center">
+			<p>Scroll down for search results. After submission, it may take several seconds  before results appear.</p>
+			</div>-->
+
+		</div>
+	</form>
+<!--</div> Text Centre-->
+						
+<div id="message" class="col-md-offset-3" hidden>
+	{{message|safe}}	
+</div>
+{% if results and hasResult%}
+<div class="text-center">
+	<h1>{{specie}} SNP(s) on {{chromosomes}} between coordinates {{coordinationFrom}}:{{coordinationTo}}</h1>
+</div>
+
+<div id='tabcontainer'>
+<!--Add padding to result table-->
+	<div id='tableDiv'>
+		<table hidden id="queryResult" class="display" cellspacing='0'>
+			<thead>
+				<tr>
+					<th>Line</th>
+					<!--<th>Accession</th>-->
+					<th>SNPid</th>
+					<!--<th>Strand</th>-->
+					<th>Genotype</th>
+					<th>Chromosome</th>
+					<!--<th>Reference</th>-->
+					<th>Coordinate</th>
+				</tr>				
+			</thead>
+			<tbody>
+				{%for dic in results %}
+				{% set SNP=results[dic] %}
+				<tr id="{{SNP[3]}}{{SNP[4]}}">	
+					<td>{{SNP[2]}}</td>
+					<!--<td>{{SNP[3]}}</td>-->
+					<td>{{SNP[4]}}</td>
+					<!--<td>{{SNP[7]}}</td>-->
+					<td>{{SNP[9]}}</td>
+					<td>{{SNP[7]}}</td>
+					<!--<td>{{SNP[3]}}</td>-->
+					<td>{{SNP[8]}} </td>
+				</tr>
+				{%endfor%}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<!-- Modal information box -->
+<form id="downloadMethod"  action="/downloadSearch" method="post" name="SNPDownload">
+	<input type="hidden" name="specie" value="{{specie}}">
+	<input type="hidden" name="cultivars" value = "{{QueryCultivars}}">	
+	<input type="hidden" name="chromosomes" value = "{{chromosomes}}">		
+	<input type="hidden" name="coordinationFrom" value="{{coordinationFrom}}">
+	<input type="hidden" name="coordinationTo" value="{{coordinationTo}}">
+
+	<input type="submit" id="downloadSubmit" value="Download result">
+</form>
+<br>
+<div class="push"></div>
+{% endif %}
+{% if hasResult == False%}
+<div class="header_content" style="text-align:center; margin-bottom:150px">
+	<h1>No result found</h1>
+</div>
+{% endif %}
+
+{% endblock %}

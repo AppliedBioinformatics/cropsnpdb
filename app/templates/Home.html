@@ -1,0 +1,41 @@
+	{% extends "base.html" %}
+	{% block content %}
+	<link rel="stylesheet" href="{{url_for('static',filename='Home.css') }}">
+	<div class="container" style="line-height: 200%">
+		<div class="header_border" style="margin-top:100px">
+			<div class="header">Welcome to CropSNPdb</div>
+			<div class="header_content">
+			<p>The Crop SNP database (CropSNPdb) is a data resource for crop variation identified using genotyping arrays. The current database build <br> contains <i>Brassica</i> and hexaploid bread wheat (<i>Triticum aestivum</i>) genotypes from the <i>Brassica</i> 60k and the wheat 90k Illumina arrays.</p> 
+			<p>CropSNPdb includes genotypes called from 535 <i>Brassica</i> lines from published datasets and 309 wheat lines from <a href = "https://triticeaetoolbox.org/wheat/">T3 Wheat</a>.<p>
+			</div>
+		<div class="header">Features</div>
+		<div class="header_content">
+            	<ul>
+                    <li>Simple interface for querying and downloading public crop genotyping array data</li>
+                    <li>Genotypes can be viewed as in table format and as a track in the genome browser GBrowse</li>
+                    <li>Search function allows cultivar comparison and querying of genomic region</li>
+                    <li>SNPs returned from a Search can be downloaded as a genotype table or visualised via a link to a genome viewer</li>
+                    <li>Bulk download of all SNPs per chromosome in genotype format is available to facilitate further analysis.</li>
+                    <li>A submission utility assists users in rapid submission of new data sets that are uploaded to the database following quality control</li>
+
+                </ul>
+		</div>
+		<div class="header">Genome builds</div>
+		<div class="header_content">
+            	<ul>
+                    <li>Wheat: <a href ="http://wheatgenome.info/wheat_genome_databases.php">Pangenome</a>,  <a href ="https://urgi.versailles.inra.fr/download/iwgsc/IWGSC_RefSeq_Assemblies/v1.0/">RefSeq v1</a></li>
+                    <li><i>B. napus</i>: <a href ="http://appliedbioinformatics.com.au/index.php/Darmor_Tapidor">v8.1</a>,  <a href ="http://www.genoscope.cns.fr/brassicanapus/data/">v4.1</a></li>
+                    <li><i>B. juncea</i>: <a href ="http://brassicadb.org/brad/datasets/pub/Genomes/Brassica_juncea/V1.5/">v1.5</a></li>
+                    <li><i>B. oleracea</i>: <a href ="http://plants.ensembl.org/Brassica_oleracea/Info/Index">v2.1</a></li>
+                    <li><i>B. rapa</i>: <a href ="http://brassicadb.org/brad/datasets/pub/BrassicaceaeGenome/Brassica_rapa/V3.0/">v3</a></li>
+                </ul>
+		</div>
+
+		<div class="header">Tutorial</div>
+            	<div class="header_content" style="margin-bottom:150px">
+            	<ul>
+                    <li><a href ="https://youtu.be/iq6DbiMZtYU">How to use the CropSNPdb Search utility (Youtube)</a></li>
+                </ul>
+		</div>
+	</div>
+	{% endblock %}
