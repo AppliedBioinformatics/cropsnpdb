@@ -1,0 +1,16 @@
+# secrets / local settings
+config.py
+app/config.py
+mail.cfg
+# environments and caches
+venv/
+.venv/
+.venv-3.8/
+__pycache__/
+*.pyc
+.python-version
+# large data and runtime files
+snpdb.mysql
+data
+app/data/
+app/app/

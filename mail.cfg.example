@@ -1,0 +1,11 @@
+# Copy to mail.cfg (same folder as snpdb.wsgi), fill in, then:
+#   sudo chown root:www-data mail.cfg && sudo chmod 640 mail.cfg
+# mail.cfg is ignored by git. Delete it to switch alerts off.
+[smtp]
+host = smtp.example.com
+port = 587
+starttls = true
+username = alerts@example.com
+password = CHANGE_ME
+from = CropSNPdb <alerts@example.com>
+to = dave.edwards@uwa.edu.au

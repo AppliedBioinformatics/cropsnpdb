@@ -10,9 +10,8 @@ def putToFile(path,fileBody):
 
 #Checks if a file already excists at given filepath and renames it with path(x).fileExtension
 def checkPath(path):
-	pathAndFileExtension = path.split('.')
-	path = pathAndFileExtension[0]
-	fileExtension = '.'+pathAndFileExtension[1]
+	#splitext keeps the full name and real extension even when folders or file names contain dots
+	path, fileExtension = os.path.splitext(path)
 	i = 0
 	tempPath = path
 	while(os.path.isfile(tempPath+fileExtension)):

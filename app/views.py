@@ -237,7 +237,7 @@ def submit():
 			snpname = uniq_fname + "_" + SNPUploadFileName[:50]
 			cultname = uniq_fname + "_" + cultivarUploadFileName[:50]
 			#Looks if uploaded files have the right file extension 
-			if fileIsLegit(SNPUploadFileName) and fileIsLegit(SNPUploadFileName):
+			if fileIsLegit(SNPUploadFileName) and fileIsLegit(cultivarUploadFileName):
 				#Uses SNPUploadFileName to make a path to create a dir for that specific upload
 				tempDirPath = os.path.join(app.config['UPLOAD_FOLDER'],timestring)
 				i = 0
@@ -270,6 +270,13 @@ def submit():
 				cultivarUploadFile.save(cultivarUploadFilePath)
 				with open(emailtxtFilePath, "w") as text_file:
 					print("Submission email: {}".format(email), file=text_file)
+				#Email alert to curators (settings in mail.cfg; skipped if not configured)
+				try:
+					from notify import notify_submission
+					notify_submission("CropSNPdb: new data submission ({})".format(SNPArray),
+						"A new genotype submission was uploaded to CropSNPdb.\n\nSubmitter email: {}\nSNP array: {}\nGenotype file: {}\nCultivar file: {}\nSaved in: {}\n".format(email, SNPArray, SNPUploadFileName, cultivarUploadFileName, dirPath))
+				except Exception:
+					pass
 			else:
 				return render_template('SNPSubmit.html',title="Error",form=form,message=message,error="csv")
 			return render_template('SNPSubmit.html',
@@ -316,3 +323,52 @@ def getMessage(pageType):
 	elif pageType == 'download':
 		with open(os.path.join(app.config['STATIC_FOLDER'],'searchText.html'),'r', encoding='utf-8', errors='ignore') as downloadTextFile:
 			message = downloadTextFile.read()
+
+#Lines page: all accessions with their metadata (added 2026-10-18)
+LINES_SQL = """SELECT a.Accession, c.CultivarName, GROUP_CONCAT(DISTINCT s.SpecieName ORDER BY s.SpecieName SEPARATOR '; '),
+ m.Country, m.Ecotype, m.BiologicalStatus, m.CropType, m.BreedingOrganization, m.Pedigree, m.Subpopulation,
+ m.GrainHardness, m.GrainColour, m.AGG_ID, m.SuppliedSpecies, m.SNPConfirmedSpecies, m.Donor, m.ExternalURL,
+ CONCAT(r.Authors,' (',r.Date,') ',r.Journal), r.DOI, m.MetadataSource
+ FROM Accession a JOIN Cultivar c ON a.Cultivar_idCultivar=c.idCultivar JOIN Specie s ON s.idSpecie=c.Specie_idSpecie
+ JOIN Reference r ON r.RefID=a.Accession_RefID LEFT JOIN AccessionMetadata m ON m.Accession_idAccession=a.idAccession
+ GROUP BY a.idAccession ORDER BY a.idAccession"""
+LINES_COLS = ['Accession','Line','Species','Country','Ecotype','Status','Crop type','Breeding organisation','Pedigree','Subpopulation',
+ 'Grain hardness','Grain colour','AGG ID','Genebank species','SNP-confirmed species','Donor','External link','Genotype source','Source DOI/URL','Metadata source']
+
+def getLines():
+	from mysqlQuerys import getCursor, getResult
+	cur, con = getCursor()
+	cur.execute(LINES_SQL)
+	rows = getResult(cur, con)
+	return [[("" if v is None else str(v)).replace("Brassica napus Darmor v41; Brassica napus Darmor v81","Brassica napus") for v in r] for r in rows]
+
+@app.route('/lines', methods=["GET"])
+def lines():
+	return render_template('Lines.html', title="Lines", cols=LINES_COLS, rows=getLines())
+
+@app.route('/lines.csv', methods=["GET"])
+def lines_csv():
+	import csv, io
+	buf = io.StringIO()
+	w = csv.writer(buf)
+	w.writerow(LINES_COLS)
+	w.writerows(getLines())
+	resp = make_response(buf.getvalue())
+	resp.headers["Content-Type"] = "text/csv; charset=utf-8"
+	resp.headers["Content-Disposition"] = "attachment; filename=CropSNPdb_lines_metadata.csv"
+	return resp
+
+#Phenotype CSV (AGG field data, added 2026-10-18)
+@app.route('/phenotypes.csv', methods=["GET"])
+def phenotypes_csv():
+	import csv, io
+	from mysqlQuerys import getCursor, getResult
+	cur, con = getCursor()
+	cur.execute("SELECT a.Accession, c.CultivarName, p.Trial, p.Trait, p.Value, p.Source FROM AccessionPhenotype p JOIN Accession a ON a.idAccession=p.Accession_idAccession JOIN Cultivar c ON c.idCultivar=a.Cultivar_idCultivar ORDER BY a.idAccession, p.Trial, p.Trait")
+	rows = getResult(cur, con)
+	buf = io.StringIO(); w = csv.writer(buf)
+	w.writerow(['Accession','Line','Trial','Trait','Value','Source']); w.writerows(rows)
+	resp = make_response(buf.getvalue())
+	resp.headers["Content-Type"] = "text/csv; charset=utf-8"
+	resp.headers["Content-Disposition"] = "attachment; filename=CropSNPdb_AGG_field_phenotypes.csv"
+	return resp

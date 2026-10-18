@@ -1,0 +1,21 @@
+import os
+
+DEBUG = False
+WTF_CSRF_ENABLED = False
+WEBSITEPATH = os.path.dirname(os.path.realpath(__file__))
+MYSQL_DATABASE_USER = 'flask'
+MYSQL_DATABASE_PASSWORD = 'CHANGE_ME'
+MYSQL_DATABASE_DB = 'snpdb'
+MYSQL_DATABASE_HOST = 'localhost'
+APP_FOLDER = WEBSITEPATH+'/app/'
+UPLOAD_FOLDER = APP_FOLDER+'uploadFiles'
+ERRORUPLOAD_FOLDER = APP_FOLDER+'errorUpload/'
+STATIC_FOLDER = APP_FOLDER+'static/'
+PROBES = APP_FOLDER+'static/probes.csv'
+GBROWSE_WHEAT_URL = "https://urgi.versailles.inrae.fr/jbrowseiwgsc/gmod_jbrowse/?data=myData%2FIWGSC_RefSeq_v1.0&loc="
+GBROWSE_BRASSICA_NAPUS_V81_URL = "https://appliedbioinformatics.com.au/gb2/gbrowse/Darmor/"
+GBROWSE_BRASSICA_NAPUS_V41_URL = "NA" 
+GBROWSE_BRASSICA_OLERACEA_URL = "https://appliedbioinformatics.com.au/gb2/gbrowse/BolePan/"
+GBROWSE_BRASSICA_RAPA_URL = "NA"
+GBROWSE_BRASSICA_JUNCEA_URL = "http://brassicadb.cn/" 
+SECRET_KEY='geheim'

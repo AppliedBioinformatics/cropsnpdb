@@ -347,8 +347,13 @@ $(document).ready(function() {
 					}  
 
 			} else if(results[$(this).attr('id')][1] === "Brassica napus Darmor v41"){  
+					if(typeof gbrowseLink === "undefined" || gbrowseLink === "NA" || gbrowseLink === "XXX"){
+						document.getElementById("gbrowseLink").href="NA";
+						document.getElementById("gbrowseLink").innerHTML="NA";
+					} else {
 						document.getElementById("gbrowseLink").href=gbrowseLink+"?name="+results[$(this).attr('id')][7];
 						document.getElementById("gbrowseLink").innerHTML=results[$(this).attr('id')][7];
+					}
 					}
 
 			 else if(results[$(this).attr('id')][1] === "Brassica oleracea v2.1"){
@@ -360,7 +365,7 @@ $(document).ready(function() {
 					document.getElementById("gbrowseLink").innerHTML=results[$(this).attr('id')][7]+":"+results[$(this).attr('id')][8];
 					}
 			} else if(results[$(this).attr('id')][1] === "Brassica rapa v3"){
-				if(results[$(this).attr('id')][7] === "Unplaced"){
+				if(results[$(this).attr('id')][7] === "Unplaced" || typeof gbrowseLink === "undefined" || gbrowseLink === "NA" || gbrowseLink === "XXX"){
 					document.getElementById("gbrowseLink").href="NA";
 					document.getElementById("gbrowseLink").innerHTML="NA";
 				} else {
