@@ -2,6 +2,7 @@
 config.py
 app/config.py
 mail.cfg
+connect_mysql.py
 # environments and caches
 venv/
 .venv/
@@ -10,7 +11,7 @@ __pycache__/
 *.pyc
 .python-version
 # large data and runtime files
-snpdb.mysql
-data
-app/data/
-app/app/
+/snpdb.mysql
+/data
+/app/data/
+/app/app/

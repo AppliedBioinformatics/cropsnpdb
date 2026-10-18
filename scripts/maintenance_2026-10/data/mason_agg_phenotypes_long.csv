@@ -1,0 +1,2745 @@
+Accession,Trial,Trait,Value
+N001,2009,SowingDate,2009-05-13
+N001,2009,Emergence,1
+N001,2009,EarlyVigour,5
+N001,2009,FlowerDate,2009-10-15
+N001,2009,Maturity,2009-11-30
+N001,2009,Height,190
+N001,2009,Morphotype Uniformity,1 Uniform
+N001,2009,Number of Leaves,5 Intermediate
+N001,2009,Leaf Angle,3 Semiprostrate
+N001,2009,Leaf Margin,3 Serrate
+N001,2009,Leaf Incision,3 Lyrate
+N001,2009,Leaf Blade Thickness,5 Intermediate
+N001,2009,Leaf Blade Blistering,0 None
+N001,2009,Leaf colour,3 Green
+N001,2009,Leaf Hairiness,0 Absent
+N001,2009,Petiole Enlargement,3 Narrow
+N001,2009,Petiole colour,1 White
+N001,2010,Flower habit,MW
+N001,2010,SowingDate,2010-06-18
+N001,2010,EmergencePot1,5
+N001,2010,EmergencePot2,4
+N001,2010,EmergencePot3,4
+N001,2010,EmergencePot4,0
+N001,2010,EarlyVigour,9
+N001,2010,Flower Date,2010-10-11
+N001,2010,2nd Flower date,2011-01-15
+N001,2010,Flower type,MW
+N001,2010,Flower colour,Yellow
+N001,2010,DaysToFlower,0
+N001,2010,Morphotype Uniformity,1 Uniform
+N001,2010,Number of Leaves,5 Intermediate
+N001,2010,Leaf Angle,3 Semiprostrate
+N001,2010,Leaf Margin,2 Dentate
+N001,2010,Leaf Incision,3 Lyrate
+N001,2010,Leaf Blade Thickness,5 Intermediate
+N001,2010,Leaf Blade Blistering,0 None
+N001,2010,Leaf colour,4 Dark green
+N001,2010,Leaf Hairiness,0 Absent
+N001,2010,Petiole Enlargement,3 Narrow
+N001,2010,Petiole colour,1 White
+N002,2009,SowingDate,2009-05-13
+N002,2009,Emergence,9
+N002,2009,EarlyVigour,5
+N002,2009,FlowerDate,2009-09-16
+N002,2009,Maturity,2009-11-20
+N002,2009,Height,160
+N002,2009,Morphotype Uniformity,1 Uniform
+N002,2009,Number of Leaves,5 Intermediate
+N002,2009,Leaf Angle,2 Open
+N002,2009,Leaf Margin,1 Crenate
+N002,2009,Leaf Incision,3 Lyrate
+N002,2009,Leaf Blade Thickness,5 Intermediate
+N002,2009,Leaf Blade Blistering,0 None
+N002,2009,Leaf colour,3 Green
+N002,2009,Leaf Hairiness,0 Absent
+N002,2009,Petiole Enlargement,3 Narrow
+N002,2009,Petiole colour,1 White
+N002,2010,Flower habit,S
+N002,2010,SowingDate,2010-06-18
+N002,2010,EmergencePot1,5
+N002,2010,EmergencePot2,5
+N002,2010,EmergencePot3,5
+N002,2010,EmergencePot4,0
+N002,2010,EarlyVigour,5
+N002,2010,Flower Date,2010-09-24
+N002,2010,2nd Flower date,2010-10-18
+N002,2010,Flower type,S
+N002,2010,Flower colour,Yellow
+N002,2010,DaysToFlower,0
+N002,2010,Morphotype Uniformity,1 Uniform
+N002,2010,Number of Leaves,5 Intermediate
+N002,2010,Leaf Angle,2 Open
+N002,2010,Leaf Margin,1 Crenate
+N002,2010,Leaf Incision,3 Lyrate
+N002,2010,Leaf Blade Thickness,3 Thin
+N002,2010,Leaf Blade Blistering,0 None
+N002,2010,Leaf colour,4 Dark green
+N002,2010,Leaf Hairiness,0 Absent
+N002,2010,Petiole Enlargement,3 Narrow
+N002,2010,Petiole colour,1 White
+N003,2009,SowingDate,2009-05-13
+N003,2009,Emergence,3
+N003,2009,EarlyVigour,5
+N003,2009,FlowerDate,2009-09-24
+N003,2009,Maturity,2009-11-27
+N003,2009,Height,190
+N003,2009,Morphotype Uniformity,1 Uniform
+N003,2009,Number of Leaves,5 Intermediate
+N003,2009,Leaf Angle,2 Open
+N003,2009,Leaf Margin,3 Serrate
+N003,2009,Leaf Incision,3 Lyrate
+N003,2009,Leaf Blade Thickness,5 Intermediate
+N003,2009,Leaf Blade Blistering,0 None
+N003,2009,Leaf colour,3 Green
+N003,2009,Leaf Hairiness,0 Absent
+N003,2009,Petiole Enlargement,3 Narrow
+N003,2009,Petiole colour,1 White
+N005,2009,SowingDate,2009-05-13
+N005,2009,Emergence,9
+N005,2009,EarlyVigour,7
+N005,2009,FlowerDate,2009-09-17
+N005,2009,Maturity,2009-11-27
+N005,2009,Height,180
+N005,2009,Morphotype Uniformity,1 Uniform
+N005,2009,Number of Leaves,5 Intermediate
+N005,2009,Leaf Angle,2 Open
+N005,2009,Leaf Margin,3 Serrate
+N005,2009,Leaf Incision,3 Lyrate
+N005,2009,Leaf Blade Thickness,5 Intermediate
+N005,2009,Leaf Blade Blistering,0 None
+N005,2009,Leaf colour,3 Green
+N005,2009,Leaf Hairiness,0 Absent
+N005,2009,Petiole Enlargement,3 Narrow
+N005,2009,Petiole colour,1 White
+N005,2010,Flower habit,SW
+N005,2010,SowingDate,2010-06-18
+N005,2010,EmergencePot1,3
+N005,2010,EmergencePot2,4
+N005,2010,EmergencePot3,3
+N005,2010,EmergencePot4,0
+N005,2010,EarlyVigour,5
+N005,2010,Flower Date,2010-10-02
+N005,2010,2nd Flower date,2010-11-17
+N005,2010,Flower type,SW
+N005,2010,Flower colour,Yellow
+N005,2010,DaysToFlower,0
+N005,2010,Morphotype Uniformity,1 Uniform
+N005,2010,Number of Leaves,5 Intermediate
+N005,2010,Leaf Angle,2 Open
+N005,2010,Leaf Margin,2 Dentate
+N005,2010,Leaf Incision,3 Lyrate
+N005,2010,Leaf Blade Thickness,3 Thin
+N005,2010,Leaf Blade Blistering,0 None
+N005,2010,Leaf colour,4 Dark green
+N005,2010,Leaf Hairiness,0 Absent
+N005,2010,Petiole Enlargement,3 Narrow
+N005,2010,Petiole colour,1 White
+N006,2009,SowingDate,2009-05-13
+N006,2009,Emergence,9
+N006,2009,EarlyVigour,7
+N006,2009,Maturity,2009-11-20
+N006,2009,Height,190
+N006,2009,Morphotype Uniformity,1 Uniform
+N006,2009,Number of Leaves,5 Intermediate
+N006,2009,Leaf Angle,2 Open
+N006,2009,Leaf Margin,3 Serrate
+N006,2009,Leaf Incision,3 Lyrate
+N006,2009,Leaf Blade Thickness,5 Intermediate
+N006,2009,Leaf Blade Blistering,0 None
+N006,2009,Leaf colour,3 Green
+N006,2009,Leaf Hairiness,0 Absent
+N006,2009,Petiole Enlargement,3 Narrow
+N006,2009,Petiole colour,1 White
+N006,2010,Flower habit,MW
+N006,2010,SowingDate,2010-06-18
+N006,2010,EmergencePot1,5
+N006,2010,EmergencePot2,5
+N006,2010,EmergencePot3,5
+N006,2010,EmergencePot4,0
+N006,2010,EarlyVigour,9
+N006,2010,Flower Date,2010-09-24
+N006,2010,2nd Flower date,2010-11-17
+N006,2010,Flower type,MW
+N006,2010,Flower colour,Yellow
+N006,2010,DaysToFlower,0
+N006,2010,Morphotype Uniformity,1 Uniform
+N006,2010,Number of Leaves,5 Intermediate
+N006,2010,Leaf Angle,2 Open
+N006,2010,Leaf Margin,1 Crenate
+N006,2010,Leaf Incision,3 Lyrate
+N006,2010,Leaf Blade Thickness,3 Thin
+N006,2010,Leaf Blade Blistering,0 None
+N006,2010,Leaf colour,4 Dark green
+N006,2010,Leaf Hairiness,0 Absent
+N006,2010,Petiole Enlargement,3 Narrow
+N006,2010,Petiole colour,1 White
+N007,2009,SowingDate,2009-05-18
+N007,2009,Emergence,7
+N007,2009,EarlyVigour,7
+N007,2009,FlowerDate,2009-09-24
+N007,2009,Maturity,2009-11-20
+N007,2009,Height,180
+N007,2009,Morphotype Uniformity,1 Uniform
+N007,2009,Number of Leaves,5 Intermediate
+N007,2009,Leaf Angle,2 Open
+N007,2009,Leaf Margin,2 Dentate
+N007,2009,Leaf Incision,2 Sinuate
+N007,2009,Leaf Blade Thickness,5 Intermediate
+N007,2009,Leaf Blade Blistering,0 None
+N007,2009,Leaf colour,3 Green
+N007,2009,Leaf Hairiness,0 Absent
+N007,2009,Petiole Enlargement,3 Narrow
+N007,2009,Petiole colour,1 White
+N007,2010,Flower habit,S
+N007,2010,SowingDate,2010-06-18
+N007,2010,EmergencePot1,2
+N007,2010,EmergencePot2,3
+N007,2010,EmergencePot3,3
+N007,2010,EmergencePot4,0
+N007,2010,EarlyVigour,3
+N007,2010,Flower Date,2010-09-30
+N007,2010,2nd Flower date,2010-11-05
+N007,2010,Flower type,S
+N007,2010,Flower colour,Yellow
+N007,2010,DaysToFlower,0
+N007,2010,Morphotype Uniformity,1 Uniform
+N007,2010,Number of Leaves,3 Few
+N007,2010,Leaf Angle,2 Open
+N007,2010,Leaf Margin,1 Crenate
+N007,2010,Leaf Incision,3 Lyrate
+N007,2010,Leaf Blade Thickness,3 Thin
+N007,2010,Leaf Blade Blistering,0 None
+N007,2010,Leaf colour,4 Dark green
+N007,2010,Leaf Hairiness,0 Absent
+N007,2010,Petiole Enlargement,3 Narrow
+N007,2010,Petiole colour,1 White
+R02,2011-2012,SowingDate,2011-07-12
+R02,2011-2012,Remark,Capsella
+R02,2011-2012,Morphotype uniformity,1 Uniform
+R02,2011-2012,Flowering 11 Nov,5 Flowers only
+R02,2011-2012,Number of leaves,5 Intermediate
+R02,2011-2012,Leaf Angle,4 Prostrate
+R02,2011-2012,Leaf Margin,2 Dentate
+R02,2011-2012,Leaf Length,5 Medium
+R02,2011-2012,Leaf Width,3 Narrow
+R02,2011-2012,Leaf Blade Blistering,0 None
+R02,2011-2012,Leaf Hairiness,0 Absent
+R02,2011-2012,Flower Stalk Length,3 Short
+R02,2011-2012,Degree of Branching,2 Secondary
+R02,2011-2012,Petiole colour,1 White
+R02,2011-2012,Stem Width Crown,3 Narrow
+R02,2011-2012,Yield,1.4
+R04,2011-2012,SowingDate,2011-07-12
+R04,2011-2012,Remark,"One plant, not rapa"
+R04,2011-2012,Morphotype uniformity,1 Uniform
+R04,2011-2012,Flowering 11 Nov,5 Flowers only
+R04,2011-2012,Number of leaves,5 Intermediate
+R04,2011-2012,Leaf Angle,4 Prostrate
+R04,2011-2012,Leaf Margin,2 Dentate
+R04,2011-2012,Leaf Length,7 Long
+R04,2011-2012,Leaf Width,3 Narrow
+R04,2011-2012,Leaf Blade Blistering,0 None
+R04,2011-2012,Leaf Hairiness,0 Absent
+R04,2011-2012,Flower Stalk Length,3 Short
+R04,2011-2012,Degree of Branching,2 Secondary
+R04,2011-2012,Petiole colour,4 Purple
+R04,2011-2012,Stem Width Crown,3 Narrow
+N018,2009,SowingDate,2009-05-13
+N018,2009,Emergence,9
+N018,2009,EarlyVigour,7
+N018,2009,FlowerDate,2009-09-14
+N018,2009,Maturity,2009-12-02
+N018,2009,Height,180
+N018,2009,Morphotype Uniformity,1 Uniform
+N018,2009,Number of Leaves,5 Intermediate
+N018,2009,Leaf Angle,2 Open
+N018,2009,Leaf Margin,1 Crenate
+N018,2009,Leaf Incision,3 Lyrate
+N018,2009,Leaf Blade Thickness,5 Intermediate
+N018,2009,Leaf Blade Blistering,0 None
+N018,2009,Leaf colour,3 Green
+N018,2009,Leaf Hairiness,0 Absent
+N018,2009,Petiole Enlargement,3 Narrow
+N018,2009,Petiole colour,1 White
+N020,2009,SowingDate,2009-05-13
+N020,2009,Emergence,5
+N020,2009,EarlyVigour,7
+N020,2009,FlowerDate,2009-10-16
+N020,2009,Maturity,2009-11-27
+N020,2009,Height,160
+N020,2009,Morphotype Uniformity,1 Uniform
+N020,2009,Number of Leaves,5 Intermediate
+N020,2009,Leaf Angle,1 Erect
+N020,2009,Leaf Margin,1 Crenate
+N020,2009,Leaf Incision,3 Lyrate
+N020,2009,Leaf Blade Thickness,5 Intermediate
+N020,2009,Leaf Blade Blistering,0 None
+N020,2009,Leaf colour,3 Green
+N020,2009,Leaf Hairiness,0 Absent
+N020,2009,Petiole Enlargement,3 Narrow
+N020,2009,Petiole colour,1 White
+N020,2010,Flower habit,S
+N020,2010,SowingDate,2010-06-18
+N020,2010,EmergencePot1,5
+N020,2010,EmergencePot2,5
+N020,2010,EmergencePot3,5
+N020,2010,EmergencePot4,0
+N020,2010,EarlyVigour,9
+N020,2010,Remark,Flowered earlier
+N020,2010,Flower Date,2010-09-24
+N020,2010,2nd Flower date,2010-11-07
+N020,2010,Flower type,S
+N020,2010,Flower colour,Yellow
+N020,2010,DaysToFlower,0
+N020,2010,Morphotype Uniformity,1 Uniform
+N020,2010,Number of Leaves,5 Intermediate
+N020,2010,Leaf Angle,2 Open
+N020,2010,Leaf Margin,4 Undulate
+N020,2010,Leaf Incision,3 Lyrate
+N020,2010,Leaf Blade Thickness,3 Thin
+N020,2010,Leaf Blade Blistering,0 None
+N020,2010,Leaf colour,4 Dark green
+N020,2010,Leaf Hairiness,0 Absent
+N020,2010,Petiole Enlargement,3 Narrow
+N020,2010,Petiole colour,1 White
+N024,2009,SowingDate,2009-06-29
+N024,2009,Emergence,9
+N024,2009,EarlyVigour,7
+N024,2009,FlowerDate,2009-10-05
+N024,2009,Height,190
+N024,2009,Morphotype Uniformity,1 Uniform
+N024,2009,Number of Leaves,7 High
+N024,2009,Leaf Angle,4 Prostrate
+N024,2009,Leaf Margin,3 Serrate
+N024,2009,Leaf Incision,3 Lyrate
+N024,2009,Leaf Blade Thickness,5 Intermediate
+N024,2009,Leaf Blade Blistering,0 None
+N024,2009,Leaf colour,3 Green
+N024,2009,Leaf Hairiness,0 Absent
+N024,2009,Petiole Enlargement,3 Narrow
+N024,2009,Petiole colour,1 White
+N027,2009,SowingDate,2009-05-18
+N027,2009,Emergence,9
+N027,2009,EarlyVigour,7
+N027,2009,FlowerDate,2009-09-17
+N027,2009,Maturity,2009-11-24
+N027,2009,Height,170
+N027,2009,Morphotype Uniformity,1 Uniform
+N027,2009,Number of Leaves,5 Intermediate
+N027,2009,Leaf Angle,3 Semiprostrate
+N027,2009,Leaf Margin,1 Crenate
+N027,2009,Leaf Incision,3 Lyrate
+N027,2009,Leaf Blade Thickness,5 Intermediate
+N027,2009,Leaf Blade Blistering,0 None
+N027,2009,Leaf colour,3 Green
+N027,2009,Leaf Hairiness,0 Absent
+N027,2009,Petiole Enlargement,3 Narrow
+N027,2009,Petiole colour,1 White
+N029,2009,SowingDate,2009-05-13
+N029,2009,Emergence,7
+N029,2009,EarlyVigour,9
+N029,2009,FlowerDate,2009-10-14
+N029,2009,Maturity,2009-12-10
+N029,2009,Height,200
+N029,2009,Morphotype Uniformity,1 Uniform
+N029,2009,Number of Leaves,5 Intermediate
+N029,2009,Leaf Angle,3 Semiprostrate
+N029,2009,Leaf Margin,1 Crenate
+N029,2009,Leaf Incision,3 Lyrate
+N029,2009,Leaf Blade Thickness,5 Intermediate
+N029,2009,Leaf Blade Blistering,0 None
+N029,2009,Leaf colour,3 Green
+N029,2009,Leaf Hairiness,0 Absent
+N029,2009,Petiole Enlargement,3 Narrow
+N029,2009,Petiole colour,1 White
+N040,2009,SowingDate,2009-05-18
+N040,2009,Emergence,9
+N040,2009,EarlyVigour,5
+N040,2009,FlowerDate,2009-09-21
+N040,2009,Maturity,2009-11-20
+N040,2009,Height,150
+N040,2009,Morphotype Uniformity,2 Continuous variation
+N040,2009,Number of Leaves,5 Intermediate
+N040,2009,Leaf Angle,3 Semiprostrate
+N040,2009,Leaf Margin,3 Serrate
+N040,2009,Leaf Incision,3 Lyrate
+N040,2009,Leaf Blade Thickness,5 Intermediate
+N040,2009,Leaf Blade Blistering,0 None
+N040,2009,Leaf colour,3 Green
+N040,2009,Leaf Hairiness,0 Absent
+N040,2009,Petiole Enlargement,3 Narrow
+N040,2009,Petiole colour,1 White
+N040,2010,Flower habit,S
+N040,2010,SowingDate,2010-06-18
+N040,2010,EmergencePot1,2
+N040,2010,EmergencePot2,4
+N040,2010,EmergencePot3,3
+N040,2010,EmergencePot4,0
+N040,2010,EarlyVigour,5
+N040,2010,Flower Date,2010-09-28
+N040,2010,2nd Flower date,2010-11-07
+N040,2010,Flower type,S
+N040,2010,Flower colour,Yellow
+N040,2010,DaysToFlower,0
+N040,2010,Morphotype Uniformity,1 Uniform
+N040,2010,Number of Leaves,5 Intermediate
+N040,2010,Leaf Angle,2 Open
+N040,2010,Leaf Margin,1 Crenate
+N040,2010,Leaf Incision,3 Lyrate
+N040,2010,Leaf Blade Thickness,3 Thin
+N040,2010,Leaf Blade Blistering,0 None
+N040,2010,Leaf colour,4 Dark green
+N040,2010,Leaf Hairiness,0 Absent
+N040,2010,Petiole Enlargement,3 Narrow
+N040,2010,Petiole colour,1 White
+I1,2011-2012,SowingDate,2011-07-12
+I1,2011-2012,Early Vigour,5-Medium
+I1,2011-2012,Remark,"Dark green, very large leaf"
+I1,2011-2012,Morphotype uniformity,1 Uniform
+I1,2011-2012,Flowering 11 Nov,"7 Stalks, no flowers, late"
+I1,2011-2012,Emergence,7
+I1,2011-2012,Number of leaves,5 Intermediate
+I1,2011-2012,Leaf Angle,3 Semiprostrate
+I1,2011-2012,Leaf Margin,3 Serrate
+I1,2011-2012,Leaf Length,7 Long
+I1,2011-2012,Leaf Width,7 Wide
+I1,2011-2012,Leaf Blade Blistering,5 Intermediate
+I1,2011-2012,Leaf Hairiness,3 Sparse
+I1,2011-2012,Flower Stalk Length,5 Intermediate
+I1,2011-2012,Degree of Branching,1 Primary
+I1,2011-2012,Petiole Enlargement,5 Intermediate
+I1,2011-2012,Petiole colour,4 Purple
+I1,2011-2012,Stem Width Crown,5 Intermediate
+I2,2011-2012,SowingDate,2011-07-12
+I2,2011-2012,Early Vigour,7-Medium high
+I2,2011-2012,Morphotype uniformity,1 Uniform
+I2,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+I2,2011-2012,Emergence,7
+I2,2011-2012,Number of leaves,5 Intermediate
+I2,2011-2012,Leaf Angle,4 Prostrate
+I2,2011-2012,Leaf Margin,1 Crenate
+I2,2011-2012,Leaf Length,5 Medium
+I2,2011-2012,Leaf Width,5 Medium
+I2,2011-2012,Leaf Blade Blistering,0 None
+I2,2011-2012,Leaf Hairiness,0 Absent
+I2,2011-2012,Flower Stalk Length,7 Long
+I2,2011-2012,Degree of Branching,2 Secondary
+I2,2011-2012,Petiole colour,1 White
+I2,2011-2012,Stem Width Crown,3 Narrow
+I2,2011-2012,Yield,1.2
+N045,2009,SowingDate,2009-05-13
+N045,2009,Emergence,7
+N045,2009,EarlyVigour,7
+N045,2009,FlowerDate,2009-10-12
+N045,2009,Maturity,2009-12-10
+N045,2009,Height,220
+N045,2009,Morphotype Uniformity,1 Uniform
+N045,2009,Number of Leaves,5 Intermediate
+N045,2009,Leaf Angle,3 Semiprostrate
+N045,2009,Leaf Margin,1 Crenate
+N045,2009,Leaf Incision,3 Lyrate
+N045,2009,Leaf Blade Thickness,5 Intermediate
+N045,2009,Leaf Blade Blistering,0 None
+N045,2009,Leaf colour,3 Green
+N045,2009,Leaf Hairiness,0 Absent
+N045,2009,Petiole Enlargement,3 Narrow
+N045,2009,Petiole colour,1 White
+N045,2010,Flower habit,MW
+N045,2010,SowingDate,2010-06-18
+N045,2010,EmergencePot1,4
+N045,2010,EmergencePot2,4
+N045,2010,EmergencePot3,4
+N045,2010,EmergencePot4,0
+N045,2010,EarlyVigour,9
+N045,2010,Remark,Suspect it's actually B. juncea or B. rapa
+N045,2010,Flower Date,2010-09-06
+N045,2010,2nd Flower date,2010-11-03
+N045,2010,Flower type,MW
+N045,2010,Flower colour,Yellow
+N045,2010,DaysToFlower,0
+N045,2010,Morphotype Uniformity,1 Uniform
+N045,2010,Number of Leaves,7 High
+N045,2010,Leaf Angle,2 Open
+N045,2010,Leaf Margin,1 Crenate
+N045,2010,Leaf Incision,3 Lyrate
+N045,2010,Leaf Blade Thickness,3 Thin
+N045,2010,Leaf Blade Blistering,0 None
+N045,2010,Leaf colour,4 Dark green
+N045,2010,Leaf Hairiness,0 Absent
+N045,2010,Petiole Enlargement,3 Narrow
+N045,2010,Petiole colour,1 White
+N046,2009,SowingDate,2009-06-29
+N046,2009,Emergence,5
+N046,2009,EarlyVigour,5
+N046,2009,FlowerDate,2009-10-01
+N046,2009,Maturity,2009-11-20
+N046,2009,Height,130
+N046,2009,Morphotype Uniformity,1 Uniform
+N046,2009,Number of Leaves,3 Few
+N046,2009,Leaf Angle,3 Semiprostrate
+N046,2009,Leaf Margin,3 Serrate
+N046,2009,Leaf Incision,3 Lyrate
+N046,2009,Leaf Blade Thickness,5 Intermediate
+N046,2009,Leaf Blade Blistering,0 None
+N046,2009,Leaf colour,3 Green
+N046,2009,Leaf Hairiness,0 Absent
+N046,2009,Petiole Enlargement,3 Narrow
+N046,2009,Petiole colour,1 White
+N046,2010,Flower habit,MW
+N046,2010,SowingDate,2010-06-18
+N046,2010,EmergencePot1,4
+N046,2010,EmergencePot2,5
+N046,2010,EmergencePot3,5
+N046,2010,EmergencePot4,0
+N046,2010,EarlyVigour,9
+N046,2010,Remark,Suspect it's actually B. juncea or B. rapa
+N046,2010,Flower Date,2010-09-06
+N046,2010,2nd Flower date,2010-11-03
+N046,2010,Flower type,MW
+N046,2010,Flower colour,Yellow
+N046,2010,DaysToFlower,0
+N046,2010,Morphotype Uniformity,1 Uniform
+N046,2010,Number of Leaves,5 Intermediate
+N046,2010,Leaf Angle,2 Open
+N046,2010,Leaf Margin,2 Dentate
+N046,2010,Leaf Incision,3 Lyrate
+N046,2010,Leaf Blade Thickness,3 Thin
+N046,2010,Leaf Blade Blistering,0 None
+N046,2010,Leaf colour,4 Dark green
+N046,2010,Leaf Hairiness,0 Absent
+N046,2010,Petiole Enlargement,3 Narrow
+N046,2010,Petiole colour,1 White
+N047a,2009,SowingDate,2009-05-13
+N047a,2009,Emergence,3
+N047a,2009,EarlyVigour,5
+N047a,2009,FlowerDate,2009-09-24
+N047a,2009,Maturity,2009-11-23
+N047a,2009,Height,190
+N047a,2009,Morphotype Uniformity,2 Continuous variation
+N047a,2009,Number of Leaves,5 Intermediate
+N047a,2009,Leaf Angle,2 Open
+N047a,2009,Leaf Margin,1 Crenate
+N047a,2009,Leaf Incision,3 Lyrate
+N047a,2009,Leaf Blade Thickness,5 Intermediate
+N047a,2009,Leaf Blade Blistering,0 None
+N047a,2009,Leaf colour,3 Green
+N047a,2009,Leaf Hairiness,0 Absent
+N047a,2009,Petiole Enlargement,3 Narrow
+N047a,2009,Petiole colour,1 White
+N047a,2010,Flower habit,SW
+N047a,2010,SowingDate,2010-06-18
+N047a,2010,EmergencePot1,5
+N047a,2010,EmergencePot2,5
+N047a,2010,EmergencePot3,5
+N047a,2010,EmergencePot4,0
+N047a,2010,EarlyVigour,7
+N047a,2010,Remark,Suspect it's actually B. juncea or B. rapa
+N047a,2010,Flower Date,2010-09-10
+N047a,2010,2nd Flower date,2010-11-01
+N047a,2010,Flower type,SW
+N047a,2010,Flower colour,Yellow
+N047a,2010,DaysToFlower,0
+N047a,2010,Morphotype Uniformity,1 Uniform
+N047a,2010,Number of Leaves,7 High
+N047a,2010,Leaf Angle,2 Open
+N047a,2010,Leaf Margin,1 Crenate
+N047a,2010,Leaf Incision,3 Lyrate
+N047a,2010,Leaf Blade Thickness,3 Thin
+N047a,2010,Leaf Blade Blistering,0 None
+N047a,2010,Leaf colour,4 Dark green
+N047a,2010,Leaf Hairiness,0 Absent
+N047a,2010,Petiole Enlargement,3 Narrow
+N047a,2010,Petiole colour,1 White
+N047b,2009,SowingDate,2009-05-13
+N047b,2009,Emergence,3
+N047b,2009,EarlyVigour,5
+N047b,2009,FlowerDate,2009-09-24
+N047b,2009,Maturity,2009-11-23
+N047b,2009,Height,190
+N047b,2009,Morphotype Uniformity,2 Continuous variation
+N047b,2009,Number of Leaves,5 Intermediate
+N047b,2009,Leaf Angle,2 Open
+N047b,2009,Leaf Margin,1 Crenate
+N047b,2009,Leaf Incision,3 Lyrate
+N047b,2009,Leaf Blade Thickness,5 Intermediate
+N047b,2009,Leaf Blade Blistering,0 None
+N047b,2009,Leaf colour,3 Green
+N047b,2009,Leaf Hairiness,0 Absent
+N047b,2009,Petiole Enlargement,3 Narrow
+N047b,2009,Petiole colour,1 White
+N047b,2010,Flower habit,SW
+N047b,2010,SowingDate,2010-06-18
+N047b,2010,EmergencePot1,5
+N047b,2010,EmergencePot2,5
+N047b,2010,EmergencePot3,5
+N047b,2010,EmergencePot4,0
+N047b,2010,EarlyVigour,7
+N047b,2010,Remark,Suspect it's actually B. juncea or B. rapa
+N047b,2010,Flower Date,2010-09-10
+N047b,2010,2nd Flower date,2010-11-01
+N047b,2010,Flower type,SW
+N047b,2010,Flower colour,Yellow
+N047b,2010,DaysToFlower,0
+N047b,2010,Morphotype Uniformity,1 Uniform
+N047b,2010,Number of Leaves,7 High
+N047b,2010,Leaf Angle,2 Open
+N047b,2010,Leaf Margin,1 Crenate
+N047b,2010,Leaf Incision,3 Lyrate
+N047b,2010,Leaf Blade Thickness,3 Thin
+N047b,2010,Leaf Blade Blistering,0 None
+N047b,2010,Leaf colour,4 Dark green
+N047b,2010,Leaf Hairiness,0 Absent
+N047b,2010,Petiole Enlargement,3 Narrow
+N047b,2010,Petiole colour,1 White
+R05,2011-2012,SowingDate,2011-07-12
+R05,2011-2012,Early Vigour,5-Medium
+R05,2011-2012,Remark,"Short leaf narrow,no petiole enlargement and white, branching secondary, stem five, narrow."
+R05,2011-2012,Morphotype uniformity,2 Continuous
+R05,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+R05,2011-2012,Emergence,5
+R05,2011-2012,Number of leaves,5 Intermediate
+R05,2011-2012,Leaf Angle,2 Open
+R05,2011-2012,Leaf Margin,1 Crenate
+R05,2011-2012,Leaf Length,7 Long
+R05,2011-2012,Leaf Width,7 Wide
+R05,2011-2012,Leaf Blade Blistering,0 None
+R05,2011-2012,Leaf Hairiness,0 Absent
+R05,2011-2012,Flower Stalk Length,5 Intermediate
+R05,2011-2012,Degree of Branching,1 Primary
+R05,2011-2012,Petiole Enlargement,5 Intermediate
+R05,2011-2012,Petiole colour,1 White
+R05,2011-2012,Stem Width Crown,5 Intermediate
+R05,2011-2012,Yield,13.1
+N048a,2009,SowingDate,2009-05-18
+N048a,2009,Emergence,5
+N048a,2009,EarlyVigour,5
+N048a,2009,FlowerDate,2009-09-16
+N048a,2009,Maturity,2009-11-20
+N048a,2009,Height,120
+N048a,2009,Morphotype Uniformity,1 Uniform
+N048a,2009,Number of Leaves,3 Few
+N048a,2009,Leaf Angle,3 Semiprostrate
+N048a,2009,Leaf Margin,2 Dentate
+N048a,2009,Leaf Incision,3 Lyrate
+N048a,2009,Leaf Blade Thickness,5 Intermediate
+N048a,2009,Leaf Blade Blistering,0 None
+N048a,2009,Leaf colour,3 Green
+N048a,2009,Leaf Hairiness,0 Absent
+N048a,2009,Petiole Enlargement,3 Narrow
+N048a,2009,Petiole colour,1 White
+N048a,2010,Flower habit,SW
+N048a,2010,SowingDate,2010-06-18
+N048a,2010,EmergencePot1,5
+N048a,2010,EmergencePot2,4
+N048a,2010,EmergencePot3,5
+N048a,2010,EmergencePot4,0
+N048a,2010,EarlyVigour,7
+N048a,2010,Remark,Suspect it's actually B. juncea or B. rapa
+N048a,2010,Flower Date,2010-09-10
+N048a,2010,2nd Flower date,2010-11-03
+N048a,2010,Flower type,SW
+N048a,2010,Flower colour,Yellow
+N048a,2010,DaysToFlower,0
+N048a,2010,Morphotype Uniformity,1 Uniform
+N048a,2010,Number of Leaves,5 Intermediate
+N048a,2010,Leaf Angle,2 Open
+N048a,2010,Leaf Margin,1 Crenate
+N048a,2010,Leaf Incision,3 Lyrate
+N048a,2010,Leaf Blade Thickness,3 Thin
+N048a,2010,Leaf Blade Blistering,0 None
+N048a,2010,Leaf colour,4 Dark green
+N048a,2010,Leaf Hairiness,0 Absent
+N048a,2010,Petiole Enlargement,3 Narrow
+N048a,2010,Petiole colour,1 White
+N048b,2009,SowingDate,2009-05-18
+N048b,2009,Emergence,5
+N048b,2009,EarlyVigour,5
+N048b,2009,FlowerDate,2009-09-16
+N048b,2009,Maturity,2009-11-20
+N048b,2009,Height,120
+N048b,2009,Morphotype Uniformity,1 Uniform
+N048b,2009,Number of Leaves,3 Few
+N048b,2009,Leaf Angle,3 Semiprostrate
+N048b,2009,Leaf Margin,2 Dentate
+N048b,2009,Leaf Incision,3 Lyrate
+N048b,2009,Leaf Blade Thickness,5 Intermediate
+N048b,2009,Leaf Blade Blistering,0 None
+N048b,2009,Leaf colour,3 Green
+N048b,2009,Leaf Hairiness,0 Absent
+N048b,2009,Petiole Enlargement,3 Narrow
+N048b,2009,Petiole colour,1 White
+N048b,2010,Flower habit,SW
+N048b,2010,SowingDate,2010-06-18
+N048b,2010,EmergencePot1,5
+N048b,2010,EmergencePot2,4
+N048b,2010,EmergencePot3,5
+N048b,2010,EmergencePot4,0
+N048b,2010,EarlyVigour,7
+N048b,2010,Remark,Suspect it's actually B. juncea or B. rapa
+N048b,2010,Flower Date,2010-09-10
+N048b,2010,2nd Flower date,2010-11-03
+N048b,2010,Flower type,SW
+N048b,2010,Flower colour,Yellow
+N048b,2010,DaysToFlower,0
+N048b,2010,Morphotype Uniformity,1 Uniform
+N048b,2010,Number of Leaves,5 Intermediate
+N048b,2010,Leaf Angle,2 Open
+N048b,2010,Leaf Margin,1 Crenate
+N048b,2010,Leaf Incision,3 Lyrate
+N048b,2010,Leaf Blade Thickness,3 Thin
+N048b,2010,Leaf Blade Blistering,0 None
+N048b,2010,Leaf colour,4 Dark green
+N048b,2010,Leaf Hairiness,0 Absent
+N048b,2010,Petiole Enlargement,3 Narrow
+N048b,2010,Petiole colour,1 White
+N053,2009,SowingDate,2009-05-26
+N053,2009,Emergence,1
+N053,2009,EarlyVigour,3
+N053,2009,FlowerDate,2009-10-07
+N053,2009,Remark,Turnip root
+N053,2009,Height,180
+N053,2009,Morphotype Uniformity,1 Uniform
+N053,2009,Number of Leaves,5 Intermediate
+N053,2009,Leaf Angle,3 Semiprostrate
+N053,2009,Leaf Margin,4 Undulate
+N053,2009,Leaf Incision,3 Lyrate
+N053,2009,Leaf Blade Thickness,5 Intermediate
+N053,2009,Leaf Blade Blistering,0 None
+N053,2009,Leaf colour,3 Green
+N053,2009,Leaf Hairiness,0 Absent
+N053,2009,Petiole Enlargement,3 Narrow
+N053,2009,Petiole colour,1 White
+N053,2010,SowingDate,2010-06-18
+N053,2010,EmergencePot1,0
+N053,2010,EmergencePot2,0
+N053,2010,EmergencePot3,0
+N053,2010,EmergencePot4,0
+N053,2010,DaysToFlower,0
+N053,2010,Morphotype Uniformity,1 Uniform
+N053,2010,Number of Leaves,3 Few
+N053,2010,Leaf Angle,2 Open
+N053,2010,Leaf Margin,1 Crenate
+N053,2010,Leaf Incision,3 Lyrate
+N053,2010,Leaf Blade Thickness,3 Thin
+N053,2010,Leaf Blade Blistering,0 None
+N053,2010,Leaf colour,4 Dark green
+N053,2010,Leaf Hairiness,0 Absent
+N053,2010,Petiole Enlargement,3 Narrow
+N053,2010,Petiole colour,1 White
+N056,2009,SowingDate,2009-05-20
+N056,2009,Emergence,5
+N056,2009,EarlyVigour,5
+N056,2009,FlowerDate,2009-10-01
+N056,2009,Maturity,2009-11-20
+N056,2009,Height,200
+N056,2009,Morphotype Uniformity,1 Uniform
+N056,2009,Number of Leaves,5 Intermediate
+N056,2009,Leaf Angle,3 Semiprostrate
+N056,2009,Leaf Margin,1 Crenate
+N056,2009,Leaf Incision,3 Lyrate
+N056,2009,Leaf Blade Thickness,5 Intermediate
+N056,2009,Leaf Blade Blistering,0 None
+N056,2009,Leaf colour,3 Green
+N056,2009,Leaf Hairiness,0 Absent
+N056,2009,Petiole Enlargement,3 Narrow
+N056,2009,Petiole colour,1 White
+N056,2010,Flower habit,MW
+N056,2010,SowingDate,2010-06-18
+N056,2010,EmergencePot1,3
+N056,2010,EmergencePot2,3
+N056,2010,EmergencePot3,3
+N056,2010,EmergencePot4,0
+N056,2010,EarlyVigour,9
+N056,2010,Flower Date,2010-10-04
+N056,2010,2nd Flower date,2010-11-08
+N056,2010,Flower type,MW
+N056,2010,Flower colour,Yellow
+N056,2010,DaysToFlower,0
+N056,2010,Morphotype Uniformity,1 Uniform
+N056,2010,Number of Leaves,5 Intermediate
+N056,2010,Leaf Angle,1 Erect
+N056,2010,Leaf Margin,2 Dentate
+N056,2010,Leaf Incision,3 Lyrate
+N056,2010,Leaf Blade Thickness,3 Thin
+N056,2010,Leaf Blade Blistering,0 None
+N056,2010,Leaf colour,5 Purple green
+N056,2010,Leaf Hairiness,0 Absent
+N056,2010,Petiole Enlargement,3 Narrow
+N056,2010,Petiole colour,1 White
+XS2,2011-2012,SowingDate,2010-07-01
+XS2,2011-2012,Early Vigour,3
+XS2,2011-2012,Remark,Maybe napus
+XS2,2011-2012,Flower Date,2010-10-06
+XS2,2011-2012,Flower colour,Yellow
+XS2,2011-2012,2nd Flower date,2010-11-03
+R06,2011-2012,SowingDate,2011-07-12
+R06,2011-2012,Early Vigour,5-Medium
+R06,2011-2012,Remark,"Petiole two has score five, dark green and short, tall plant late and short plant is early. Two has secondry branching. Two has narrow stem."
+R06,2011-2012,Morphotype uniformity,3 Two or more distinct types
+R06,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R06,2011-2012,Emergence,3
+R06,2011-2012,Number of leaves,5 Intermediate
+R06,2011-2012,Leaf Angle,3 Semiprostrate
+R06,2011-2012,Leaf Margin,2 Dentate
+R06,2011-2012,Leaf Length,7 Long
+R06,2011-2012,Leaf Width,5 Medium
+R06,2011-2012,Leaf Blade Blistering,0 None
+R06,2011-2012,Leaf Hairiness,0 Absent
+R06,2011-2012,Flower Stalk Length,5 Intermediate
+R06,2011-2012,Degree of Branching,1 Primary
+R06,2011-2012,Petiole colour,1 White
+R06,2011-2012,Stem Width Crown,5 Intermediate
+R06,2011-2012,Yield,2
+R07a,2011-2012,SowingDate,2011-07-12
+R07a,2011-2012,Early Vigour,7-Medium high
+R07a,2011-2012,Remark,"Plant dead, matured"
+R07a,2011-2012,Flowering 11 Nov,1 Mature
+R07a,2011-2012,Emergence,3
+R07a,2011-2012,Flower Stalk Length,5 Intermediate
+R07a,2011-2012,Degree of Branching,2 Secondary
+R07a,2011-2012,Stem Width Crown,3 Narrow
+R07b,2011-2012,SowingDate,2011-07-12
+R07b,2011-2012,Early Vigour,7-Medium high
+R07b,2011-2012,Remark,"Plant dead, matured"
+R07b,2011-2012,Flowering 11 Nov,1 Mature
+R07b,2011-2012,Emergence,3
+R07b,2011-2012,Flower Stalk Length,5 Intermediate
+R07b,2011-2012,Degree of Branching,2 Secondary
+R07b,2011-2012,Stem Width Crown,3 Narrow
+N057,2010,Flower habit,W
+N057,2010,SowingDate,2010-06-18
+N057,2010,EmergencePot1,4
+N057,2010,EmergencePot2,4
+N057,2010,EmergencePot3,2
+N057,2010,EmergencePot4,0
+N057,2010,EarlyVigour,7
+N057,2010,Remark,Juncea
+N057,2010,Flower Date,2010-08-11
+N057,2010,2nd Flower date,2010-11-03
+N057,2010,Flower type,W
+N057,2010,Flower colour,Yellow
+N057,2010,DaysToFlower,0
+N057,2010,Morphotype Uniformity,1 Uniform
+N057,2010,Number of Leaves,5 Intermediate
+N057,2010,Leaf Angle,2 Open
+N057,2010,Leaf Margin,1 Crenate
+N057,2010,Leaf Incision,3 Lyrate
+N057,2010,Leaf Blade Thickness,3 Thin
+N057,2010,Leaf Blade Blistering,0 None
+N057,2010,Leaf colour,3 Green
+N057,2010,Leaf Hairiness,0 Absent
+N057,2010,Petiole Enlargement,3 Narrow
+N057,2010,Petiole colour,1 White
+N059,2009,SowingDate,2009-05-20
+N059,2009,Emergence,3
+N059,2009,EarlyVigour,7
+N059,2009,FlowerDate,2009-08-19
+N059,2009,Remark,Blue stem/not napus/many stalks
+N059,2009,Maturity,2009-12-10
+N059,2009,Height,140
+N059,2009,Morphotype Uniformity,1 Uniform
+N059,2009,Number of Leaves,3 Few
+N059,2009,Leaf Angle,2 Open
+N059,2009,Leaf Margin,3 Serrate
+N059,2009,Leaf Incision,3 Lyrate
+N059,2009,Leaf Blade Thickness,5 Intermediate
+N059,2009,Leaf Blade Blistering,0 None
+N059,2009,Leaf colour,3 Green
+N059,2009,Leaf Hairiness,0 Absent
+N059,2009,Petiole Enlargement,3 Narrow
+N059,2009,Petiole colour,1 White
+N060,2009,SowingDate,2009-05-20
+N060,2009,Emergence,3
+N060,2009,EarlyVigour,7
+N060,2009,FlowerDate,2009-08-19
+N060,2009,Remark,Blue stem/not napus/many stalks
+N060,2009,Maturity,2009-12-10
+N060,2009,Height,140
+N060,2009,Morphotype Uniformity,1 Uniform
+N060,2009,Number of Leaves,3 Few
+N060,2009,Leaf Angle,2 Open
+N060,2009,Leaf Margin,3 Serrate
+N060,2009,Leaf Incision,3 Lyrate
+N060,2009,Leaf Blade Thickness,5 Intermediate
+N060,2009,Leaf Blade Blistering,0 None
+N060,2009,Leaf colour,3 Green
+N060,2009,Leaf Hairiness,0 Absent
+N060,2009,Petiole Enlargement,3 Narrow
+N060,2009,Petiole colour,1 White
+N061,2009,SowingDate,2009-06-29
+N061,2009,Emergence,5
+N061,2009,EarlyVigour,5
+N061,2009,FlowerDate,2009-10-01
+N061,2009,Maturity,2009-11-27
+N061,2009,Height,160
+N061,2009,Morphotype Uniformity,1 Uniform
+N061,2009,Number of Leaves,5 Intermediate
+N061,2009,Leaf Angle,3 Semiprostrate
+N061,2009,Leaf Margin,3 Serrate
+N061,2009,Leaf Incision,3 Lyrate
+N061,2009,Leaf Blade Thickness,5 Intermediate
+N061,2009,Leaf Blade Blistering,0 None
+N061,2009,Leaf colour,3 Green
+N061,2009,Leaf Hairiness,0 Absent
+N061,2009,Petiole Enlargement,3 Narrow
+N061,2009,Petiole colour,1 White
+N061,2010,Flower habit,SW
+N061,2010,SowingDate,2010-06-18
+N061,2010,EmergencePot1,3
+N061,2010,EmergencePot2,4
+N061,2010,EmergencePot3,2
+N061,2010,EmergencePot4,0
+N061,2010,EarlyVigour,9
+N061,2010,Flower Date,2010-10-15
+N061,2010,2nd Flower date,2010-12-03
+N061,2010,Flower type,SW
+N061,2010,Flower colour,Yellow
+N061,2010,DaysToFlower,0
+N061,2010,Morphotype Uniformity,1 Uniform
+N061,2010,Number of Leaves,7 High
+N061,2010,Leaf Angle,2 Open
+N061,2010,Leaf Margin,2 Dentate
+N061,2010,Leaf Incision,3 Lyrate
+N061,2010,Leaf Blade Thickness,3 Thin
+N061,2010,Leaf Blade Blistering,0 None
+N061,2010,Leaf colour,4 Dark green
+N061,2010,Leaf Hairiness,0 Absent
+N061,2010,Petiole Enlargement,3 Narrow
+N061,2010,Petiole colour,1 White
+N062,2009,SowingDate,2009-05-20
+N062,2009,Emergence,1
+N062,2009,EarlyVigour,3
+N062,2009,FlowerDate,2009-11-04
+N062,2009,Maturity,2009-12-04
+N062,2009,Height,170
+N062,2009,Morphotype Uniformity,1 Uniform
+N062,2009,Number of Leaves,5 Intermediate
+N062,2009,Leaf Angle,3 Semiprostrate
+N062,2009,Leaf Margin,3 Serrate
+N062,2009,Leaf Incision,3 Lyrate
+N062,2009,Leaf Blade Thickness,5 Intermediate
+N062,2009,Leaf Blade Blistering,0 None
+N062,2009,Leaf colour,3 Green
+N062,2009,Leaf Hairiness,0 Absent
+N062,2009,Petiole Enlargement,3 Narrow
+N062,2009,Petiole colour,1 White
+N062,2010,Flower habit,SW
+N062,2010,SowingDate,2010-06-18
+N062,2010,EmergencePot1,4
+N062,2010,EmergencePot2,4
+N062,2010,EmergencePot3,3
+N062,2010,EmergencePot4,0
+N062,2010,EarlyVigour,5
+N062,2010,Flower Date,2010-09-20
+N062,2010,2nd Flower date,2010-11-04
+N062,2010,Flower type,SW
+N062,2010,Flower colour,Yellow
+N062,2010,DaysToFlower,0
+N062,2010,Morphotype Uniformity,1 Uniform
+N062,2010,Number of Leaves,5 Intermediate
+N062,2010,Leaf Angle,2 Open
+N062,2010,Leaf Margin,2 Dentate
+N062,2010,Leaf Incision,3 Lyrate
+N062,2010,Leaf Blade Thickness,3 Thin
+N062,2010,Leaf Blade Blistering,0 None
+N062,2010,Leaf colour,4 Dark green
+N062,2010,Leaf Hairiness,0 Absent
+N062,2010,Petiole Enlargement,3 Narrow
+N062,2010,Petiole colour,1 White
+N064,2009,SowingDate,2009-05-20
+N064,2009,Emergence,5
+N064,2009,EarlyVigour,5
+N064,2009,FlowerDate,2009-09-17
+N064,2009,Maturity,2009-11-20
+N064,2009,Height,190
+N064,2009,Morphotype Uniformity,1 Uniform
+N064,2009,Number of Leaves,5 Intermediate
+N064,2009,Leaf Angle,3 Semiprostrate
+N064,2009,Leaf Margin,3 Serrate
+N064,2009,Leaf Incision,3 Lyrate
+N064,2009,Leaf Blade Thickness,5 Intermediate
+N064,2009,Leaf Blade Blistering,0 None
+N064,2009,Leaf colour,3 Green
+N064,2009,Leaf Hairiness,0 Absent
+N064,2009,Petiole Enlargement,3 Narrow
+N064,2009,Petiole colour,1 White
+N064,2010,Flower habit,SW
+N064,2010,SowingDate,2010-06-18
+N064,2010,EmergencePot1,0
+N064,2010,EmergencePot2,3
+N064,2010,EmergencePot3,0
+N064,2010,EmergencePot4,0
+N064,2010,EarlyVigour,5
+N064,2010,Flower Date,2010-09-15
+N064,2010,2nd Flower date,2010-11-04
+N064,2010,Flower type,SW
+N064,2010,Flower colour,Yellow
+N064,2010,DaysToFlower,0
+N064,2010,Morphotype Uniformity,1 Uniform
+N064,2010,Number of Leaves,5 Intermediate
+N064,2010,Leaf Angle,2 Open
+N064,2010,Leaf Margin,2 Dentate
+N064,2010,Leaf Incision,3 Lyrate
+N064,2010,Leaf Blade Thickness,3 Thin
+N064,2010,Leaf Blade Blistering,0 None
+N064,2010,Leaf colour,4 Dark green
+N064,2010,Leaf Hairiness,0 Absent
+N064,2010,Petiole Enlargement,3 Narrow
+N064,2010,Petiole colour,1 White
+N065,2009,SowingDate,2009-05-18
+N065,2009,Emergence,9
+N065,2009,EarlyVigour,7
+N065,2009,FlowerDate,2009-09-15
+N065,2009,Maturity,2009-11-20
+N065,2009,Height,150
+N065,2009,Morphotype Uniformity,1 Uniform
+N065,2009,Number of Leaves,5 Intermediate
+N065,2009,Leaf Angle,3 Semiprostrate
+N065,2009,Leaf Margin,2 Dentate
+N065,2009,Leaf Incision,3 Lyrate
+N065,2009,Leaf Blade Thickness,5 Intermediate
+N065,2009,Leaf Blade Blistering,0 None
+N065,2009,Leaf colour,3 Green
+N065,2009,Leaf Hairiness,0 Absent
+N065,2009,Petiole Enlargement,3 Narrow
+N065,2009,Petiole colour,1 White
+J31,2009,SowingDate,2009-06-26
+J31,2009,Emergence,9
+J31,2009,EarlyVigour,7
+J31,2009,FlowerDate,2009-10-08
+J31,2009,Maturity,2009-12-10
+J31,2009,Height,190
+J31,2009,Morphotype Uniformity,1 Uniform
+J31,2009,Growth Habit,8 Elongate branching stem terminating in enlarged floral apex
+J31,2009,Number of Leaves,5 Intermediate
+J31,2009,Leaf Angle,3 Semiprostrate
+J31,2009,Leaf Margin,3 Serrate
+J31,2009,Leaf Incision,3 Lyrate
+J31,2009,Leaf Blade Thickness,5 Intermediate
+J31,2009,Leaf Blade Blistering,7 High
+J31,2009,Leaf colour,3 Green
+J31,2009,Leaf Hairiness,3 Sparse
+J31,2009,Petiole Enlargement,3 Narrow
+J31,2009,Petiole colour,1 White
+XS3,2011-2012,SowingDate,2010-07-01
+XS3,2011-2012,Early Vigour,7
+XS3,2011-2012,Flower Date,2010-09-27
+XS3,2011-2012,Flower colour,Yellow
+XS3,2011-2012,2nd Flower date,2010-11-19
+I3,2011-2012,SowingDate,2011-07-12
+I3,2011-2012,Early Vigour,5-Medium
+I3,2011-2012,Morphotype uniformity,2 Continuous
+I3,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+I3,2011-2012,Emergence,3
+I3,2011-2012,Number of leaves,5 Intermediate
+I3,2011-2012,Leaf Angle,4 Prostrate
+I3,2011-2012,Leaf Margin,2 Dentate
+I3,2011-2012,Leaf Length,7 Long
+I3,2011-2012,Leaf Width,5 Medium
+I3,2011-2012,Leaf Blade Blistering,0 None
+I3,2011-2012,Leaf Hairiness,0 Absent
+I3,2011-2012,Flower Stalk Length,7 Long
+I3,2011-2012,Degree of Branching,3 Tertiary
+I3,2011-2012,Petiole colour,1 White
+I3,2011-2012,Stem Width Crown,3 Narrow
+XS4,2011-2012,SowingDate,2010-07-01
+XS4,2011-2012,Early Vigour,1
+XS4,2011-2012,Remark,Maybe rapa
+N068a,2009,SowingDate,2009-05-20
+N068a,2009,Emergence,9
+N068a,2009,EarlyVigour,7
+N068a,2009,FlowerDate,2009-08-31
+N068a,2009,Maturity,2009-11-20
+N068a,2009,Height,150
+N068a,2009,Morphotype Uniformity,1 Uniform
+N068a,2009,Number of Leaves,5 Intermediate
+N068a,2009,Leaf Angle,3 Semiprostrate
+N068a,2009,Leaf Margin,3 Serrate
+N068a,2009,Leaf Incision,3 Lyrate
+N068a,2009,Leaf Blade Thickness,5 Intermediate
+N068a,2009,Leaf Blade Blistering,0 None
+N068a,2009,Leaf colour,3 Green
+N068a,2009,Leaf Hairiness,0 Absent
+N068a,2009,Petiole Enlargement,3 Narrow
+N068a,2009,Petiole colour,1 White
+N068b,2009,SowingDate,2009-05-20
+N068b,2009,Emergence,9
+N068b,2009,EarlyVigour,7
+N068b,2009,FlowerDate,2009-08-31
+N068b,2009,Maturity,2009-11-20
+N068b,2009,Height,150
+N068b,2009,Morphotype Uniformity,1 Uniform
+N068b,2009,Number of Leaves,5 Intermediate
+N068b,2009,Leaf Angle,3 Semiprostrate
+N068b,2009,Leaf Margin,3 Serrate
+N068b,2009,Leaf Incision,3 Lyrate
+N068b,2009,Leaf Blade Thickness,5 Intermediate
+N068b,2009,Leaf Blade Blistering,0 None
+N068b,2009,Leaf colour,3 Green
+N068b,2009,Leaf Hairiness,0 Absent
+N068b,2009,Petiole Enlargement,3 Narrow
+N068b,2009,Petiole colour,1 White
+N069,2009,SowingDate,2009-05-18
+N069,2009,Emergence,7
+N069,2009,EarlyVigour,5
+N069,2009,FlowerDate,2009-09-21
+N069,2009,Maturity,2009-11-20
+N069,2009,Height,170
+N069,2009,Morphotype Uniformity,1 Uniform
+N069,2009,Number of Leaves,5 Intermediate
+N069,2009,Leaf Angle,3 Semiprostrate
+N069,2009,Leaf Margin,2 Dentate
+N069,2009,Leaf Incision,3 Lyrate
+N069,2009,Leaf Blade Thickness,5 Intermediate
+N069,2009,Leaf Blade Blistering,0 None
+N069,2009,Leaf colour,3 Green
+N069,2009,Leaf Hairiness,0 Absent
+N069,2009,Petiole Enlargement,3 Narrow
+N069,2009,Petiole colour,1 White
+N069,2010,Flower habit,SW
+N069,2010,SowingDate,2010-06-18
+N069,2010,EmergencePot1,3
+N069,2010,EmergencePot2,4
+N069,2010,EmergencePot3,4
+N069,2010,EmergencePot4,0
+N069,2010,EarlyVigour,7
+N069,2010,Flower Date,2010-09-17
+N069,2010,2nd Flower date,2010-11-11
+N069,2010,Flower type,SW
+N069,2010,Flower colour,Yellow
+N069,2010,DaysToFlower,0
+N069,2010,Morphotype Uniformity,1 Uniform
+N069,2010,Number of Leaves,5 Intermediate
+N069,2010,Leaf Angle,2 Open
+N069,2010,Leaf Margin,1 Crenate
+N069,2010,Leaf Incision,3 Lyrate
+N069,2010,Leaf Blade Thickness,3 Thin
+N069,2010,Leaf Blade Blistering,0 None
+N069,2010,Leaf colour,4 Dark green
+N069,2010,Leaf Hairiness,0 Absent
+N069,2010,Petiole Enlargement,3 Narrow
+N069,2010,Petiole colour,1 White
+N070,2009,SowingDate,2009-05-20
+N070,2009,Emergence,5
+N070,2009,EarlyVigour,5
+N070,2009,FlowerDate,2009-09-16
+N070,2009,Maturity,2009-12-04
+N070,2009,Height,160
+N070,2009,Morphotype Uniformity,1 Uniform
+N070,2009,Number of Leaves,5 Intermediate
+N070,2009,Leaf Angle,4 Prostrate
+N070,2009,Leaf Margin,1 Crenate
+N070,2009,Leaf Incision,3 Lyrate
+N070,2009,Leaf Blade Thickness,5 Intermediate
+N070,2009,Leaf Blade Blistering,0 None
+N070,2009,Leaf colour,3 Green
+N070,2009,Leaf Hairiness,0 Absent
+N070,2009,Petiole Enlargement,3 Narrow
+N070,2009,Petiole colour,1 White
+N071,2009,SowingDate,2009-05-20
+N071,2009,Emergence,7
+N071,2009,EarlyVigour,5
+N071,2009,FlowerDate,2009-09-16
+N071,2009,Maturity,2009-12-10
+N071,2009,Height,170
+N071,2009,Morphotype Uniformity,1 Uniform
+N071,2009,Number of Leaves,5 Intermediate
+N071,2009,Leaf Angle,3 Semiprostrate
+N071,2009,Leaf Margin,3 Serrate
+N071,2009,Leaf Incision,3 Lyrate
+N071,2009,Leaf Blade Thickness,5 Intermediate
+N071,2009,Leaf Blade Blistering,0 None
+N071,2009,Leaf colour,3 Green
+N071,2009,Leaf Hairiness,0 Absent
+N071,2009,Petiole Enlargement,3 Narrow
+N071,2009,Petiole colour,1 White
+R08,2009,SowingDate,2009-06-26
+R08,2009,Emergence,9
+R08,2009,EarlyVigour,7
+R08,2009,FlowerDate,2009-10-01
+R08,2009,Maturity,2009-12-10
+R08,2009,Height,150
+R08,2009,Morphotype Uniformity,1 Uniform
+R08,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R08,2009,Number of Leaves,5 Intermediate
+R08,2009,Leaf Angle,3 Semiprostrate
+R08,2009,Leaf Margin,2 Dentate
+R08,2009,Leaf Incision,1 Entire
+R08,2009,Leaf Blade Thickness,5 Intermediate
+R08,2009,Leaf Blade Blistering,0 None
+R08,2009,Leaf colour,2 Light green
+R08,2009,Leaf Hairiness,0 Absent
+R08,2009,Petiole Enlargement,5 Intermediate
+R08,2009,Petiole colour,1 White
+R08,2011-2012,SowingDate,2011-07-12
+R08,2011-2012,Early Vigour,5-Medium
+R08,2011-2012,Remark,"Celery like habit, pale leaves"
+R08,2011-2012,Morphotype uniformity,2 Continuous
+R08,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R08,2011-2012,Emergence,3
+R08,2011-2012,Number of leaves,5 Intermediate
+R08,2011-2012,Leaf Angle,3 Semiprostrate
+R08,2011-2012,Leaf Margin,0 Entire
+R08,2011-2012,Leaf Length,5 Medium
+R08,2011-2012,Leaf Width,5 Medium
+R08,2011-2012,Leaf Blade Blistering,0 None
+R08,2011-2012,Leaf Hairiness,0 Absent
+R08,2011-2012,Flower Stalk Length,5 Intermediate
+R08,2011-2012,Degree of Branching,2 Secondary
+R08,2011-2012,Petiole Enlargement,5 Intermediate
+R08,2011-2012,Petiole colour,1 White
+R08,2011-2012,Stem Width Crown,3 Narrow
+R08,2011-2012,Yield,3.2
+R09,2009,SowingDate,2009-06-26
+R09,2009,Emergence,9
+R09,2009,EarlyVigour,7
+R09,2009,FlowerDate,2009-10-01
+R09,2009,Maturity,2009-12-10
+R09,2009,Height,150
+R09,2009,Morphotype Uniformity,1 Uniform
+R09,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R09,2009,Number of Leaves,7 High
+R09,2009,Leaf Angle,2 Open
+R09,2009,Leaf Margin,3 Serrate
+R09,2009,Leaf Incision,1 Entire
+R09,2009,Leaf Blade Thickness,5 Intermediate
+R09,2009,Leaf Blade Blistering,3 Low
+R09,2009,Leaf colour,2 Light green
+R09,2009,Leaf Hairiness,0 Absent
+R09,2009,Petiole Enlargement,5 Intermediate
+R09,2009,Petiole colour,1 White
+R09,2011-2012,SowingDate,2011-07-12
+R09,2011-2012,Early Vigour,5-Medium
+R09,2011-2012,Remark,"Tall lettuce like habit, pale leaves"
+R09,2011-2012,Morphotype uniformity,1 Uniform
+R09,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R09,2011-2012,Emergence,3
+R09,2011-2012,Number of leaves,7 High
+R09,2011-2012,Leaf Angle,3 Semiprostrate
+R09,2011-2012,Leaf Margin,2 Dentate
+R09,2011-2012,Leaf Length,7 Long
+R09,2011-2012,Leaf Width,7 Wide
+R09,2011-2012,Leaf Blade Blistering,0 None
+R09,2011-2012,Leaf Hairiness,0 Absent
+R09,2011-2012,Flower Stalk Length,5 Intermediate
+R09,2011-2012,Degree of Branching,2 Secondary
+R09,2011-2012,Petiole Enlargement,5 Intermediate
+R09,2011-2012,Petiole colour,1 White
+R09,2011-2012,Stem Width Crown,5 Intermediate
+R09,2011-2012,Yield,3.7
+R10,2009,SowingDate,2009-06-26
+R10,2009,Emergence,9
+R10,2009,EarlyVigour,7
+R10,2009,FlowerDate,2009-09-29
+R10,2009,Maturity,2009-12-04
+R10,2009,Height,160
+R10,2009,Morphotype Uniformity,1 Uniform
+R10,2009,Growth Habit,8 Elongate branching stem terminating in enlarged floral apex
+R10,2009,Number of Leaves,5 Intermediate
+R10,2009,Leaf Angle,3 Semiprostrate
+R10,2009,Leaf Margin,2 Dentate
+R10,2009,Leaf Incision,2 Sinuate
+R10,2009,Leaf Blade Thickness,5 Intermediate
+R10,2009,Leaf Blade Blistering,0 None
+R10,2009,Leaf colour,2 Light green
+R10,2009,Leaf Hairiness,0 Absent
+R10,2009,Petiole Enlargement,5 Intermediate
+R10,2009,Petiole colour,1 White
+R10,2011-2012,SowingDate,2011-07-15
+R10,2011-2012,Early Vigour,3-Medium low
+R10,2011-2012,Remark,"Celery like habit, pale leaves. Basil leaf"
+R10,2011-2012,Morphotype uniformity,1 Uniform
+R10,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R10,2011-2012,Emergence,1
+R10,2011-2012,Number of leaves,5 Intermediate
+R10,2011-2012,Leaf Angle,3 Semiprostrate
+R10,2011-2012,Leaf Margin,1 Crenate
+R10,2011-2012,Leaf Length,5 Medium
+R10,2011-2012,Leaf Width,5 Medium
+R10,2011-2012,Leaf Blade Blistering,0 None
+R10,2011-2012,Leaf Hairiness,0 Absent
+R10,2011-2012,Flower Stalk Length,5 Intermediate
+R10,2011-2012,Degree of Branching,2 Secondary
+R10,2011-2012,Petiole Enlargement,5 Intermediate
+R10,2011-2012,Petiole colour,1 White
+R10,2011-2012,Stem Width Crown,3 Narrow
+R10,2011-2012,Yield,2.1
+R11,2009,SowingDate,2009-06-26
+R11,2009,Emergence,9
+R11,2009,EarlyVigour,7
+R11,2009,FlowerDate,2009-09-24
+R11,2009,Maturity,2009-11-27
+R11,2009,Height,80
+R11,2009,Morphotype Uniformity,1 Uniform
+R11,2009,Growth Habit,8 Elongate branching stem terminating in enlarged floral apex
+R11,2009,Number of Leaves,5 Intermediate
+R11,2009,Leaf Angle,2 Open
+R11,2009,Leaf Margin,3 Serrate
+R11,2009,Leaf Incision,3 Lyrate
+R11,2009,Leaf Blade Thickness,5 Intermediate
+R11,2009,Leaf Blade Blistering,3 Low
+R11,2009,Leaf colour,2 Light green
+R11,2009,Leaf Hairiness,0 Absent
+R11,2009,Petiole Enlargement,5 Intermediate
+R11,2009,Petiole colour,1 White
+R11,2011-2012,SowingDate,2011-07-15
+R11,2011-2012,Early Vigour,5-Medium
+R11,2011-2012,Remark,"Celery like habit, pale leaves, basil leaf and very large leaf"
+R11,2011-2012,Morphotype uniformity,1 Uniform
+R11,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R11,2011-2012,Emergence,3
+R11,2011-2012,Number of leaves,5 Intermediate
+R11,2011-2012,Leaf Angle,3 Semiprostrate
+R11,2011-2012,Leaf Margin,0 Entire
+R11,2011-2012,Leaf Length,7 Long
+R11,2011-2012,Leaf Width,7 Wide
+R11,2011-2012,Leaf Blade Blistering,0 None
+R11,2011-2012,Leaf Hairiness,0 Absent
+R11,2011-2012,Flower Stalk Length,5 Intermediate
+R11,2011-2012,Degree of Branching,2 Secondary
+R11,2011-2012,Petiole Enlargement,5 Intermediate
+R11,2011-2012,Petiole colour,1 White
+R11,2011-2012,Stem Width Crown,5 Intermediate
+R11,2011-2012,Yield,1.8
+R12,2009,SowingDate,2009-06-26
+R12,2009,Emergence,5
+R12,2009,EarlyVigour,5
+R12,2009,FlowerDate,2009-09-28
+R12,2009,Maturity,2009-12-04
+R12,2009,Height,170
+R12,2009,Morphotype Uniformity,1 Uniform
+R12,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R12,2009,Number of Leaves,5 Intermediate
+R12,2009,Leaf Angle,3 Semiprostrate
+R12,2009,Leaf Margin,3 Serrate
+R12,2009,Leaf Incision,2 Sinuate
+R12,2009,Leaf Blade Thickness,5 Intermediate
+R12,2009,Leaf Blade Blistering,5 Intermediate
+R12,2009,Leaf colour,2 Light green
+R12,2009,Leaf Hairiness,0 Absent
+R12,2009,Petiole Enlargement,5 Intermediate
+R12,2009,Petiole colour,1 White
+R12,2011-2012,SowingDate,2011-07-15
+R12,2011-2012,Early Vigour,3-Medium low
+R12,2011-2012,Remark,Basil leaf
+R12,2011-2012,Morphotype uniformity,1 Uniform
+R12,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R12,2011-2012,Emergence,3
+R12,2011-2012,Number of leaves,5 Intermediate
+R12,2011-2012,Leaf Angle,4 Prostrate
+R12,2011-2012,Leaf Margin,2 Dentate
+R12,2011-2012,Leaf Length,5 Medium
+R12,2011-2012,Leaf Width,5 Medium
+R12,2011-2012,Leaf Blade Blistering,0 None
+R12,2011-2012,Leaf Hairiness,0 Absent
+R12,2011-2012,Flower Stalk Length,5 Intermediate
+R12,2011-2012,Degree of Branching,2 Secondary
+R12,2011-2012,Petiole Enlargement,7 Enlarged
+R12,2011-2012,Petiole colour,1 White
+R12,2011-2012,Stem Width Crown,5 Intermediate
+R12,2011-2012,Yield,7
+R13,2009,SowingDate,2009-06-26
+R13,2009,Emergence,7
+R13,2009,EarlyVigour,7
+R13,2009,FlowerDate,2009-09-30
+R13,2009,Maturity,2009-12-04
+R13,2009,Height,130
+R13,2009,Morphotype Uniformity,1 Uniform
+R13,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R13,2009,Number of Leaves,7 High
+R13,2009,Leaf Angle,3 Semiprostrate
+R13,2009,Leaf Margin,5 Doubly dentate
+R13,2009,Leaf Incision,4 Lacerate
+R13,2009,Leaf Blade Thickness,5 Intermediate
+R13,2009,Leaf Blade Blistering,0 None
+R13,2009,Leaf colour,4 Dark green
+R13,2009,Leaf Hairiness,0 Absent
+R13,2009,Petiole Enlargement,5 Intermediate
+R13,2009,Petiole colour,1 White
+R13,2011-2012,SowingDate,2011-07-15
+R13,2011-2012,Early Vigour,5-Medium
+R13,2011-2012,Remark,"Rocket like habit, serrate leaves. Extensive basil branching and leafs."
+R13,2011-2012,Morphotype uniformity,2 Continuous
+R13,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R13,2011-2012,Emergence,3
+R13,2011-2012,Number of leaves,7 High
+R13,2011-2012,Leaf Angle,3 Semiprostrate
+R13,2011-2012,Leaf Margin,5 Doubly dentate
+R13,2011-2012,Leaf Length,7 Long
+R13,2011-2012,Leaf Width,3 Narrow
+R13,2011-2012,Leaf Blade Blistering,0 None
+R13,2011-2012,Leaf Hairiness,0 Absent
+R13,2011-2012,Flower Stalk Length,3 Short
+R13,2011-2012,Degree of Branching,1 Primary
+R13,2011-2012,Petiole Enlargement,5 Intermediate
+R13,2011-2012,Petiole colour,1 White
+R13,2011-2012,Stem Width Crown,5 Intermediate
+R14,2009,SowingDate,2009-06-26
+R14,2009,Emergence,5
+R14,2009,EarlyVigour,5
+R14,2009,FlowerDate,2009-10-01
+R14,2009,Maturity,2009-12-10
+R14,2009,Height,120
+R14,2009,Morphotype Uniformity,1 Uniform
+R14,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R14,2009,Number of Leaves,5 Intermediate
+R14,2009,Leaf Angle,2 Open
+R14,2009,Leaf Margin,0 Entire
+R14,2009,Leaf Incision,2 Sinuate
+R14,2009,Leaf Blade Thickness,5 Intermediate
+R14,2009,Leaf Blade Blistering,0 None
+R14,2009,Leaf colour,3 Green
+R14,2009,Leaf Hairiness,0 Absent
+R14,2009,Petiole Enlargement,5 Intermediate
+R14,2009,Petiole colour,1 White
+R14,2011-2012,SowingDate,2011-07-15
+R14,2011-2012,Early Vigour,3-Medium low
+R14,2011-2012,Remark,"Open lettuce like habit, broad wrinkled leaves. Leaf very large. Basils leafs"
+R14,2011-2012,Morphotype uniformity,2 Continuous
+R14,2011-2012,Flowering 11 Nov,5 Flowers only
+R14,2011-2012,Emergence,1
+R14,2011-2012,Number of leaves,5 Intermediate
+R14,2011-2012,Leaf Angle,2 Open
+R14,2011-2012,Leaf Margin,1 Crenate
+R14,2011-2012,Leaf Length,7 Long
+R14,2011-2012,Leaf Width,7 Wide
+R14,2011-2012,Leaf Blade Blistering,0 None
+R14,2011-2012,Leaf Hairiness,0 Absent
+R14,2011-2012,Flower Stalk Length,3 Short
+R14,2011-2012,Degree of Branching,1 Primary
+R14,2011-2012,Petiole Enlargement,7 Enlarged
+R14,2011-2012,Petiole colour,1 White
+R14,2011-2012,Stem Width Crown,5 Intermediate
+N073,2009,SowingDate,2009-05-18
+N073,2009,Emergence,7
+N073,2009,EarlyVigour,7
+N073,2009,FlowerDate,2009-11-03
+N073,2009,Maturity,2009-11-27
+N073,2009,Height,130
+N073,2009,Morphotype Uniformity,1 Uniform
+N073,2009,Number of Leaves,7 High
+N073,2009,Leaf Angle,1 Erect
+N073,2009,Leaf Margin,3 Serrate
+N073,2009,Leaf Incision,3 Lyrate
+N073,2009,Leaf Blade Thickness,5 Intermediate
+N073,2009,Leaf Blade Blistering,0 None
+N073,2009,Leaf colour,3 Green
+N073,2009,Leaf Hairiness,0 Absent
+N073,2009,Petiole Enlargement,3 Narrow
+N073,2009,Petiole colour,1 White
+N074,2009,SowingDate,2009-05-22
+N074,2009,Emergence,9
+N074,2009,EarlyVigour,7
+N074,2009,FlowerDate,2009-09-18
+N074,2009,Maturity,2009-12-04
+N074,2009,Height,160
+N074,2009,Morphotype Uniformity,1 Uniform
+N074,2009,Number of Leaves,5 Intermediate
+N074,2009,Leaf Angle,3 Semiprostrate
+N074,2009,Leaf Margin,2 Dentate
+N074,2009,Leaf Incision,3 Lyrate
+N074,2009,Leaf Blade Thickness,5 Intermediate
+N074,2009,Leaf Blade Blistering,0 None
+N074,2009,Leaf colour,3 Green
+N074,2009,Leaf Hairiness,0 Absent
+N074,2009,Petiole Enlargement,3 Narrow
+N074,2009,Petiole colour,1 White
+N074,2010,Flower habit,MW
+N074,2010,SowingDate,2010-06-18
+N074,2010,EmergencePot1,4
+N074,2010,EmergencePot2,3
+N074,2010,EmergencePot3,2
+N074,2010,EmergencePot4,0
+N074,2010,EarlyVigour,5
+N074,2010,Remark,"mixed species_x000D_
+_x000D_"
+N074,2010,Flower Date,2010-09-22
+N074,2010,2nd Flower date,2010-11-23
+N074,2010,Flower type,MW
+N074,2010,Flower colour,Yellow
+N074,2010,DaysToFlower,0
+N074,2010,Morphotype Uniformity,1 Uniform
+N074,2010,Number of Leaves,5 Intermediate
+N074,2010,Leaf Angle,2 Open
+N074,2010,Leaf Margin,1 Crenate
+N074,2010,Leaf Incision,3 Lyrate
+N074,2010,Leaf Blade Thickness,3 Thin
+N074,2010,Leaf Blade Blistering,3 Low
+N074,2010,Leaf colour,4 Dark green
+N074,2010,Leaf Hairiness,3 Sparse
+N074,2010,Petiole Enlargement,3 Narrow
+N074,2010,Petiole colour,1 White
+C2,2011-2012,SowingDate,2011-07-12
+C2,2011-2012,Early Vigour,5-Medium
+C2,2011-2012,Morphotype uniformity,1 Uniform
+C2,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+C2,2011-2012,Emergence,5
+C2,2011-2012,Number of leaves,5 Intermediate
+C2,2011-2012,Leaf Angle,3 Semiprostrate
+C2,2011-2012,Leaf Margin,1 Crenate
+C2,2011-2012,Leaf Length,5 Medium
+C2,2011-2012,Leaf Width,5 Medium
+C2,2011-2012,Leaf Blade Blistering,0 None
+C2,2011-2012,Leaf Hairiness,0 Absent
+C2,2011-2012,Flower Stalk Length,5 Intermediate
+C2,2011-2012,Degree of Branching,3 Tertiary
+C2,2011-2012,Petiole colour,1 White
+C2,2011-2012,Stem Width Crown,3 Narrow
+R15,2009,SowingDate,2009-06-26
+R15,2009,Emergence,5
+R15,2009,EarlyVigour,5
+R15,2009,FlowerDate,2009-10-01
+R15,2009,Maturity,2009-12-10
+R15,2009,Height,180
+R15,2009,Morphotype Uniformity,1 Uniform
+R15,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R15,2009,Number of Leaves,5 Intermediate
+R15,2009,Leaf Angle,5 Horizontal
+R15,2009,Leaf Margin,4 Undulate
+R15,2009,Leaf Incision,2 Sinuate
+R15,2009,Leaf Blade Thickness,5 Intermediate
+R15,2009,Leaf Blade Blistering,0 None
+R15,2009,Leaf colour,2 Light green
+R15,2009,Leaf Hairiness,0 Absent
+R15,2009,Petiole Enlargement,3 Narrow
+R15,2009,Petiole colour,1 White
+R15,2011-2012,SowingDate,2011-07-15
+R15,2011-2012,Early Vigour,5-Medium
+R15,2011-2012,Remark,"Celery like habit, pale leaves. Turnip root."
+R15,2011-2012,Morphotype uniformity,2 Continuous
+R15,2011-2012,Flowering 11 Nov,6 Flower buds
+R15,2011-2012,Emergence,3
+R15,2011-2012,Number of leaves,7 High
+R15,2011-2012,Leaf Angle,3 Semiprostrate
+R15,2011-2012,Leaf Margin,5 Doubly dentate
+R15,2011-2012,Leaf Length,7 Long
+R15,2011-2012,Leaf Width,5 Medium
+R15,2011-2012,Leaf Blade Blistering,5 Intermediate
+R15,2011-2012,Leaf Hairiness,0 Absent
+R15,2011-2012,Flower Stalk Length,3 Short
+R15,2011-2012,Degree of Branching,1 Primary
+R15,2011-2012,Petiole Enlargement,5 Intermediate
+R15,2011-2012,Petiole colour,1 White
+R15,2011-2012,Stem Width Crown,7 Wide
+R16,2009,SowingDate,2009-06-26
+R16,2009,Emergence,7
+R16,2009,EarlyVigour,9
+R16,2009,FlowerDate,2009-09-15
+R16,2009,Maturity,2009-11-27
+R16,2009,Height,190
+R16,2009,Morphotype Uniformity,1 Uniform
+R16,2009,Growth Habit,8 Elongate branching stem terminating in enlarged floral apex
+R16,2009,Number of Leaves,7 High
+R16,2009,Leaf Angle,4 Prostrate
+R16,2009,Leaf Margin,2 Dentate
+R16,2009,Leaf Incision,3 Lyrate
+R16,2009,Leaf Blade Thickness,5 Intermediate
+R16,2009,Leaf Blade Blistering,0 None
+R16,2009,Leaf colour,3 Green
+R16,2009,Leaf Hairiness,0 Absent
+R16,2009,Petiole Enlargement,3 Narrow
+R16,2009,Petiole colour,1 White
+R16,2011-2012,SowingDate,2011-07-15
+R16,2011-2012,Early Vigour,7-Medium high
+R16,2011-2012,Remark,Turnip base
+R16,2011-2012,Morphotype uniformity,1 Uniform
+R16,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+R16,2011-2012,Emergence,5
+R16,2011-2012,Number of leaves,5 Intermediate
+R16,2011-2012,Leaf Angle,3 Semiprostrate
+R16,2011-2012,Leaf Margin,1 Crenate
+R16,2011-2012,Leaf Length,7 Long
+R16,2011-2012,Leaf Width,7 Wide
+R16,2011-2012,Leaf Blade Blistering,0 None
+R16,2011-2012,Leaf Hairiness,0 Absent
+R16,2011-2012,Flower Stalk Length,7 Long
+R16,2011-2012,Degree of Branching,3 Tertiary
+R16,2011-2012,Petiole Enlargement,5 Intermediate
+R16,2011-2012,Petiole colour,1 White
+R16,2011-2012,Stem Width Crown,7 Wide
+R16,2011-2012,Yield,1.7
+R17,2009,SowingDate,2009-06-26
+R17,2009,Emergence,7
+R17,2009,EarlyVigour,5
+R17,2009,FlowerDate,2009-09-18
+R17,2009,Maturity,2009-11-20
+R17,2009,Height,130
+R17,2009,Morphotype Uniformity,1 Uniform
+R17,2009,Growth Habit,8 Elongate branching stem terminating in enlarged floral apex
+R17,2009,Number of Leaves,5 Intermediate
+R17,2009,Leaf Angle,4 Prostrate
+R17,2009,Leaf Margin,3 Serrate
+R17,2009,Leaf Incision,2 Sinuate
+R17,2009,Leaf Blade Thickness,5 Intermediate
+R17,2009,Leaf Blade Blistering,0 None
+R17,2009,Leaf colour,2 Light green
+R17,2009,Leaf Hairiness,0 Absent
+R17,2009,Petiole Enlargement,5 Intermediate
+R17,2009,Petiole colour,1 White
+R17,2011-2012,SowingDate,2011-07-15
+R17,2011-2012,Early Vigour,7-Medium high
+R17,2011-2012,Remark,Basil leaf.
+R17,2011-2012,Morphotype uniformity,1 Uniform
+R17,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+R17,2011-2012,Emergence,5
+R17,2011-2012,Number of leaves,7 High
+R17,2011-2012,Leaf Angle,3 Semiprostrate
+R17,2011-2012,Leaf Margin,2 Dentate
+R17,2011-2012,Leaf Length,5 Medium
+R17,2011-2012,Leaf Width,7 Wide
+R17,2011-2012,Leaf Blade Blistering,0 None
+R17,2011-2012,Leaf Hairiness,0 Absent
+R17,2011-2012,Leaf Blade Thickness,5 Intermediate
+R17,2011-2012,Flower Stalk Length,5 Intermediate
+R17,2011-2012,Degree of Branching,2 Secondary
+R17,2011-2012,Petiole Enlargement,7 Enlarged
+R17,2011-2012,Petiole colour,1 White
+R17,2011-2012,Stem Width Crown,3 Narrow
+R17,2011-2012,Yield,32
+R18,2009,SowingDate,2009-06-26
+R18,2009,Emergence,1
+R18,2009,EarlyVigour,3
+R18,2009,FlowerDate,2009-10-01
+R18,2009,Maturity,2009-12-10
+R18,2009,Height,150
+R18,2009,Morphotype Uniformity,3 Two or more distinct types
+R18,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R18,2009,Number of Leaves,5 Intermediate
+R18,2009,Leaf Angle,3 Semiprostrate
+R18,2009,Leaf Margin,2 Dentate
+R18,2009,Leaf Incision,Entire/lyrate
+R18,2009,Leaf Blade Thickness,5 Intermediate
+R18,2009,Leaf Blade Blistering,3 Low
+R18,2009,Leaf colour,3 Green
+R18,2009,Leaf Hairiness,0 Absent
+R18,2009,Petiole Enlargement,3 Narrow
+R18,2009,Petiole colour,1 White
+R18,2011-2012,SowingDate,2011-07-15
+R18,2011-2012,Early Vigour,3-Medium low
+R18,2011-2012,Remark,Basil leaf
+R18,2011-2012,Morphotype uniformity,1 Uniform
+R18,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+R18,2011-2012,Emergence,3
+R18,2011-2012,Number of leaves,5 Intermediate
+R18,2011-2012,Leaf Angle,3 Semiprostrate
+R18,2011-2012,Leaf Margin,1 Crenate
+R18,2011-2012,Leaf Length,7 Long
+R18,2011-2012,Leaf Width,7 Wide
+R18,2011-2012,Leaf Blade Blistering,0 None
+R18,2011-2012,Leaf Hairiness,0 Absent
+R18,2011-2012,Flower Stalk Length,3 Short
+R18,2011-2012,Degree of Branching,1 Primary
+R18,2011-2012,Petiole Enlargement,5 Intermediate
+R18,2011-2012,Petiole colour,1 White
+R18,2011-2012,Stem Width Crown,5 Intermediate
+N075,2009,SowingDate,2009-05-18
+N075,2009,Emergence,3
+N075,2009,EarlyVigour,3
+N075,2009,FlowerDate,2009-10-13
+N075,2009,Remark,Turnip root
+N075,2009,Maturity,2009-12-10
+N075,2009,Height,50
+N075,2009,Morphotype Uniformity,1 Uniform
+N075,2009,Number of Leaves,5 Intermediate
+N075,2009,Leaf Angle,3 Semiprostrate
+N075,2009,Leaf Margin,2 Dentate
+N075,2009,Leaf Incision,3 Lyrate
+N075,2009,Leaf Blade Thickness,5 Intermediate
+N075,2009,Leaf Blade Blistering,0 None
+N075,2009,Leaf colour,3 Green
+N075,2009,Leaf Hairiness,0 Absent
+N075,2009,Petiole Enlargement,3 Narrow
+N075,2009,Petiole colour,1 White
+R19,2009,SowingDate,2009-06-26
+R19,2009,Emergence,7
+R19,2009,EarlyVigour,3
+R19,2009,Remark,Turnip root
+R19,2009,Height,25
+R19,2009,Morphotype Uniformity,1 Uniform
+R19,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R19,2009,Number of Leaves,5 Intermediate
+R19,2009,Leaf Angle,5 Horizontal
+R19,2009,Leaf Margin,4 Undulate
+R19,2009,Leaf Incision,3 Lyrate
+R19,2009,Leaf Blade Thickness,5 Intermediate
+R19,2009,Leaf Blade Blistering,3 Low
+R19,2009,Leaf colour,3 Green
+R19,2009,Leaf Hairiness,3 Sparse
+R19,2009,Petiole Enlargement,3 Narrow
+R19,2009,Petiole colour,1 White
+R19,2011-2012,SowingDate,2011-07-15
+R19,2011-2012,Early Vigour,3-Medium low
+R19,2011-2012,Remark,"Turnip root, no flower stalk, late."
+R19,2011-2012,Morphotype uniformity,1 Uniform
+R19,2011-2012,Flowering 11 Nov,"8 Very late, no stalks"
+R19,2011-2012,Emergence,1
+R19,2011-2012,Number of leaves,5 Intermediate
+R19,2011-2012,Leaf Angle,3 Semiprostrate
+R19,2011-2012,Leaf Margin,2 Dentate
+R19,2011-2012,Leaf Length,7 Long
+R19,2011-2012,Leaf Width,3 Narrow
+R19,2011-2012,Leaf Blade Blistering,3 Low
+R19,2011-2012,Leaf Hairiness,0 Absent
+R19,2011-2012,Petiole Enlargement,5 Intermediate
+R19,2011-2012,Petiole colour,1 White
+R19,2011-2012,Stem Width Crown,7 Wide
+R20,2009,SowingDate,2009-06-26
+R20,2009,Emergence,5
+R20,2009,EarlyVigour,5
+R20,2009,FlowerDate,2009-10-01
+R20,2009,Maturity,2009-12-10
+R20,2009,Height,140
+R20,2009,Morphotype Uniformity,1 Uniform
+R20,2009,Growth Habit,3 Extremely shortened branching stems forming leafy crown
+R20,2009,Number of Leaves,5 Intermediate
+R20,2009,Leaf Angle,3 Semiprostrate
+R20,2009,Leaf Margin,4 Undulate
+R20,2009,Leaf Incision,3 Lyrate
+R20,2009,Leaf Blade Thickness,5 Intermediate
+R20,2009,Leaf Blade Blistering,0 None
+R20,2009,Leaf colour,2 Light green
+R20,2009,Leaf Hairiness,3 Sparse
+R20,2009,Petiole Enlargement,3 Narrow
+R20,2009,Petiole colour,1 White
+R20,2011-2012,SowingDate,2011-07-15
+R20,2011-2012,Early Vigour,3-Medium low
+R20,2011-2012,Remark,Turnip.
+R20,2011-2012,Morphotype uniformity,1 Uniform
+R20,2011-2012,Flowering 11 Nov,6 Flower buds
+R20,2011-2012,Emergence,3
+R20,2011-2012,Number of leaves,7 High
+R20,2011-2012,Leaf Angle,3 Semiprostrate
+R20,2011-2012,Leaf Margin,2 Dentate
+R20,2011-2012,Leaf Length,7 Long
+R20,2011-2012,Leaf Width,5 Medium
+R20,2011-2012,Leaf Blade Blistering,3 Low
+R20,2011-2012,Leaf Hairiness,0 Absent
+R20,2011-2012,Flower Stalk Length,3 Short
+R20,2011-2012,Degree of Branching,1 Primary
+R20,2011-2012,Petiole Enlargement,5 Intermediate
+R20,2011-2012,Petiole colour,1 White
+R20,2011-2012,Stem Width Crown,7 Wide
+N076,2009,SowingDate,2009-05-20
+N076,2009,Emergence,7
+N076,2009,EarlyVigour,5
+N076,2009,FlowerDate,2009-09-21
+N076,2009,Maturity,2009-12-10
+N076,2009,Height,200
+N076,2009,Morphotype Uniformity,1 Uniform
+N076,2009,Number of Leaves,5 Intermediate
+N076,2009,Leaf Angle,2 Open
+N076,2009,Leaf Margin,2 Dentate
+N076,2009,Leaf Incision,3 Lyrate
+N076,2009,Leaf Blade Thickness,5 Intermediate
+N076,2009,Leaf Blade Blistering,0 None
+N076,2009,Leaf colour,3 Green
+N076,2009,Leaf Hairiness,0 Absent
+N076,2009,Petiole Enlargement,3 Narrow
+N076,2009,Petiole colour,1 White
+N077,2009,SowingDate,2009-06-29
+N077,2009,Emergence,7
+N077,2009,EarlyVigour,5
+N077,2009,FlowerDate,2009-10-06
+N077,2009,Remark,Mixed maturity
+N077,2009,Maturity,2009-12-04
+N077,2009,Height,140
+N077,2009,Morphotype Uniformity,1 Uniform
+N077,2009,Number of Leaves,5 Intermediate
+N077,2009,Leaf Angle,3 Semiprostrate
+N077,2009,Leaf Margin,3 Serrate
+N077,2009,Leaf Incision,3 Lyrate
+N077,2009,Leaf Blade Thickness,5 Intermediate
+N077,2009,Leaf Blade Blistering,0 None
+N077,2009,Leaf colour,3 Green
+N077,2009,Leaf Hairiness,0 Absent
+N077,2009,Petiole Enlargement,3 Narrow
+N077,2009,Petiole colour,1 White
+N077,2010,Flower habit,MW
+N077,2010,SowingDate,2010-06-18
+N077,2010,EmergencePot1,5
+N077,2010,EmergencePot2,5
+N077,2010,EmergencePot3,4
+N077,2010,EmergencePot4,0
+N077,2010,EarlyVigour,7
+N077,2010,Flower Date,2010-09-29
+N077,2010,2nd Flower date,2010-11-26
+N077,2010,Flower type,MW
+N077,2010,Flower colour,Yellow
+N077,2010,DaysToFlower,0
+N077,2010,Morphotype Uniformity,1 Uniform
+N077,2010,Number of Leaves,5 Intermediate
+N077,2010,Leaf Angle,2 Open
+N077,2010,Leaf Margin,2 Dentate
+N077,2010,Leaf Incision,3 Lyrate
+N077,2010,Leaf Blade Thickness,3 Thin
+N077,2010,Leaf Blade Blistering,0 None
+N077,2010,Leaf colour,4 Dark green
+N077,2010,Leaf Hairiness,0 Absent
+N077,2010,Petiole Enlargement,3 Narrow
+N077,2010,Petiole colour,1 White
+N078,2009,SowingDate,2009-05-20
+N078,2009,Emergence,1
+N078,2009,EarlyVigour,3
+N078,2009,FlowerDate,2009-09-16
+N078,2009,Maturity,2009-11-20
+N078,2009,Height,150
+N078,2009,Morphotype Uniformity,1 Uniform
+N078,2009,Number of Leaves,5 Intermediate
+N078,2009,Leaf Angle,4 Prostrate
+N078,2009,Leaf Margin,2 Dentate
+N078,2009,Leaf Incision,3 Lyrate
+N078,2009,Leaf Blade Thickness,5 Intermediate
+N078,2009,Leaf Blade Blistering,0 None
+N078,2009,Leaf colour,3 Green
+N078,2009,Leaf Hairiness,0 Absent
+N078,2009,Petiole Enlargement,3 Narrow
+N078,2009,Petiole colour,1 White
+N079,2009,SowingDate,2009-05-20
+N079,2009,Emergence,9
+N079,2009,EarlyVigour,9
+N079,2009,FlowerDate,2009-10-06
+N079,2009,Remark,Purple stem
+N079,2009,Maturity,2009-12-10
+N079,2009,Height,230
+N079,2009,Morphotype Uniformity,1 Uniform
+N079,2009,Number of Leaves,5 Intermediate
+N079,2009,Leaf Angle,3 Semiprostrate
+N079,2009,Leaf Margin,3 Serrate
+N079,2009,Leaf Incision,1 Entire
+N079,2009,Leaf Blade Thickness,5 Intermediate
+N079,2009,Leaf Blade Blistering,0 None
+N079,2009,Leaf colour,5 Purple green
+N079,2009,Leaf Hairiness,0 Absent
+N079,2009,Petiole Enlargement,3 Narrow
+N079,2009,Petiole colour,Purple/green
+N079,2010,Flower habit,MW
+N079,2010,SowingDate,2010-06-18
+N079,2010,EmergencePot1,5
+N079,2010,EmergencePot2,5
+N079,2010,EmergencePot3,4
+N079,2010,EmergencePot4,0
+N079,2010,EarlyVigour,9
+N079,2010,Remark,Red tinge to leaves and stalks question sp.
+N079,2010,Flower Date,2010-10-01
+N079,2010,2nd Flower date,2010-12-03
+N079,2010,Flower type,MW
+N079,2010,Flower colour,Yellow
+N079,2010,DaysToFlower,0
+N079,2010,Morphotype Uniformity,1 Uniform
+N079,2010,Number of Leaves,7 High
+N079,2010,Leaf Angle,2 Open
+N079,2010,Leaf Margin,2 Dentate
+N079,2010,Leaf Incision,3 Lyrate
+N079,2010,Leaf Blade Thickness,5 Intermediate
+N079,2010,Leaf Blade Blistering,0 None
+N079,2010,Leaf colour,4 Dark green
+N079,2010,Leaf Hairiness,0 Absent
+N079,2010,Petiole Enlargement,3 Narrow
+N079,2010,Petiole colour,1 White
+R21,2009,SowingDate,2009-06-26
+R21,2009,Emergence,3
+R21,2009,EarlyVigour,5
+R21,2009,FlowerDate,2009-09-15
+R21,2009,Remark,Fat pod
+R21,2009,Maturity,2009-11-20
+R21,2009,Height,130
+R21,2009,Morphotype Uniformity,1 Uniform
+R21,2009,Growth Habit,8 Elongate branching stem terminating in enlarged floral apex
+R21,2009,Number of Leaves,3 Few
+R21,2009,Leaf Angle,4 Prostrate
+R21,2009,Leaf Margin,2 Dentate
+R21,2009,Leaf Incision,3 Lyrate
+R21,2009,Leaf Blade Thickness,7 Thick
+R21,2009,Leaf Blade Blistering,0 None
+R21,2009,Leaf colour,3 Green
+R21,2009,Leaf Hairiness,0 Absent
+R21,2009,Petiole Enlargement,3 Narrow
+R21,2009,Petiole colour,1 White
+R21,2011-2012,SowingDate,2011-07-15
+R21,2011-2012,Early Vigour,5-Medium
+R21,2011-2012,Remark,"Leafs dead, semi mature"
+R21,2011-2012,Morphotype uniformity,3 Two or more distinct types
+R21,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+R21,2011-2012,Emergence,3
+R21,2011-2012,Flower Stalk Length,3 Short
+R21,2011-2012,Degree of Branching,2 Secondary
+R21,2011-2012,Stem Width Crown,3 Narrow
+R21,2011-2012,Yield,6.7
+N081a,2009,SowingDate,2009-06-12
+N081a,2009,Emergence,1
+N081a,2009,EarlyVigour,1
+N081a,2009,FlowerDate,2009-10-06
+N081a,2009,Maturity,2009-11-20
+N081a,2009,Height,120
+N081a,2009,Morphotype Uniformity,1 Uniform
+N081a,2009,Number of Leaves,3 Few
+N081a,2009,Leaf Angle,3 Semiprostrate
+N081a,2009,Leaf Margin,3 Serrate
+N081a,2009,Leaf Incision,2 Sinuate
+N081a,2009,Leaf Blade Thickness,5 Intermediate
+N081a,2009,Leaf Blade Blistering,0 None
+N081a,2009,Leaf colour,3 Green
+N081a,2009,Leaf Hairiness,0 Absent
+N081a,2009,Petiole Enlargement,3 Narrow
+N081a,2009,Petiole colour,Purple/green
+N081a,2010,Flower habit,MW
+N081a,2010,SowingDate,2010-06-18
+N081a,2010,EmergencePot1,4
+N081a,2010,EmergencePot2,3
+N081a,2010,EmergencePot3,2
+N081a,2010,EmergencePot4,0
+N081a,2010,EarlyVigour,7
+N081a,2010,Flower Date,2010-09-15
+N081a,2010,2nd Flower date,2010-11-17
+N081a,2010,Flower type,MW
+N081a,2010,Flower colour,Yellow
+N081a,2010,DaysToFlower,0
+N081a,2010,Morphotype Uniformity,1 Uniform
+N081a,2010,Number of Leaves,5 Intermediate
+N081a,2010,Leaf Angle,2 Open
+N081a,2010,Leaf Margin,2 Dentate
+N081a,2010,Leaf Incision,3 Lyrate
+N081a,2010,Leaf Blade Thickness,3 Thin
+N081a,2010,Leaf Blade Blistering,0 None
+N081a,2010,Leaf colour,4 Dark green
+N081a,2010,Leaf Hairiness,0 Absent
+N081a,2010,Petiole Enlargement,3 Narrow
+N081a,2010,Petiole colour,1 White
+N081b,2009,SowingDate,2009-06-12
+N081b,2009,Emergence,1
+N081b,2009,EarlyVigour,1
+N081b,2009,FlowerDate,2009-10-06
+N081b,2009,Maturity,2009-11-20
+N081b,2009,Height,120
+N081b,2009,Morphotype Uniformity,1 Uniform
+N081b,2009,Number of Leaves,3 Few
+N081b,2009,Leaf Angle,3 Semiprostrate
+N081b,2009,Leaf Margin,3 Serrate
+N081b,2009,Leaf Incision,2 Sinuate
+N081b,2009,Leaf Blade Thickness,5 Intermediate
+N081b,2009,Leaf Blade Blistering,0 None
+N081b,2009,Leaf colour,3 Green
+N081b,2009,Leaf Hairiness,0 Absent
+N081b,2009,Petiole Enlargement,3 Narrow
+N081b,2009,Petiole colour,Purple/green
+N081b,2010,Flower habit,MW
+N081b,2010,SowingDate,2010-06-18
+N081b,2010,EmergencePot1,4
+N081b,2010,EmergencePot2,3
+N081b,2010,EmergencePot3,2
+N081b,2010,EmergencePot4,0
+N081b,2010,EarlyVigour,7
+N081b,2010,Flower Date,2010-09-15
+N081b,2010,2nd Flower date,2010-11-17
+N081b,2010,Flower type,MW
+N081b,2010,Flower colour,Yellow
+N081b,2010,DaysToFlower,0
+N081b,2010,Morphotype Uniformity,1 Uniform
+N081b,2010,Number of Leaves,5 Intermediate
+N081b,2010,Leaf Angle,2 Open
+N081b,2010,Leaf Margin,2 Dentate
+N081b,2010,Leaf Incision,3 Lyrate
+N081b,2010,Leaf Blade Thickness,3 Thin
+N081b,2010,Leaf Blade Blistering,0 None
+N081b,2010,Leaf colour,4 Dark green
+N081b,2010,Leaf Hairiness,0 Absent
+N081b,2010,Petiole Enlargement,3 Narrow
+N081b,2010,Petiole colour,1 White
+N082,2009,SowingDate,2009-05-20
+N082,2009,Emergence,5
+N082,2009,EarlyVigour,5
+N082,2009,FlowerDate,2009-09-24
+N082,2009,Maturity,2009-12-04
+N082,2009,Height,220
+N082,2009,Morphotype Uniformity,1 Uniform
+N082,2009,Number of Leaves,5 Intermediate
+N082,2009,Leaf Angle,3 Semiprostrate
+N082,2009,Leaf Margin,2 Dentate
+N082,2009,Leaf Incision,3 Lyrate
+N082,2009,Leaf Blade Thickness,5 Intermediate
+N082,2009,Leaf Blade Blistering,0 None
+N082,2009,Leaf colour,3 Green
+N082,2009,Leaf Hairiness,0 Absent
+N082,2009,Petiole Enlargement,3 Narrow
+N082,2009,Petiole colour,1 White
+N085,2010,Flower habit,SW
+N085,2010,SowingDate,2010-06-18
+N085,2010,EmergencePot1,1
+N085,2010,EmergencePot2,2
+N085,2010,EmergencePot3,1
+N085,2010,EmergencePot4,0
+N085,2010,EarlyVigour,3
+N085,2010,Flower Date,2010-10-04
+N085,2010,2nd Flower date,2010-11-26
+N085,2010,Flower type,SW
+N085,2010,Flower colour,Yellow
+N085,2010,DaysToFlower,0
+N085,2010,Morphotype Uniformity,3 Two or more distinct types
+N085,2010,Number of Leaves,5 Intermediate
+N085,2010,Leaf Angle,2 Open
+N085,2010,Leaf Margin,2 Dentate
+N085,2010,Leaf Incision,3 Lyrate
+N085,2010,Leaf Blade Thickness,3 Thin
+N085,2010,Leaf Blade Blistering,0 None
+N085,2010,Leaf colour,4 Dark green
+N085,2010,Leaf Hairiness,0 Absent
+N085,2010,Petiole Enlargement,3 Narrow
+N085,2010,Petiole colour,1 White
+N086,2010,Flower habit,MW
+N086,2010,SowingDate,2010-06-18
+N086,2010,EmergencePot1,4
+N086,2010,EmergencePot2,4
+N086,2010,EmergencePot3,3
+N086,2010,EmergencePot4,0
+N086,2010,EarlyVigour,7
+N086,2010,Flower Date,2010-10-06
+N086,2010,2nd Flower date,2010-12-13
+N086,2010,Flower type,MW
+N086,2010,Flower colour,Yellow
+N086,2010,DaysToFlower,0
+N086,2010,Morphotype Uniformity,1 Uniform
+N086,2010,Number of Leaves,5 Intermediate
+N086,2010,Leaf Angle,2 Open
+N086,2010,Leaf Margin,5 Doubly dentate
+N086,2010,Leaf Incision,3 Lyrate
+N086,2010,Leaf Blade Thickness,3 Thin
+N086,2010,Leaf Blade Blistering,0 None
+N086,2010,Leaf colour,4 Dark green
+N086,2010,Leaf Hairiness,0 Absent
+N086,2010,Petiole Enlargement,3 Narrow
+N086,2010,Petiole colour,1 White
+N093,2010,Flower habit,MW
+N093,2010,SowingDate,2010-06-18
+N093,2010,EmergencePot1,4
+N093,2010,EmergencePot2,4
+N093,2010,EmergencePot3,4
+N093,2010,EmergencePot4,0
+N093,2010,EarlyVigour,7
+N093,2010,Flower Date,2010-09-13
+N093,2010,2nd Flower date,2010-11-09
+N093,2010,Flower type,MW
+N093,2010,Flower colour,Yellow
+N093,2010,DaysToFlower,0
+N093,2010,Morphotype Uniformity,1 Uniform
+N093,2010,Number of Leaves,5 Intermediate
+N093,2010,Leaf Angle,2 Open
+N093,2010,Leaf Margin,5 Doubly dentate
+N093,2010,Leaf Incision,3 Lyrate
+N093,2010,Leaf Blade Thickness,3 Thin
+N093,2010,Leaf Blade Blistering,0 None
+N093,2010,Leaf colour,4 Dark green
+N093,2010,Leaf Hairiness,0 Absent
+N093,2010,Petiole Enlargement,3 Narrow
+N093,2010,Petiole colour,1 White
+N094,2010,Flower habit,MW
+N094,2010,SowingDate,2010-06-18
+N094,2010,EmergencePot1,4
+N094,2010,EmergencePot2,2
+N094,2010,EmergencePot3,4
+N094,2010,EmergencePot4,0
+N094,2010,EarlyVigour,7
+N094,2010,Flower Date,2010-09-29
+N094,2010,2nd Flower date,2010-11-24
+N094,2010,Flower type,MW
+N094,2010,Flower colour,Yellow
+N094,2010,DaysToFlower,0
+N094,2010,Morphotype Uniformity,1 Uniform
+N094,2010,Number of Leaves,7 High
+N094,2010,Leaf Angle,2 Open
+N094,2010,Leaf Margin,2 Dentate
+N094,2010,Leaf Incision,3 Lyrate
+N094,2010,Leaf Blade Thickness,3 Thin
+N094,2010,Leaf Blade Blistering,0 None
+N094,2010,Leaf colour,4 Dark green
+N094,2010,Leaf Hairiness,0 Absent
+N094,2010,Petiole Enlargement,3 Narrow
+N094,2010,Petiole colour,1 White
+N095,2009,SowingDate,2009-05-27
+N095,2009,Emergence,9
+N095,2009,EarlyVigour,7
+N095,2009,FlowerDate,2009-09-08
+N095,2009,Maturity,2009-12-04
+N095,2009,Height,180
+N095,2009,Morphotype Uniformity,1 Uniform
+N095,2009,Number of Leaves,5 Intermediate
+N095,2009,Leaf Angle,3 Semiprostrate
+N095,2009,Leaf Margin,2 Dentate
+N095,2009,Leaf Incision,3 Lyrate
+N095,2009,Leaf Blade Thickness,5 Intermediate
+N095,2009,Leaf Blade Blistering,0 None
+N095,2009,Leaf colour,3 Green
+N095,2009,Leaf Hairiness,0 Absent
+N095,2009,Petiole Enlargement,3 Narrow
+N095,2009,Petiole colour,1 White
+N095,2010,Flower habit,MW
+N095,2010,SowingDate,2010-06-18
+N095,2010,EmergencePot1,4
+N095,2010,EmergencePot2,3
+N095,2010,EmergencePot3,4
+N095,2010,EmergencePot4,0
+N095,2010,EarlyVigour,7
+N095,2010,Flower Date,2010-09-13
+N095,2010,2nd Flower date,2010-11-15
+N095,2010,Flower type,MW
+N095,2010,Flower colour,Yellow
+N095,2010,DaysToFlower,0
+N095,2010,Morphotype Uniformity,1 Uniform
+N095,2010,Number of Leaves,5 Intermediate
+N095,2010,Leaf Angle,2 Open
+N095,2010,Leaf Margin,2 Dentate
+N095,2010,Leaf Incision,3 Lyrate
+N095,2010,Leaf Blade Thickness,3 Thin
+N095,2010,Leaf Blade Blistering,0 None
+N095,2010,Leaf colour,4 Dark green
+N095,2010,Leaf Hairiness,0 Absent
+N095,2010,Petiole Enlargement,3 Narrow
+N095,2010,Petiole colour,1 White
+N096,2009,SowingDate,2009-05-29
+N096,2009,Emergence,5
+N096,2009,EarlyVigour,5
+N096,2009,FlowerDate,2009-09-15
+N096,2009,Maturity,2009-11-20
+N096,2009,Height,160
+N096,2009,Morphotype Uniformity,1 Uniform
+N096,2009,Number of Leaves,5 Intermediate
+N096,2009,Leaf Angle,3 Semiprostrate
+N096,2009,Leaf Margin,4 Undulate
+N096,2009,Leaf Incision,2 Sinuate
+N096,2009,Leaf Blade Thickness,5 Intermediate
+N096,2009,Leaf Blade Blistering,0 None
+N096,2009,Leaf colour,3 Green
+N096,2009,Leaf Hairiness,0 Absent
+N096,2009,Petiole Enlargement,3 Narrow
+N096,2009,Petiole colour,1 White
+N096,2010,Flower habit,W
+N096,2010,SowingDate,2010-06-18
+N096,2010,EmergencePot1,5
+N096,2010,EmergencePot2,4
+N096,2010,EmergencePot3,3
+N096,2010,EmergencePot4,0
+N096,2010,EarlyVigour,5
+N096,2010,Flower Date,2010-09-02
+N096,2010,2nd Flower date,2010-11-19
+N096,2010,Flower type,W
+N096,2010,Flower colour,Yellow
+N096,2010,DaysToFlower,0
+N096,2010,Morphotype Uniformity,1 Uniform
+N096,2010,Number of Leaves,5 Intermediate
+N096,2010,Leaf Angle,2 Open
+N096,2010,Leaf Margin,5 Doubly dentate
+N096,2010,Leaf Incision,3 Lyrate
+N096,2010,Leaf Blade Thickness,3 Thin
+N096,2010,Leaf Blade Blistering,0 None
+N096,2010,Leaf colour,4 Dark green
+N096,2010,Leaf Hairiness,0 Absent
+N096,2010,Petiole Enlargement,3 Narrow
+N096,2010,Petiole colour,1 White
+J03,2011-2012,SowingDate,2011-07-15
+J03,2011-2012,Early Vigour,7-Medium high
+J03,2011-2012,Morphotype uniformity,1 Uniform
+J03,2011-2012,Flower Date,2011-09-24
+J03,2011-2012,Number of leaves,5 Intermediate
+J03,2011-2012,Leaf Angle,3 Semiprostrate
+J03,2011-2012,Leaf Margin,3 Serrate
+J03,2011-2012,Leaf Length,5 Medium
+J03,2011-2012,Leaf Width,5 Medium
+J03,2011-2012,Leaf Incision,3-Lyrate
+J03,2011-2012,Flower Stalk Length,5 Intermediate
+J03,2011-2012,Degree of Branching,3 Tertiary
+J03,2011-2012,Maturity,2011-12-23
+J03,2011-2012,Height,Medium
+J03,2011-2012,Yield,27.8
+J04a,2011-2012,SowingDate,2011-07-15
+J04a,2011-2012,Early Vigour,7-Medium high
+J04a,2011-2012,Morphotype uniformity,1 Uniform
+J04a,2011-2012,Flower Date,2011-10-03
+J04a,2011-2012,Number of leaves,5 Intermediate
+J04a,2011-2012,Leaf Angle,4 Prostrate
+J04a,2011-2012,Leaf Margin,1 Crenate
+J04a,2011-2012,Leaf Length,5 Medium
+J04a,2011-2012,Leaf Width,5 Medium
+J04a,2011-2012,Leaf Incision,3-Lyrate
+J04a,2011-2012,Flower Stalk Length,5 Intermediate
+J04a,2011-2012,Degree of Branching,3 Tertiary
+J04a,2011-2012,Maturity,2011-12-23
+J04a,2011-2012,Height,Medium
+J04a,2011-2012,Yield,15.8
+J04b,2011-2012,SowingDate,2011-07-15
+J04b,2011-2012,Early Vigour,7-Medium high
+J04b,2011-2012,Morphotype uniformity,1 Uniform
+J04b,2011-2012,Flower Date,2011-10-03
+J04b,2011-2012,Number of leaves,5 Intermediate
+J04b,2011-2012,Leaf Angle,4 Prostrate
+J04b,2011-2012,Leaf Margin,1 Crenate
+J04b,2011-2012,Leaf Length,5 Medium
+J04b,2011-2012,Leaf Width,5 Medium
+J04b,2011-2012,Leaf Incision,3-Lyrate
+J04b,2011-2012,Flower Stalk Length,5 Intermediate
+J04b,2011-2012,Degree of Branching,3 Tertiary
+J04b,2011-2012,Maturity,2011-12-23
+J04b,2011-2012,Height,Medium
+J04b,2011-2012,Yield,15.8
+N101a,2011-2012,Vernalization date,2011-05-24
+N101a,2011-2012,SowingDate,2011-07-16
+N101a,2011-2012,Remark,"Tuberous root, mix"
+N101a,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+N101a,2011-2012,Leaf Margin,5 Doubly dentate
+N101a,2011-2012,Leaf Length,7 Long
+N101a,2011-2012,Leaf Width,7 Wide
+N101a,2011-2012,Flower Stalk Length,5 Intermediate
+N101a,2011-2012,Degree of Branching,2 Secondary
+N101a,2011-2012,Maturity,2011-12-29
+N101a,2011-2012,Height,Medium
+N101a,2011-2012,Yield,3.8
+N101b,2011-2012,Vernalization date,2011-05-24
+N101b,2011-2012,SowingDate,2011-07-16
+N101b,2011-2012,Remark,"Tuberous root, mix"
+N101b,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+N101b,2011-2012,Leaf Margin,5 Doubly dentate
+N101b,2011-2012,Leaf Length,7 Long
+N101b,2011-2012,Leaf Width,7 Wide
+N101b,2011-2012,Flower Stalk Length,5 Intermediate
+N101b,2011-2012,Degree of Branching,2 Secondary
+N101b,2011-2012,Maturity,2011-12-29
+N101b,2011-2012,Height,Medium
+N101b,2011-2012,Yield,3.8
+N102,2011-2012,Vernalization date,2011-05-17
+N102,2011-2012,SowingDate,2011-07-07
+N102,2011-2012,Flower Date,2011-10-05
+N102,2011-2012,Leaf Margin,3 Serrate
+N102,2011-2012,Leaf Length,7 Long
+N102,2011-2012,Leaf Width,5 Medium
+N102,2011-2012,Leaf Incision,3 Lyrate
+N102,2011-2012,Flower Stalk Length,7 Long
+N102,2011-2012,Degree of Branching,1 Primary
+N102,2011-2012,Maturity,2012-01-29
+N102,2011-2012,Height,Tall
+N102,2011-2012,Yield,50.5
+N103a,2011-2012,Vernalization date,2011-05-17
+N103a,2011-2012,SowingDate,2011-07-07
+N103a,2011-2012,Flower Date,2011-09-30
+N103a,2011-2012,Leaf Margin,1 Crenate
+N103a,2011-2012,Leaf Length,7 Long
+N103a,2011-2012,Leaf Width,7 Wide
+N103a,2011-2012,Leaf Incision,3 Lyrate
+N103a,2011-2012,Flower Stalk Length,7 Long
+N103a,2011-2012,Degree of Branching,2 Secondary
+N103a,2011-2012,Maturity,2012-02-02
+N103a,2011-2012,Height,Tall
+N103a,2011-2012,Yield,20.3
+N103b,2011-2012,Vernalization date,2011-05-17
+N103b,2011-2012,SowingDate,2011-07-07
+N103b,2011-2012,Flower Date,2011-09-30
+N103b,2011-2012,Leaf Margin,1 Crenate
+N103b,2011-2012,Leaf Length,7 Long
+N103b,2011-2012,Leaf Width,7 Wide
+N103b,2011-2012,Leaf Incision,3 Lyrate
+N103b,2011-2012,Flower Stalk Length,7 Long
+N103b,2011-2012,Degree of Branching,2 Secondary
+N103b,2011-2012,Maturity,2012-02-02
+N103b,2011-2012,Height,Tall
+N103b,2011-2012,Yield,20.3
+N104,2011-2012,Vernalization date,2011-05-17
+N104,2011-2012,SowingDate,2011-07-07
+N104,2011-2012,Flower Date,2011-09-30
+N104,2011-2012,Leaf Margin,2 Dentate
+N104,2011-2012,Leaf Length,7 Long
+N104,2011-2012,Leaf Width,5 Medium
+N104,2011-2012,Leaf Incision,3 Lyrate
+N104,2011-2012,Flower Stalk Length,7 Long
+N104,2011-2012,Degree of Branching,1 Primary
+N104,2011-2012,Maturity,2012-01-05
+N104,2011-2012,Height,Tall
+N104,2011-2012,Yield,16.1
+N105a,2011-2012,Vernalization date,2011-05-17
+N105a,2011-2012,SowingDate,2011-07-07
+N105a,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+N105a,2011-2012,Leaf Margin,2 Dentate
+N105a,2011-2012,Leaf Length,7 Long
+N105a,2011-2012,Leaf Width,7 Wide
+N105a,2011-2012,Flower Stalk Length,7 Long
+N105a,2011-2012,Degree of Branching,2 Secondary
+N105a,2011-2012,Maturity,2012-01-04
+N105a,2011-2012,Height,Tall
+N105a,2011-2012,Yield,4.9
+N105b,2011-2012,Vernalization date,2011-05-17
+N105b,2011-2012,SowingDate,2011-07-07
+N105b,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+N105b,2011-2012,Leaf Margin,2 Dentate
+N105b,2011-2012,Leaf Length,7 Long
+N105b,2011-2012,Leaf Width,7 Wide
+N105b,2011-2012,Flower Stalk Length,7 Long
+N105b,2011-2012,Degree of Branching,2 Secondary
+N105b,2011-2012,Maturity,2012-01-04
+N105b,2011-2012,Height,Tall
+N105b,2011-2012,Yield,4.9
+N106,2011-2012,Vernalization date,2011-05-12
+N106,2011-2012,SowingDate,2011-06-28
+N106,2011-2012,Flowering 11 Nov,4 Flowers plus small pods
+N106,2011-2012,Leaf Margin,5 Doubly dentate
+N106,2011-2012,Leaf Length,5 Medium
+N106,2011-2012,Leaf Width,5 Medium
+N106,2011-2012,Flower Stalk Length,7 Long
+N106,2011-2012,Degree of Branching,2 Secondary
+N106,2011-2012,Maturity,2012-01-29
+N106,2011-2012,Height,Tall
+N106,2011-2012,Yield,30.6
+N107,2011-2012,Vernalization date,2011-05-12
+N107,2011-2012,SowingDate,2011-06-28
+N107,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+N107,2011-2012,Leaf Margin,2 Dentate
+N107,2011-2012,Leaf Length,7 Long
+N107,2011-2012,Leaf Width,7 Wide
+N107,2011-2012,Flower Stalk Length,7 Long
+N107,2011-2012,Degree of Branching,1 Primary
+N107,2011-2012,Maturity,2012-01-29
+N107,2011-2012,Height,Tall
+N107,2011-2012,Yield,12.8
+N108,2011-2012,Vernalization date,2011-05-12
+N108,2011-2012,SowingDate,2011-06-28
+N108,2011-2012,Flower Date,2011-10-06
+N108,2011-2012,Leaf Margin,2 Dentate
+N108,2011-2012,Leaf Length,5 Medium
+N108,2011-2012,Leaf Width,5 Medium
+N108,2011-2012,Leaf Incision,3 Lyrate
+N108,2011-2012,Flower Stalk Length,3 Short
+N108,2011-2012,Degree of Branching,0 None
+N108,2011-2012,Maturity,2012-01-28
+N108,2011-2012,Height,Medium
+N108,2011-2012,Yield,4.8
+N109,2011-2012,Vernalization date,2011-05-12
+N109,2011-2012,SowingDate,2011-06-28
+N109,2011-2012,Flowering 11 Nov,3 Flowers plus full pods
+N109,2011-2012,Leaf Margin,1 Crenate
+N109,2011-2012,Leaf Length,7 Long
+N109,2011-2012,Leaf Width,5 Medium
+N109,2011-2012,Flower Stalk Length,5 Intermediate
+N109,2011-2012,Degree of Branching,1 Primary
+N109,2011-2012,Maturity,2012-01-25
+N109,2011-2012,Height,Tall
+J05,2011-2012,Vernalization date,2012-07-06
+J05,2011-2012,Remark,"Tuber base stem, manyaphids ? Attracted."
+J05,2011-2012,Morphotype uniformity,1 Uniform
+J05,2011-2012,Flower Date,2012-12-31
+J05,2011-2012,Flower colour,Yellow
+J05,2011-2012,Number of leaves,3 Few
+J05,2011-2012,Leaf Angle,1 Erect
+J05,2011-2012,Leaf Margin,1 Crenate
+J05,2011-2012,Leaf Length,5 Medium
+J05,2011-2012,Leaf Width,5 Medium
+J05,2011-2012,Leaf Incision,4 Lacerate
+J05,2011-2012,Maturity,2013-01-17
+J06,2011-2012,Vernalization date,2012-07-06
+J06,2011-2012,Morphotype uniformity,1 Uniform
+J06,2011-2012,Flower Date,2012-10-23
+J06,2011-2012,Flower colour,Yellow
+J06,2011-2012,Number of leaves,3 Few
+J06,2011-2012,Leaf Angle,3 Semiprostrate
+J06,2011-2012,Leaf Margin,5 Doubly dentate
+J06,2011-2012,Leaf Length,5 Medium
+J06,2011-2012,Leaf Width,5 Medium
+J06,2011-2012,Leaf Incision,4 Lacerate
+J06,2011-2012,Flower Stalk Length,7 Long
+J06,2011-2012,Degree of Branching,2 Secondary
+J06,2011-2012,Maturity,2012-12-31
+J06,2011-2012,Height,7 Tall
+J06,2011-2012,Seed colour,Brown
+J06,2011-2012,Seed size,Small
+J07,2011-2012,Vernalization date,2012-07-06
+J07,2011-2012,Morphotype uniformity,1 Uniform
+J07,2011-2012,Flower Date,2012-10-26
+J07,2011-2012,Flower colour,Yellow
+J07,2011-2012,Number of leaves,3 Few
+J07,2011-2012,Leaf Angle,3 Semiprostrate
+J07,2011-2012,Leaf Margin,5 Doubly dentate
+J07,2011-2012,Leaf Length,7 Long
+J07,2011-2012,Leaf Width,5 Medium
+J07,2011-2012,Leaf Incision,1 Entire
+J07,2011-2012,Flower Stalk Length,7 Long
+J07,2011-2012,Degree of Branching,2 Secondary
+J07,2011-2012,Maturity,2012-12-21
+J07,2011-2012,Height,7 Tall
+J07,2011-2012,Seed colour,Brown
+J07,2011-2012,Seed size,Medium
+J08,2011-2012,Vernalization date,2012-07-06
+J08,2011-2012,Morphotype uniformity,1 Uniform
+J08,2011-2012,Flower Date,2012-10-23
+J08,2011-2012,Flower colour,Yellow
+J08,2011-2012,Number of leaves,5 Intermediate
+J08,2011-2012,Leaf Angle,3 Semiprostrate
+J08,2011-2012,Leaf Margin,5 Doubly dentate
+J08,2011-2012,Leaf Length,7 Long
+J08,2011-2012,Leaf Width,5 Medium
+J08,2011-2012,Leaf Incision,1 Entire
+J08,2011-2012,Maturity,2012-12-23
+J08,2011-2012,Seed colour,Brown
+J08,2011-2012,Seed size,Medium
+J09,2011-2012,Vernalization date,2012-07-06
+J09,2011-2012,Morphotype uniformity,1 Uniform
+J09,2011-2012,Flower Date,2012-10-19
+J09,2011-2012,Flower colour,Yellow
+J09,2011-2012,Number of leaves,3 Few
+J09,2011-2012,Leaf Angle,3 Semiprostrate
+J09,2011-2012,Leaf Margin,1 Crenate
+J09,2011-2012,Leaf Length,5 Medium
+J09,2011-2012,Leaf Width,7 Wide
+J09,2011-2012,Leaf Incision,1 Entire
+J09,2011-2012,Flower Stalk Length,5 Intermediate
+J09,2011-2012,Degree of Branching,2 Secondary
+J09,2011-2012,Maturity,2012-12-15
+J09,2011-2012,Height,5 Medium
+J09,2011-2012,Seed colour,Mixture
+J09,2011-2012,Seed size,Small
+J10,2011-2012,Vernalization date,2012-07-06
+J10,2011-2012,Morphotype uniformity,1 Uniform
+J10,2011-2012,Flower Date,2012-10-19
+J10,2011-2012,Flower colour,Yellow
+J10,2011-2012,Number of leaves,3 Few
+J10,2011-2012,Leaf Angle,3 Semiprostrate
+J10,2011-2012,Leaf Margin,4 Undulate
+J10,2011-2012,Leaf Length,5 Medium
+J10,2011-2012,Leaf Width,3 Narrow
+J10,2011-2012,Leaf Incision,3 Lyrate
+J10,2011-2012,Flower Stalk Length,7 Long
+J10,2011-2012,Degree of Branching,2 Secondary
+J10,2011-2012,Maturity,2012-12-24
+J10,2011-2012,Height,7 Tall
+J10,2011-2012,Seed colour,Brown
+J10,2011-2012,Seed size,Small
+J11,2011-2012,Vernalization date,2012-07-06
+J11,2011-2012,Morphotype uniformity,1 Uniform
+J11,2011-2012,Flower Date,2012-09-21
+J11,2011-2012,Flower colour,Yellow
+J11,2011-2012,Number of leaves,5 Intermediate
+J11,2011-2012,Leaf Angle,3 Semiprostrate
+J11,2011-2012,Leaf Margin,3 Serrate
+J11,2011-2012,Leaf Length,7 Long
+J11,2011-2012,Leaf Width,3 Narrow
+J11,2011-2012,Leaf Incision,4 Lacerate
+J11,2011-2012,Flower Stalk Length,5 Intermediate
+J11,2011-2012,Degree of Branching,2 Secondary
+J11,2011-2012,Maturity,2013-01-07
+J11,2011-2012,Height,5 Medium
+J11,2011-2012,Seed colour,Brown
+J11,2011-2012,Seed size,Medium
+J12a,2011-2012,Vernalization date,2012-07-06
+J12a,2011-2012,Morphotype uniformity,1 Uniform
+J12a,2011-2012,Flower Date,2012-10-26
+J12a,2011-2012,Flower colour,Yellow
+J12a,2011-2012,Number of leaves,3 Few
+J12a,2011-2012,Leaf Angle,1 Erect
+J12a,2011-2012,Leaf Margin,1 Crenate
+J12a,2011-2012,Leaf Length,5 Medium
+J12a,2011-2012,Leaf Width,5 Medium
+J12a,2011-2012,Leaf Incision,1 Entire
+J12a,2011-2012,Flower Stalk Length,7 Long
+J12a,2011-2012,Degree of Branching,2 Secondary
+J12a,2011-2012,Maturity,2012-12-18
+J12a,2011-2012,Height,7 Tall
+J12a,2011-2012,Seed colour,Brown
+J12a,2011-2012,Seed size,Small
+J12b,2011-2012,Vernalization date,2012-07-06
+J12b,2011-2012,Morphotype uniformity,1 Uniform
+J12b,2011-2012,Flower Date,2012-10-26
+J12b,2011-2012,Flower colour,Yellow
+J12b,2011-2012,Number of leaves,3 Few
+J12b,2011-2012,Leaf Angle,1 Erect
+J12b,2011-2012,Leaf Margin,1 Crenate
+J12b,2011-2012,Leaf Length,5 Medium
+J12b,2011-2012,Leaf Width,5 Medium
+J12b,2011-2012,Leaf Incision,1 Entire
+J12b,2011-2012,Flower Stalk Length,7 Long
+J12b,2011-2012,Degree of Branching,2 Secondary
+J12b,2011-2012,Maturity,2012-12-18
+J12b,2011-2012,Height,7 Tall
+J12b,2011-2012,Seed colour,Brown
+J12b,2011-2012,Seed size,Small
+J13,2011-2012,Vernalization date,2012-07-06
+J13,2011-2012,Morphotype uniformity,1 Uniform
+J13,2011-2012,Flower Date,2012-10-17
+J13,2011-2012,Flower colour,Yellow
+J13,2011-2012,Number of leaves,3 Few
+J13,2011-2012,Leaf Angle,2 Open
+J13,2011-2012,Leaf Margin,1 Crenate
+J13,2011-2012,Leaf Length,7 Long
+J13,2011-2012,Leaf Width,7 Wide
+J13,2011-2012,Leaf Incision,3 Lyrate
+J13,2011-2012,Flower Stalk Length,7 Long
+J13,2011-2012,Degree of Branching,2 Secondary
+J13,2011-2012,Maturity,2012-12-19
+J13,2011-2012,Height,7 Tall
+J13,2011-2012,Seed colour,Brown
+J13,2011-2012,Seed size,Medium
+J14,2011-2012,Vernalization date,2012-07-06
+J14,2011-2012,Morphotype uniformity,2 Continuous
+J14,2011-2012,Flower Date,2012-10-27
+J14,2011-2012,Flower colour,Yellow
+J14,2011-2012,Number of leaves,3 Few
+J14,2011-2012,Leaf Angle,1 Erect
+J14,2011-2012,Leaf Margin,5 Doubly dentate
+J14,2011-2012,Leaf Length,7 Long
+J14,2011-2012,Leaf Width,5 Medium
+J14,2011-2012,Leaf Incision,4 Lacerate
+J14,2011-2012,Flower Stalk Length,7 Long
+J14,2011-2012,Degree of Branching,2 Secondary
+J14,2011-2012,Maturity,2012-12-19
+J14,2011-2012,Height,7 Tall
+J14,2011-2012,Seed colour,Brown
+J14,2011-2012,Seed size,Small
+J15,2011-2012,Vernalization date,2012-07-06
+J15,2011-2012,Morphotype uniformity,1 Uniform
+J15,2011-2012,Flower Date,2012-10-11
+J15,2011-2012,Flower colour,Yellow
+J15,2011-2012,Number of leaves,3 Few
+J15,2011-2012,Leaf Angle,1 Erect
+J15,2011-2012,Leaf Margin,1 Crenate
+J15,2011-2012,Leaf Length,7 Long
+J15,2011-2012,Leaf Width,7 Wide
+J15,2011-2012,Leaf Incision,3 Lyrate
+J15,2011-2012,Flower Stalk Length,7 Long
+J15,2011-2012,Degree of Branching,2 Secondary
+J15,2011-2012,Maturity,2012-12-17
+J15,2011-2012,Height,7 Tall
+J15,2011-2012,Seed colour,Mixture
+J15,2011-2012,Seed size,Small
+J16,2011-2012,Vernalization date,2012-07-06
+J16,2011-2012,Morphotype uniformity,1 Uniform
+J16,2011-2012,Flower Date,2012-10-24
+J16,2011-2012,Flower colour,Yellow
+J16,2011-2012,Number of leaves,5 Intermediate
+J16,2011-2012,Leaf Angle,3 Semiprostrate
+J16,2011-2012,Leaf Margin,5 Doubly dentate
+J16,2011-2012,Leaf Length,5 Medium
+J16,2011-2012,Leaf Width,5 Medium
+J16,2011-2012,Leaf Incision,3 Lyrate
+J16,2011-2012,Flower Stalk Length,7 Long
+J16,2011-2012,Degree of Branching,3 Tertiary
+J16,2011-2012,Maturity,2012-12-23
+J16,2011-2012,Height,7 Tall
+J16,2011-2012,Seed colour,Brown
+J16,2011-2012,Seed size,Medium
+J17,2011-2012,Vernalization date,2012-07-06
+J17,2011-2012,Morphotype uniformity,1 Uniform
+J17,2011-2012,Flower Date,2012-10-14
+J17,2011-2012,Flower colour,Yellow
+J17,2011-2012,Number of leaves,3 Few
+J17,2011-2012,Leaf Angle,2 Open
+J17,2011-2012,Leaf Margin,5 Doubly dentate
+J17,2011-2012,Leaf Length,5 Medium
+J17,2011-2012,Leaf Width,5 Medium
+J17,2011-2012,Leaf Incision,4 Lacerate
+J17,2011-2012,Flower Stalk Length,7 Long
+J17,2011-2012,Degree of Branching,2 Secondary
+J17,2011-2012,Maturity,2012-12-25
+J17,2011-2012,Height,7 Tall
+J17,2011-2012,Seed colour,Brown
+J17,2011-2012,Seed size,Small
+J18,2011-2012,Vernalization date,2012-07-06
+J18,2011-2012,Morphotype uniformity,2 Continuous
+J18,2011-2012,Flower Date,2012-10-27
+J18,2011-2012,Flower colour,Yellow
+J18,2011-2012,Number of leaves,3 Few
+J18,2011-2012,Leaf Angle,2 Open
+J18,2011-2012,Leaf Margin,2 Dentate
+J18,2011-2012,Leaf Length,5 Medium
+J18,2011-2012,Leaf Width,5 Medium
+J18,2011-2012,Leaf Incision,1 Entire
+J18,2011-2012,Flower Stalk Length,5 Intermediate
+J18,2011-2012,Degree of Branching,2 Secondary
+J18,2011-2012,Maturity,2012-12-28
+J18,2011-2012,Height,5 Medium
+J18,2011-2012,Seed colour,Brown
+J18,2011-2012,Seed size,Small
+J19,2011-2012,Vernalization date,2012-07-06
+J19,2011-2012,Morphotype uniformity,1 Uniform
+J19,2011-2012,Flower Date,2012-10-05
+J19,2011-2012,Flower colour,Yellow
+J19,2011-2012,Number of leaves,3 Few
+J19,2011-2012,Leaf Angle,3 Semiprostrate
+J19,2011-2012,Leaf Margin,1 Crenate
+J19,2011-2012,Leaf Length,3 Short
+J19,2011-2012,Leaf Width,5 Medium
+J19,2011-2012,Leaf Incision,1 Entire
+J19,2011-2012,Flower Stalk Length,7 Long
+J19,2011-2012,Degree of Branching,2 Secondary
+J19,2011-2012,Maturity,2012-12-19
+J19,2011-2012,Height,7 Tall
+J19,2011-2012,Seed colour,Brown
+J19,2011-2012,Seed size,Small
+J20,2011-2012,Vernalization date,2012-07-06
+J20,2011-2012,Morphotype uniformity,2 Continuous
+J20,2011-2012,Flower Date,2012-09-24
+J20,2011-2012,Flower colour,Yellow
+J20,2011-2012,Number of leaves,5 Intermediate
+J20,2011-2012,Leaf Angle,3 Semiprostrate
+J20,2011-2012,Leaf Margin,3 Serrate
+J20,2011-2012,Leaf Length,3 Short
+J20,2011-2012,Leaf Width,5 Medium
+J20,2011-2012,Leaf Incision,1 Entire
+J20,2011-2012,Flower Stalk Length,5 Intermediate
+J20,2011-2012,Degree of Branching,2 Secondary
+J20,2011-2012,Maturity,2013-01-01
+J20,2011-2012,Height,5 Medium
+J20,2011-2012,Seed colour,Brown
+J20,2011-2012,Seed size,Medium
+J21,2011-2012,Vernalization date,2012-07-06
+J21,2011-2012,Morphotype uniformity,1 Uniform
+J21,2011-2012,Flower Date,2012-09-29
+J21,2011-2012,Flower colour,Yellow
+J21,2011-2012,Number of leaves,3 Few
+J21,2011-2012,Leaf Angle,3 Semiprostrate
+J21,2011-2012,Leaf Margin,1 Crenate
+J21,2011-2012,Leaf Length,5 Medium
+J21,2011-2012,Leaf Width,7 Wide
+J21,2011-2012,Leaf Incision,1 Entire
+J21,2011-2012,Flower Stalk Length,5 Intermediate
+J21,2011-2012,Degree of Branching,0 None
+J21,2011-2012,Maturity,2012-12-21
+J21,2011-2012,Height,5 Medium
+J21,2011-2012,Seed colour,Brown
+J21,2011-2012,Seed size,Medium
+J22,2011-2012,Vernalization date,2012-07-06
+J22,2011-2012,Morphotype uniformity,2 Continuous
+J22,2011-2012,Flower Date,2012-10-03
+J22,2011-2012,Flower colour,Yellow
+J22,2011-2012,Number of leaves,3 Few
+J22,2011-2012,Leaf Angle,1 Erect
+J22,2011-2012,Leaf Margin,1 Crenate
+J22,2011-2012,Leaf Length,5 Medium
+J22,2011-2012,Leaf Width,5 Medium
+J22,2011-2012,Leaf Incision,1 Entire
+J22,2011-2012,Flower Stalk Length,7 Long
+J22,2011-2012,Degree of Branching,0 None
+J22,2011-2012,Maturity,2012-12-18
+J22,2011-2012,Height,7 Tall
+J22,2011-2012,Seed colour,Black
+J22,2011-2012,Seed size,Small
+J23,2011-2012,Vernalization date,2012-07-06
+J23,2011-2012,Morphotype uniformity,1 Uniform
+J23,2011-2012,Flower Date,2012-10-28
+J23,2011-2012,Flower colour,Yellow
+J23,2011-2012,Number of leaves,5 Intermediate
+J23,2011-2012,Leaf Angle,3 Semiprostrate
+J23,2011-2012,Leaf Margin,5 Doubly dentate
+J23,2011-2012,Leaf Length,7 Long
+J23,2011-2012,Leaf Width,5 Medium
+J23,2011-2012,Leaf Incision,3 Lyrate
+J23,2011-2012,Flower Stalk Length,5 Intermediate
+J23,2011-2012,Degree of Branching,2 Secondary
+J23,2011-2012,Maturity,2012-12-19
+J23,2011-2012,Height,7 Tall
+J23,2011-2012,Seed colour,Brown
+J23,2011-2012,Seed size,Medium
+J24,2011-2012,Vernalization date,2012-07-06
+J24,2011-2012,Morphotype uniformity,1 Uniform
+J24,2011-2012,Flower Date,2012-10-30
+J24,2011-2012,Flower colour,Yellow
+J24,2011-2012,Number of leaves,5 Intermediate
+J24,2011-2012,Leaf Angle,3 Semiprostrate
+J24,2011-2012,Leaf Margin,2 Dentate
+J24,2011-2012,Leaf Length,7 Long
+J24,2011-2012,Leaf Width,7 Wide
+J24,2011-2012,Leaf Incision,1 Entire
+J24,2011-2012,Flower Stalk Length,5 Intermediate
+J24,2011-2012,Degree of Branching,2 Secondary
+J24,2011-2012,Maturity,2012-12-22
+J24,2011-2012,Height,5 Medium
+J24,2011-2012,Seed colour,Brown
+J24,2011-2012,Seed size,Medium
+J25,2011-2012,Vernalization date,2012-07-06
+J25,2011-2012,Morphotype uniformity,2 Continuous
+J25,2011-2012,Flower Date,2012-11-04
+J25,2011-2012,Flower colour,Yellow
+J25,2011-2012,Number of leaves,5 Intermediate
+J25,2011-2012,Leaf Angle,2 Open
+J25,2011-2012,Leaf Margin,2 Dentate
+J25,2011-2012,Leaf Length,5 Medium
+J25,2011-2012,Leaf Width,7 Wide
+J25,2011-2012,Leaf Incision,1 Entire
+J25,2011-2012,Flower Stalk Length,7 Long
+J25,2011-2012,Degree of Branching,2 Secondary
+J25,2011-2012,Maturity,2012-12-24
+J25,2011-2012,Height,3 Short
+J25,2011-2012,Seed colour,Brown
+J25,2011-2012,Seed size,Small
+J26,2011-2012,Vernalization date,2012-07-06
+J26,2011-2012,Morphotype uniformity,2 Continuous
+J26,2011-2012,Flower Date,2012-10-23
+J26,2011-2012,Flower colour,Yellow
+J26,2011-2012,Number of leaves,5 Intermediate
+J26,2011-2012,Leaf Angle,4 Prostrate
+J26,2011-2012,Leaf Margin,2 Dentate
+J26,2011-2012,Leaf Length,3 Short
+J26,2011-2012,Leaf Width,5 Medium
+J26,2011-2012,Leaf Incision,1 Entire
+J26,2011-2012,Maturity,2012-12-19
+J26,2011-2012,Seed colour,Brown
+J26,2011-2012,Seed size,Small
+J27,2011-2012,Vernalization date,2012-07-06
+J27,2011-2012,Morphotype uniformity,1 Uniform
+J27,2011-2012,Flower Date,2012-10-01
+J27,2011-2012,Flower colour,Yellow
+J27,2011-2012,Number of leaves,3 Few
+J27,2011-2012,Leaf Angle,4 Prostrate
+J27,2011-2012,Leaf Margin,1 Crenate
+J27,2011-2012,Leaf Length,5 Medium
+J27,2011-2012,Leaf Width,5 Medium
+J27,2011-2012,Leaf Incision,4 Lacerate
+J27,2011-2012,Flower Stalk Length,7 Long
+J27,2011-2012,Degree of Branching,2 Secondary
+J27,2011-2012,Maturity,2012-12-20
+J27,2011-2012,Height,7 Tall
+J27,2011-2012,Seed colour,Brown
+J27,2011-2012,Seed size,Small
+J28,2011-2012,Vernalization date,2012-07-06
+J28,2011-2012,Morphotype uniformity,2 Continuous
+J28,2011-2012,Flower Date,2012-01-27
+J28,2011-2012,Flower colour,Yellow
+J28,2011-2012,Number of leaves,3 Few
+J28,2011-2012,Leaf Angle,2 Open
+J28,2011-2012,Leaf Margin,5 Doubly dentate
+J28,2011-2012,Leaf Length,3 Short
+J28,2011-2012,Leaf Width,3 Narrow
+J28,2011-2012,Leaf Incision,4 Lacerate
+J28,2011-2012,Flower Stalk Length,7 Long
+J28,2011-2012,Degree of Branching,2 Secondary
+J28,2011-2012,Maturity,2012-12-31
+J28,2011-2012,Height,7 Tall
+J28,2011-2012,Seed colour,Brown
+J28,2011-2012,Seed size,Medium
+J29,2011-2012,Vernalization date,2012-07-06
+J29,2011-2012,Remark,Leaves completely coloured dark red
+J29,2011-2012,Morphotype uniformity,2 Continuous
+J29,2011-2012,Flower Date,2012-11-04
+J29,2011-2012,Flower colour,Yellow
+J29,2011-2012,Number of leaves,3 Few
+J29,2011-2012,Leaf Angle,3 Semiprostrate
+J29,2011-2012,Leaf Margin,1 Crenate
+J29,2011-2012,Leaf Length,5 Medium
+J29,2011-2012,Leaf Width,7 Wide
+J29,2011-2012,Leaf Incision,4 Lacerate
+J29,2011-2012,Flower Stalk Length,5 Intermediate
+J29,2011-2012,Degree of Branching,3 Tertiary
+J29,2011-2012,Maturity,2012-12-23
+J29,2011-2012,Height,5 Medium
+J29,2011-2012,Seed colour,Brown
+J29,2011-2012,Seed size,Small
+J30,2011-2012,Vernalization date,2012-07-06
+J30,2011-2012,Remark,Leaves completely coloured dark red
+J30,2011-2012,Morphotype uniformity,2 Continuous
+J30,2011-2012,Flower Date,2012-11-04
+J30,2011-2012,Flower colour,Yellow
+J30,2011-2012,Number of leaves,3 Few
+J30,2011-2012,Leaf Angle,3 Semiprostrate
+J30,2011-2012,Leaf Margin,1 Crenate
+J30,2011-2012,Leaf Length,5 Medium
+J30,2011-2012,Leaf Width,7 Wide
+J30,2011-2012,Leaf Incision,4 Lacerate
+J30,2011-2012,Flower Stalk Length,5 Intermediate
+J30,2011-2012,Degree of Branching,3 Tertiary
+J30,2011-2012,Maturity,2012-12-23
+J30,2011-2012,Height,5 Medium
+J30,2011-2012,Seed colour,Brown
+J30,2011-2012,Seed size,Small
