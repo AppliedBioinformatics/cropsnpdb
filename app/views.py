@@ -6,7 +6,8 @@ import json
 import pandas as pd
 from flask import render_template, flash, redirect,request,send_from_directory, make_response
 from app import app
-from .forms import SNPSubmit, SNPSearch
+#from .forms import SNPSubmit, SNPSearch
+from forms import SNPSubmit, SNPSearch
 from dataHandeler import useInputToSearchv2, getDicChrWithSpecies as ChrWS, getDicChipsWithSpecies as CWS, getDicSpeciesWithCultivar as SWC
 from fileHandeler import checkPath
 from validating import fileIsLegit
@@ -170,7 +171,7 @@ def download():
                     snpinfodict[SNPid] = [(probeseq,pos,strand,ref_snp,chrom,chip,species)]
             all_cult_of_SNP = set()
             sorted_cult = sorted(list(cultivars))
-            print(sorted_cult)
+            #print(sorted_cult)
             for SNPID in snpdict: #for each key in dict
                 for SNPcultivars in snpdict[SNPID]:
                     all_cult_of_SNP.add(SNPcultivars[0])
@@ -185,7 +186,7 @@ def download():
             columnlist.reverse()
             for column in columnlist:
                 header.insert(0,column)
-            print(header)
+            #print(header)
             toFile = ','.join(map(str, header)) + "\n" 
             for SNPID in snpdict: # loops through SNPids
 	
@@ -224,7 +225,7 @@ def submit():
 		SNPFile = form.SNPFile.data
 		cultivarFile = form.CultivarFile.data
 		#Gets uploaded files
-		if SNPFile is not "" and cultivarFile is not "":
+		if SNPFile != "" and cultivarFile != "":
 			SNPUploadFile = request.files["SNPFile"]
 			cultivarUploadFile = request.files["CultivarFile"]
 			#Gets uploaded file names
@@ -308,10 +309,10 @@ def getErrorSubmit(form,expectedFileType,message):
 
 #Gets the bottom message page specific
 def getMessage(pageType):
-	if pageType is 'search':
+	if pageType == 'search':
 		with open(os.path.join(app.config['STATIC_FOLDER'],'searchText.html'),'r', encoding='utf-8', errors='ignore') as searchTextFile:
 			message = searchTextFile.read()
 		return message
-	elif pageType is 'download':
+	elif pageType == 'download':
 		with open(os.path.join(app.config['STATIC_FOLDER'],'searchText.html'),'r', encoding='utf-8', errors='ignore') as downloadTextFile:
 			message = downloadTextFile.read()

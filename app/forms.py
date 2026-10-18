@@ -2,7 +2,8 @@ from flask_wtf import FlaskForm
 from dataHandeler import getAllCultivarsAsChoice, getAllChipsAsChoice,getAllSpeciesAsChoice,getAllSNPArraysAsChoice
 from wtforms import SelectMultipleField,SelectField,StringField,FileField,HiddenField,validators
 from wtforms.validators import InputRequired
-from wtforms.fields.html5 import EmailField
+from wtforms.fields import EmailField
+#from wtforms.fields.html5 import EmailField
 
 #Generates input field to upload file
 #Generates select field to select if the input is csv or raw
