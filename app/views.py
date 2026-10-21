@@ -364,11 +364,11 @@ def phenotypes_csv():
 	import csv, io
 	from mysqlQuerys import getCursor, getResult
 	cur, con = getCursor()
-	cur.execute("SELECT a.Accession, c.CultivarName, p.Trial, p.Trait, p.Value, p.Source FROM AccessionPhenotype p JOIN Accession a ON a.idAccession=p.Accession_idAccession JOIN Cultivar c ON c.idCultivar=a.Cultivar_idCultivar ORDER BY a.idAccession, p.Trial, p.Trait")
+	cur.execute("SELECT a.Accession, c.CultivarName, p.Trial, p.Location, p.Trait, p.Value, p.NPlots, p.Source FROM AccessionPhenotype p JOIN Accession a ON a.idAccession=p.Accession_idAccession JOIN Cultivar c ON c.idCultivar=a.Cultivar_idCultivar ORDER BY a.idAccession, p.Trial, p.Trait")
 	rows = getResult(cur, con)
 	buf = io.StringIO(); w = csv.writer(buf)
-	w.writerow(['Accession','Line','Trial','Trait','Value','Source']); w.writerows(rows)
+	w.writerow(['Accession','Line','Trial','Location','Trait','Value','NPlots','Source']); w.writerows(rows)
 	resp = make_response(buf.getvalue())
 	resp.headers["Content-Type"] = "text/csv; charset=utf-8"
-	resp.headers["Content-Disposition"] = "attachment; filename=CropSNPdb_AGG_field_phenotypes.csv"
+	resp.headers["Content-Disposition"] = "attachment; filename=CropSNPdb_field_phenotypes.csv"
 	return resp

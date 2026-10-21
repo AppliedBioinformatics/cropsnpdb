@@ -12,3 +12,6 @@ Run on cropsnpdb-server-jun26 (17-18 Oct 2026). Kept for provenance; most are on
 Metadata sources: Mason et al. 2015 Mol Ecol Resour 15:1091 (Table S1, Australian Grains Genebank);
 Xu et al. 2016 DNA Res 23:43 (Table S1); Qian et al. 2014 BMC Genomics 15:1170 (Additional file 2);
 Higgins et al. 2018 G3 8:2673 (Methods); T3/Wheat BrAPI (accessed 2026-10-18).
+- `load_t3_pheno.py` – adds Location/NPlots columns to `AccessionPhenotype` and loads `data/t3_wheat_phenotypes_for_db.csv`:
+  T3/Wheat field-trial means (per line x trial x trait) for 295 wheat lines, 51,984 values, 2,378 trials, 151 traits (accessed 2026-10-21 via BrAPI).
+- `patch_pheno2.py` – adds Location and NPlots to `/phenotypes.csv`; updates Lines page text.
