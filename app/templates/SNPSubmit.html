@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="{{url_for('static',filename='SNPSubmit.css') }}">
 	<script type="text/javascript">
 	function submitAlert() {
-		alert("Thank you for your submission. Files will be checked and uploaded. Please be patient.");
+		alert("Thank you for your submission. Files will be checked and uploaded. Please also email Dave Edwards (dave.edwards@uwa.edu.au) to let us know about your submission.");
 		return true;
 	}
 	</script>
@@ -16,14 +16,17 @@
 				<a href='/static/cultivars.csv'>(example)</a>
 				are required submission (max. file size 50MB).<br>
 			Optionally, GenCall scores in the genotype file format can also be uploaded.<br>
-			Queries can be directed to 
-			 <a href="mailto:dave.edwards@uwa.edu.au" target="_top">dave.edwards@uwa.edu.au</a>.
+			<b>After uploading, please email Dave Edwards at
+			 <a href="mailto:dave.edwards@uwa.edu.au?subject=CropSNPdb%20data%20submission" target="_top">dave.edwards@uwa.edu.au</a>
+			 to let us know about your submission</b> (include your name, the SNP array and the publication or DOI, if any).
+			Questions can also be sent to this address.
 		<br>
 		{% if fileSubmit %}
 			<div class="alert alert-success alert-dismissible" style="text-align: center" role="alert">
 			<span type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></span>
 				<p>Data successfully submitted with genotype file: {{fileSubmit}} </p>
 				<p>Pending validation checks and email verification, data will be added to CropSNPdb. </p>
+				<p><b>Please now email Dave Edwards at <a href="mailto:dave.edwards@uwa.edu.au?subject=CropSNPdb%20data%20submission">dave.edwards@uwa.edu.au</a> to let us know about your submission.</b></p>
 			</div>
 		{% endif %}
 		{% if error %}
