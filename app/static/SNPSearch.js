@@ -375,6 +375,9 @@ $(document).ready(function() {
 			} else if(results[$(this).attr('id')][1] === "Brassica juncea v1.5"){
 				document.getElementById("gbrowseLink").href=gbrowseLink;
 				document.getElementById("gbrowseLink").innerHTML="BRAD Genome Browser";
+			} else {
+				document.getElementById("gbrowseLink").href="NA";
+				document.getElementById("gbrowseLink").innerHTML="NA";
 			}
 			
 	}) 
@@ -387,3 +390,16 @@ $(document).ready(function() {
     		}
 	}
 }  );
+
+
+// Filter box for the Lines list (added 2026-10-26)
+$(document).ready(function(){
+	function applyLineFilter(){
+		var q = ($('#lineFilter').val() || '').toLowerCase();
+		$('#Cultivars option').each(function(){
+			this.hidden = q !== '' && this.text.toLowerCase().indexOf(q) === -1;
+		});
+	}
+	$('#lineFilter').on('input', applyLineFilter);
+	$('#Specie, #Chip').on('change', function(){ $('#lineFilter').val(''); setTimeout(applyLineFilter, 0); });
+});

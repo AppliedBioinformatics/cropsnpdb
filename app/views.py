@@ -67,7 +67,10 @@ def search():
 			#drop Source column
 			#SNPid as index for static Source list
 			#add source to result 
-			snpsource = probedf.loc[result[4],'probeseq']
+			try:
+				snpsource = probedf.loc[result[4],'probeseq']
+			except KeyError:
+				snpsource = 'NA'
 			result = list(result)
 			result.insert(10,snpsource)
 			result = tuple(result)
@@ -76,7 +79,8 @@ def search():
 			hasResult = True;
 		else:
 			hasResult = False;
-		# decide what gbrowse URL to be used
+		# decide what gbrowse URL to be used (NA unless a browser is configured)
+		gbrowseLink = 'NA'
 		if specie=='Triticum aestivum RefSeq v1 and Pan':
 			gbrowseLink=app.config['GBROWSE_WHEAT_URL']
 		elif specie=='Brassica napus Darmor v81':
