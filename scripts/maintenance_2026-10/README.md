@@ -20,3 +20,5 @@ Higgins et al. 2018 G3 8:2673 (Methods); T3/Wheat BrAPI (accessed 2026-10-18).
   32,087,232 genotype calls. Adds index idx_region on SNP_Coordinates.
 - `patch_40k_code.py` – search robustness for new arrays (probe lookup, default NA browser link), line filter box on the Search page.
 - `patch_40k_text.py` – Home/Lines/Download text and Genesys/AGG attribution.
+- **Full AGG wheat 40K set (2026-10-29), VCF-backed:** `load_agg_full_meta.py` registers all 32,656 accessions (28,863 line names; passport data from Genesys MCPD incl. country, biological status, pedigree, donor) and maps each to its VCF sample in new table `AccessionVcfSample` (Cultivar.CultivarName widened to 150). Genotypes are read at query time from the bgzipped VCF (`/data/cropsnpdb/agg/v2.1_raw_unique.vcf.gz`, CSI index) by `app/ownLib/vcfBackend.py` (pysam; cap 3M genotypes/search).
+  Search page uses type-ahead (`/api/lines`) for species with >5,000 lines; Lines page loads rows from `/lines.json`. `drop_pilot_rows.py` removed the 32M pilot rows after a 290,528-call comparison showed 0 differences.

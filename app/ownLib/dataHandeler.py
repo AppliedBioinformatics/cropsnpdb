@@ -14,6 +14,9 @@ def useInputToSearchv2(species,cultivars,chromosoms,coordinationFrom,coordinatio
 	speciesID = SpecieIdWithSpecie(species)[0][0] 
 	speciesBuild = BuildWithSpecie(species)[0][0]
 	speciesName = species
+	import vcfBackend
+	if vcfBackend.handles(species):
+		return vcfBackend.search(species,cultivars,chromosoms,coordinationFrom,coordinationTo)
 	return getSNPData(speciesName,speciesID,speciesBuild,cultivars,chromosoms,coordinationFrom,coordinationTo)
 
 def CapSearchv2(cultivars,chromosoms,coordinationFrom,coordinationTo,cap):
@@ -86,6 +89,10 @@ def getDicSpeciesWithCultivar():
 	for specie in species:
 		cultivarsOfSpecie = []
 		cultivars = CultivarsWithSpecieId(specie[0])
+		if len(cultivars) > 5000:
+			#too many to embed in the page: the Search page looks these up as the user types
+			speciesWithCultivars[specie[1]]=['__REMOTE__']
+			continue
 		for cultivar in cultivars:	
 			cultivarsOfSpecie.append(cultivar[1])
 		speciesWithCultivars[specie[1]]=cultivarsOfSpecie

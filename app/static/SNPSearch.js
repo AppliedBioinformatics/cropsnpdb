@@ -392,14 +392,32 @@ $(document).ready(function() {
 }  );
 
 
-// Filter box for the Lines list (added 2026-10-26)
+// Line filter / type-ahead search (added 2026-10-26, type-ahead 2026-10-29)
 $(document).ready(function(){
-	function applyLineFilter(){
+	var REMOTE = '__REMOTE__', timer = null;
+	function isRemote(){
+		var l = speciesWithCultivars[$('#Specie').val()];
+		return l && l.length === 1 && l[0] === REMOTE;
+	}
+	function fixRemote(){
+		$('#Cultivars option').filter(function(){ return this.value === REMOTE; }).remove();
+		$('#lineFilter').attr('placeholder', isRemote() ? 'Type 2+ letters to search lines...' : 'Type to filter lines...');
+	}
+	function localFilter(){
 		var q = ($('#lineFilter').val() || '').toLowerCase();
-		$('#Cultivars option').each(function(){
-			this.hidden = q !== '' && this.text.toLowerCase().indexOf(q) === -1;
+		$('#Cultivars option').each(function(){ this.hidden = q !== '' && this.text.toLowerCase().indexOf(q) === -1; });
+	}
+	function remoteSearch(){
+		var q = ($('#lineFilter').val() || '').trim(), sel = $('#Cultivars');
+		if(q.length < 2){ sel.empty(); return; }
+		$.getJSON('/api/lines', {species: $('#Specie').val(), q: q}, function(names){
+			sel.empty();
+			names.forEach(function(n){ sel.append(new Option(n, n)); });
 		});
 	}
-	$('#lineFilter').on('input', applyLineFilter);
-	$('#Specie, #Chip').on('change', function(){ $('#lineFilter').val(''); setTimeout(applyLineFilter, 0); });
+	$('#lineFilter').on('input', function(){
+		if(isRemote()){ clearTimeout(timer); timer = setTimeout(remoteSearch, 250); } else { localFilter(); }
+	});
+	$('#Specie, #Chip').on('change', function(){ $('#lineFilter').val(''); setTimeout(function(){ fixRemote(); localFilter(); }, 0); });
+	fixRemote();
 });

@@ -54,7 +54,10 @@ def search():
 		if int(coordinationTo) - int(coordinationFrom) > 1000000 and len(QueryCultivars) > 500:
 			return render_template('SNPSearch.html',title="Warning",form=form,chromosomesWithSpecies=chromosomesWithSpecies,chipsWithSpecies=chipsWithSpecies,speciesWithCultivar=speciesWithCultivar,message=message,error="Search parameters too broad. Try reducing the number of cultivars, narrowing the coordinate range, or downloading all genotypes for the chromosome on the 'Download' page.")			
 		#Uses data to search database
-		databaseOutput = useInputToSearchv2(specie,QueryCultivars,chromosomes,coordinationFrom,coordinationTo)
+		try:
+			databaseOutput = useInputToSearchv2(specie,QueryCultivars,chromosomes,coordinationFrom,coordinationTo)
+		except ValueError as e:
+			return render_template('SNPSearch.html',title="Warning",form=form,chromosomesWithSpecies=chromosomesWithSpecies,chipsWithSpecies=chipsWithSpecies,speciesWithCultivar=speciesWithCultivar,message=message,error=str(e))
 		results = {}
 		#Adds database output into a dic
 		#Key = snp_id + accession from one snp
@@ -348,7 +351,37 @@ def getLines():
 
 @app.route('/lines', methods=["GET"])
 def lines():
-	return render_template('Lines.html', title="Lines", cols=LINES_COLS, rows=getLines())
+	from mysqlQuerys import getCursor, getResult
+	cur, con = getCursor()
+	cur.execute("SELECT COUNT(*) FROM Accession")
+	n = getResult(cur, con)[0][0]
+	return render_template('Lines.html', title="Lines", cols=LINES_COLS, nrows=n)
+
+@app.route('/lines.json', methods=["GET"])
+def lines_json():
+	import json, gzip
+	body = json.dumps({"data": getLines()}).encode()
+	resp = make_response(body)
+	resp.headers["Content-Type"] = "application/json"
+	if 'gzip' in request.headers.get('Accept-Encoding', ''):
+		resp.set_data(gzip.compress(body))
+		resp.headers["Content-Encoding"] = "gzip"
+		resp.headers["Vary"] = "Accept-Encoding"
+	return resp
+
+@app.route('/api/lines', methods=["GET"])
+def api_lines():
+	#type-ahead line search for species with too many lines to embed in the Search page
+	from flask import jsonify
+	from mysqlQuerys import getCursor, getResult
+	species = request.args.get('species', '')
+	q = request.args.get('q', '').strip()
+	if len(q) < 2:
+		return jsonify([])
+	like = q.replace('\\', '\\\\').replace('%', '\\%').replace('_', '\\_')
+	cur, con = getCursor()
+	cur.execute("SELECT DISTINCT c.CultivarName FROM Cultivar c JOIN Specie s ON s.idSpecie=c.Specie_idSpecie WHERE s.SpecieName=%s AND c.CultivarName LIKE %s ORDER BY (c.CultivarName LIKE %s) DESC, c.CultivarName LIMIT 300", (species, '%' + like + '%', like + '%'))
+	return jsonify([r[0] for r in getResult(cur, con)])
 
 @app.route('/lines.csv', methods=["GET"])
 def lines_csv():
