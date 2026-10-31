@@ -15,6 +15,6 @@
 	</div>
 </div>
 <script>
-$(document).ready(function(){ $('#linesTable').DataTable({ajax:'/lines.json', deferRender:true, pageLength:25, order:[], language:{loadingRecords:'Loading lines...'}, columnDefs:[{targets:[8,12,13,15,16,17,18,19], visible:false},{targets:'_all', render:function(d,type){ if(type==='display' && typeof d==='string' && d.indexOf('http')===0){ return '<a href="'+d+'" target="_blank" rel="noopener">link</a>'; } return d; }}]}); });
+$(document).ready(function(){ $('#linesTable').DataTable({ajax:'/lines.json', search:{search:new URLSearchParams(location.search).get('q')||''}, deferRender:true, pageLength:25, order:[], language:{loadingRecords:'Loading lines...'}, columnDefs:[{targets:[8,12,13,15,16,17,18,19], visible:false},{targets:'_all', render:function(d,type){ if(type==='display' && typeof d==='string' && d.indexOf('http')===0){ return '<a href="'+d+'" target="_blank" rel="noopener">link</a>'; } return d; }}]}); });
 </script>
 {% endblock %}
