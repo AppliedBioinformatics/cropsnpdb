@@ -257,27 +257,48 @@ def api_haplotype():
     ref_acc = next((x for x in ref[ref_line] if x in calls), None)
     if not ref_acc:
         return _json({'error': 'reference line has no genotypes in this region'}, 404)
-    ref_gt = {m: g for m, g in calls[ref_acc].items() if g and g != 'NC'}
+    min_maf = float(request.args.get('min_maf', 0.05))
+    min_called = float(request.args.get('min_called', 1.0))
+    ok = lambda g: g not in (None, '', 'NC', '--', 'NN')
+    # informative markers: polymorphic in the panel (minor allele frequency >= min_maf)
+    informative = set()
+    for m in markers:
+        n = {}
+        for gts in calls.values():
+            g = gts.get(m)
+            if ok(g):
+                for a in g:
+                    n[a] = n.get(a, 0) + 1
+        tot = sum(n.values())
+        if len(n) > 1 and tot and min(n.values()) / tot >= min_maf:
+            informative.add(m)
+    ref_gt = {m: g for m, g in calls[ref_acc].items() if ok(g) and m in informative}
     if len(ref_gt) < 3:
-        return _json({'error': f'only {len(ref_gt)} called marker(s) for the reference line in this region; '
-                               'widen the region (max 5 Mb) to define a haplotype'}, 400)
+        return _json({'error': f'only {len(ref_gt)} informative called marker(s) (MAF >= {min_maf}) for the reference '
+                               'line in this region; widen the region (max 5 Mb) or lower min_maf'}, 400)
     matches = []
     for acc, gts in calls.items():
         if acc == ref_acc:
             continue
-        shared = [m for m in ref_gt if gts.get(m) not in (None, '', 'NC')]
+        shared = [m for m in ref_gt if ok(gts.get(m))]
         mm = sum(gts[m] != ref_gt[m] for m in shared)
-        if shared and mm <= max_mm and len(shared) >= 0.8 * len(ref_gt):
+        if shared and mm <= max_mm and len(shared) >= min_called * len(ref_gt):
             matches.append({'accession': acc, 'line': line_of[acc], 'compared': len(shared), 'mismatches': mm})
     matches.sort(key=lambda x: (x['mismatches'], -x['compared'], x['line']))
     limit = min(int(request.args.get('limit', 200)), MAX_LIMIT)
     order = sorted(ref_gt, key=lambda m: markers[m][0])
-    return _json({'species': species, 'build': build, 'chrom': chrom, 'start': start, 'end': end,
+    frac = len(matches) / max(1, len(calls) - 1)
+    note = (f'common haplotype: shared by {frac:.0%} of accessions at {len(ref_gt)} informative markers, so it is not '
+            'diagnostic for the reference line at this marker density' if frac > 0.2 else None)
+    return _json({'note': note, 'species': species, 'build': build, 'chrom': chrom, 'start': start, 'end': end,
                   'reference': {'line': ref_line, 'accession': ref_acc},
                   'haplotype': [{'id': m, 'pos': markers[m][0], 'genotype': ref_gt[m]} for m in order],
-                  'accessions_tested': len(calls), 'max_mismatch': max_mm,
-                  'n_matching': len(matches), 'matching': matches[:limit],
-                  'method': 'identical calls at >=80% of the reference markers, no-calls ignored'})
+                  'accessions_tested': len(calls), 'markers_in_region': len(markers),
+                  'informative_markers': len(ref_gt), 'max_mismatch': max_mm, 'min_maf': min_maf,
+                  'min_called': min_called, 'n_matching': len(matches),
+                  'fraction_matching': round(frac, 4), 'matching': matches[:limit],
+                  'method': f'markers polymorphic in the panel (MAF >= {min_maf}); a match has calls at >= '
+                            f'{min_called:.0%} of them and at most {max_mm} mismatches'})
 
 
 @app.route('/api/v1/phenotypes', methods=['GET'])
