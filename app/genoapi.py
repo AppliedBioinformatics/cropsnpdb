@@ -130,6 +130,13 @@ def api_lines_v1():
 
 @app.route('/api/v1/markers', methods=['GET'])
 def api_markers():
+    ids = [x.strip() for x in request.args.get("id", "").split(",") if x.strip()][:200]
+    if ids:
+        rows = _q("""SELECT c.SNP_SNPid, s.SpecieName, c.Specie_Build, c.Chromosome, c.Coordinate FROM SNP_Coordinates c
+                     JOIN Specie s ON s.idSpecie=c.Specie_idSpecie WHERE c.SNP_SNPid IN %s
+                     ORDER BY c.SNP_SNPid, s.SpecieName""", (tuple(ids),))
+        return _json({"n": len(rows), "markers": [{"id": r[0], "species": r[1], "build": r[2], "chrom": r[3], "pos": r[4]}
+                                                  for r in rows], "not_found": sorted(set(ids) - {r[0] for r in rows})})
     try:
         species, sid, build = _species()
         chrom, start, end = _chrom(), _int('start', 0), _int('end', 1_000_000_000)
@@ -307,8 +314,17 @@ def api_haplotype():
 def api_phenotypes():
     line = request.args.get('line', '').strip()
     trait = request.args.get('trait', '').strip()
+    crop = None
+    if request.args.get('species'):
+        try:
+            crop = ' '.join(_species()[0].split()[:2])   # e.g. Triticum aestivum: all builds/arrays of that crop
+        except ValueError as e:
+            return _err(e)
     if not line and not trait:
-        traits = _q("SELECT Trait, COUNT(*), COUNT(DISTINCT Accession_idAccession) FROM AccessionPhenotype GROUP BY Trait ORDER BY Trait")
+        traits = _q("""SELECT p.Trait, COUNT(*), COUNT(DISTINCT p.Accession_idAccession) FROM AccessionPhenotype p
+                       JOIN Accession a ON a.idAccession=p.Accession_idAccession JOIN Cultivar c ON c.idCultivar=a.Cultivar_idCultivar
+                       JOIN Specie s ON s.idSpecie=c.Specie_idSpecie WHERE s.SpecieName LIKE %s GROUP BY p.Trait ORDER BY p.Trait""",
+                    ((crop or "") + "%",))
         return _json({'traits': [{'trait': t, 'records': n, 'accessions': k} for t, n, k in traits]})
     limit = min(int(request.args.get('limit', 200)), 5000)
     where, args = [], []
@@ -316,8 +332,14 @@ def api_phenotypes():
         where.append("(c.CultivarName=%s OR a.Accession=%s)")
         args += [line, line]
     if trait:
-        where.append("p.Trait=%s")
-        args.append(trait)
+        exact = _q("""SELECT 1 FROM AccessionPhenotype p JOIN Accession a ON a.idAccession=p.Accession_idAccession
+                      JOIN Cultivar c ON c.idCultivar=a.Cultivar_idCultivar JOIN Specie s ON s.idSpecie=c.Specie_idSpecie
+                      WHERE p.Trait=%s AND s.SpecieName LIKE %s LIMIT 1""", (trait, (crop or "") + "%"))
+        where.append("p.Trait=%s" if exact else "p.Trait LIKE %s")
+        args.append(trait if exact else "%" + trait.replace("%", r"\%").replace("_", r"\_") + "%")
+    if crop:
+        where.append("s.SpecieName LIKE %s")
+        args.append(crop + "%")
     rows = _q(f"""SELECT a.Accession, c.CultivarName, s.SpecieName, p.Trial, p.Location, p.Trait, p.Value, p.NPlots, p.Source
                   FROM AccessionPhenotype p JOIN Accession a ON a.idAccession=p.Accession_idAccession
                   JOIN Cultivar c ON c.idCultivar=a.Cultivar_idCultivar JOIN Specie s ON s.idSpecie=c.Specie_idSpecie
