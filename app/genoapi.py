@@ -116,14 +116,16 @@ def api_lines_v1():
     q = request.args.get('q', '').strip()
     limit = min(int(request.args.get('limit', 50)), MAX_LIMIT)
     like = '%' + q.replace('\\', '\\\\').replace('%', '\\%').replace('_', '\\_') + '%'
-    rows = _q("""SELECT c.CultivarName, a.Accession, m.Country, m.BiologicalStatus, m.Pedigree
+    rows = _q("""SELECT c.CultivarName, a.Accession, m.Country, m.BiologicalStatus, m.Pedigree,
+                        m.BreedingOrganization, m.Donor
                  FROM Cultivar c JOIN Specie s ON s.idSpecie=c.Specie_idSpecie
                  JOIN Accession a ON a.Cultivar_idCultivar=c.idCultivar
                  LEFT JOIN AccessionMetadata m ON m.Accession_idAccession=a.idAccession
                  WHERE s.SpecieName=%s AND (c.CultivarName LIKE %s OR a.Accession LIKE %s)
                  ORDER BY (c.CultivarName=%s) DESC, c.CultivarName LIMIT %s""", (species, like, like, q, limit))
     return _json({'species': species, 'n': len(rows), 'lines': [
-        {'line': r[0], 'accession': r[1], 'country': r[2], 'status': r[3], 'pedigree': r[4]} for r in rows]})
+        {'line': r[0], 'accession': r[1], 'country': r[2], 'status': r[3], 'pedigree': r[4],
+         'breeding_organization': r[5], 'donor': r[6]} for r in rows]})
 
 
 @app.route('/api/v1/markers', methods=['GET'])
