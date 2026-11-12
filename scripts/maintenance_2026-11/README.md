@@ -14,3 +14,4 @@ Files in /data/cropsnpdb/caige/.
 - filter_pansnp.py: brassicagenome.net BnaPan.SNPs.vcf.gz -> biallelic SNPs, QUAL>=30, GT only, <=20% missing, MAF>=0.05, placed chromosomes A01..C09 (1,358,868 SNPs, 53 lines). Run on wheatis-01.
 - load_bnapus_pangenome.py dryrun|commit: registers species "Brassica napus pangenome v81" (Build v81pan, array BnapusPangenomeWGS, Hurgobin et al. 2018 doi:10.1111/pbi.12867) as VCF-backed; VCF at /data/cropsnpdb/bnapus_pangenome/.
 - app/ownLib/vcfBackend.py VCF_SPECIES and app/genoapi.py ALIASES (bnapus_pangenome) updated.
+- 2026-11-12: VCF IDs rewritten to BnaPan_<chrom>_<pos> to match SNP.SNPid (original in /data/cropsnpdb/bnapus_pangenome/orig/).

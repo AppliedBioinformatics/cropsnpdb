@@ -57,7 +57,7 @@ if not have:
         for line in f:
             if line[0] == "#": continue
             chrom, pos, sid, ref_a, alt = line.split("\t", 5)[:5]
-            sid = "BnaPan_" + sid
+            sid = sid if sid.startswith("BnaPan_") else "BnaPan_" + sid
             snp.append((sid, f"[{ref_a}/{alt}]", arr)); coo.append((sid, chrom, int(pos), sp, BUILD)); n += 1
             if len(snp) >= 20000: flush()
     flush()
