@@ -9,3 +9,8 @@ Files in /data/cropsnpdb/caige/.
 3. `venv/bin/python load_caige_meta.py dryrun|commit`: Reference 7, Cultivar `CAIGE <nursery>-<entry> (GID <gid>)`,
    Accession `CAIGE GID <gid>`, AccessionMetadata (selection history, breeding programme from its prefix),
    AccessionVcfSample -> CAIGE VCF. Species 6 (Triticum aestivum RefSeq v2.1).
+
+## B. napus pangenome WGS SNPs (2026-11-12)
+- filter_pansnp.py: brassicagenome.net BnaPan.SNPs.vcf.gz -> biallelic SNPs, QUAL>=30, GT only, <=20% missing, MAF>=0.05, placed chromosomes A01..C09 (1,358,868 SNPs, 53 lines). Run on wheatis-01.
+- load_bnapus_pangenome.py dryrun|commit: registers species "Brassica napus pangenome v81" (Build v81pan, array BnapusPangenomeWGS, Hurgobin et al. 2018 doi:10.1111/pbi.12867) as VCF-backed; VCF at /data/cropsnpdb/bnapus_pangenome/.
+- app/ownLib/vcfBackend.py VCF_SPECIES and app/genoapi.py ALIASES (bnapus_pangenome) updated.

@@ -19,7 +19,7 @@ from app import app
 from dataHandeler import useInputToSearchv2
 from mysqlQuerys import getCursor, getResult
 
-ALIASES = {'wheat40k': 'Triticum aestivum RefSeq v2.1', 'agg': 'Triticum aestivum RefSeq v2.1',
+ALIASES = {'bnapus_pangenome': 'Brassica napus pangenome v81', 'wheat40k': 'Triticum aestivum RefSeq v2.1', 'agg': 'Triticum aestivum RefSeq v2.1',
            'wheat90k': 'Triticum aestivum RefSeq v1 and Pan'}
 DEFAULT_SPECIES = 'Triticum aestivum RefSeq v2.1'
 MAX_LIMIT = 1000
