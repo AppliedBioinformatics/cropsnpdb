@@ -4,7 +4,9 @@ ozbarley: OzBarley Wheat Barley 40K chip markers (AVRIG IDs) for 499 landraces (
 nsgc:     T3 UMN_NSGC_GWAS (748 NSGC accessions), array markers only (S#H_ position-named SNPs, chrUn and
           A/T|C/G SNPs dropped: T3 alleles are on mixed strands, so palindromic SNPs cannot be oriented).
 REF is checked against MorexV3 (Ensembl Plants); calls on the other strand are complemented.
-Usage: build_barley_vcfs.py ozbarley|nsgc"""
+rnaseq:   OzBarley elite HapMap SNPs that are not 40K chip positions (RNA-seq SNPs, 214 elite lines), with SnpEff
+          gene/effect/impact from snp_descriptions.csv in INFO.
+Usage: build_barley_vcfs.py ozbarley|nsgc|rnaseq"""
 import sys, csv, gzip, re, collections, pysam
 B='/data/cropsnpdb/barley'; fa=pysam.FastaFile(f'{B}/morexv3/morexv3.fa')
 CH=[f'chr{i}H' for i in range(1,8)]
@@ -34,13 +36,16 @@ def gt(pair, ref, alts, flip):
     try: return '/'.join(sorted(str(al.index(b)) for b in p))
     except ValueError: st['call allele not in REF/ALT -> missing']+=1; return './.'
 
-def write(out, recs, samples, src):
+def write(out, recs, samples, src, info=None):
     recs.sort(key=lambda r:(CH.index(r[0]), r[1]))
     tmp=out[:-3]
     with open(tmp,'w') as fh:
-        fh.write(header(samples, src))
-        for c,p,i,ref,alts,gts in recs:
-            fh.write(f'Chr{c[3:]}\t{p}\t{i}\t{ref}\t{",".join(alts) or "."}\t.\tPASS\t.\tGT\t'+'\t'.join(gts)+'\n')
+        hd=header(samples, src)
+        if info: hd=hd.replace('##FORMAT', info+'\n##FORMAT',1)
+        fh.write(hd)
+        for r in recs:
+            c,p,i,ref,alts,gts=r[:6]; inf=r[6] if len(r)>6 else '.'
+            fh.write(f'Chr{c[3:]}\t{p}\t{i}\t{ref}\t{",".join(alts) or "."}\t.\tPASS\t{inf}\tGT\t'+'\t'.join(gts)+'\n')
     pysam.tabix_index(tmp, preset='vcf', csi=True, force=True)
     print('wrote', out, len(recs), 'markers', len(samples), 'samples')
 
@@ -105,5 +110,31 @@ def nsgc():
         recs.append((c,p,f[2],ref,o[1],[gt(x,ref,o[1],o[0]) for x in calls]))
     write(f'{D}/nsgc_50k_morexv3.vcf.gz', recs, samples, 'T3 Barley UMN_NSGC_GWAS (files.triticeaetoolbox.org/download/barley/UMN_NSGC_GWAS.vcf.gz)')
 
-{'ozbarley':ozbarley,'nsgc':nsgc}[sys.argv[1]]()
+def rnaseq():
+    D=f'{B}/ozbarley'
+    chip={(c,int(p)) for c,p in zip(*list(csv.reader(open(f'{D}/landrace_chip.tsv'),delimiter='\t'))[1:3]) if p.isdigit()}
+    ann={}
+    for r in csv.DictReader(open(f'{D}/snp_descriptions.csv')):
+        e=r['Effect'].replace('&','+'); g=r['Gene-ID']
+        if r['CHR'] and r['POS_CHR']: ann[('chr'+r['CHR'],int(r['POS_CHR']))]=f"GENE={g};EFFECT={e};IMPACT={r['Impact']}" if g else '.'
+    el=None; recs=[]
+    for l in open(f'{D}/2025_RNASeqSNP_and_GenoData.hapmap.txt'):
+        f=l.rstrip('\n').split('\t')
+        if f[0]=='rs': el=f[11:]; samples=['_'.join(x.split('_')[:2]) for x in el]; continue
+        c='chr'+f[2]; p=int(f[3])
+        if (c,p) in chip: st['40K chip position (already in OzBarley 40K) skipped']+=1; continue
+        ref=fa.fetch(c,p-1,p).upper(); calls=[IUPAC.get(x) for x in f[11:]]
+        a={b for x in calls if x for b in x}
+        if not a: st['no calls']+=1; continue
+        o=orient(ref,a)
+        if o is None or o[0]: st['REF not among alleles -> dropped']+=1; continue
+        if len(o[1])>1: st['multiallelic']+=1
+        if not o[1]: st['monomorphic REF']+=1
+        recs.append((c,p,f[0],ref,o[1],[gt(x,ref,o[1],False) for x in calls],ann.get((c,p),'.')))
+        st['annotated' if ann.get((c,p),'.')!='.' else 'no annotation']+=1
+    assert len(set(samples))==len(samples)
+    write(f'{D}/ozbarley_rnaseq_morexv3.vcf.gz', recs, samples, 'OzBarley elite RNA-seq SNPs (Figshare doi:10.25909/29104916 HapMap; SnpEff from snp_descriptions.csv)',
+          info='##INFO=<ID=GENE,Number=1,Type=String,Description="MorexV3 gene (SnpEff)">\n##INFO=<ID=EFFECT,Number=1,Type=String,Description="SnpEff effect">\n##INFO=<ID=IMPACT,Number=1,Type=String,Description="SnpEff impact">')
+
+{'ozbarley':ozbarley,'nsgc':nsgc,'rnaseq':rnaseq}[sys.argv[1]]()
 print(dict(st))
