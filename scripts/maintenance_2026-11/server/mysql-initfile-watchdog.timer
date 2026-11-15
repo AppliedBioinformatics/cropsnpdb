@@ -1,0 +1,9 @@
+[Unit]
+Description=Check every 5 minutes for a stuck mysqld --init-file (CropSNPdb)
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=5min
+
+[Install]
+WantedBy=timers.target

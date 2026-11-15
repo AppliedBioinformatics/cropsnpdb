@@ -1,0 +1,6 @@
+[Unit]
+Description=Stop a stuck mysqld --init-file left by the mysql-server postinst (CropSNPdb)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/mysql-initfile-watchdog.sh

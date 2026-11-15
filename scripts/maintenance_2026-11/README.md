@@ -36,3 +36,7 @@ Files in /data/cropsnpdb/caige/.
 - Source: LIS datastore Cicer/arietinum/diversity/CDCFrontier.div.vonWettberg_Chang_2018 (licence Open; von Wettberg et al. 2018 Nat Commun 9:649, doi:10.1038/s41467-018-02867-z), 279 accessions, WGS GATK calls on CDC Frontier v1. CicerSeq (3,366 genomes) has no downloadable SNP VCF (query tool only).
 - build_cicer_vcf.sh (bcftools 1.19, apt): FILTER PASS, biallelic SNPs on Ca1-Ca8, F_MISSING<=0.2, MAF>=0.05, GT only, IDs CaFr1_<chr>_<pos> -> /data/cropsnpdb/chickpea/vonwettberg/cicer_wgs_cdcfrontier1_snps.vcf.gz (2,008,314 SNPs). 1,500/1,500 random genotypes match the source.
 - load_cicer.py: species "Cicer arietinum CDC Frontier v1" (build CaFrontier1, array CicerWGS; chromosomes Ca1..Ca8 used as-is), 166 C. reticulatum + 63 C. echinospermum (species/site from sample-ID prefix per the paper) + 50 cultivated/other. API aliases chickpea, cicer_wgs.
+
+## Server: MySQL update watchdog (2026-11-15) – server/
+- mysql-server-8.0 postinst hangs on this server (temporary `mysqld --init-file` never exits): 2026-10 and 2026-11-01..15 (DB ran on the temporary server for 14 days, apt blocked).
+- Installed /usr/local/sbin/mysql-initfile-watchdog.sh + /etc/systemd/system/mysql-initfile-watchdog.{service,timer} (every 5 min, from 10 min after boot): SIGTERMs a process named exactly mysqld whose args contain --init-file= after 10 min; logs to journal tag mysql-initfile-watchdog. Tested with a dummy process.
