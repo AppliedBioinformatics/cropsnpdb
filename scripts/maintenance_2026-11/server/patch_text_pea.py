@@ -1,0 +1,12 @@
+import os, shutil
+os.chdir('/var/www/html/cropsnpdb/snpdb/app/templates')
+def rep(p,old,new):
+    s=open('/tmp/'+p).read(); assert s.count(old)==1,(p,old[:70]); open('/tmp/'+p,'w').write(s.replace(old,new))
+for f in ['Home.html','Download.html','Lines.html']: shutil.copy(f,'/tmp/'+f)
+rep('Home.html','lentil (<i>Lens culinaris</i>) and chickpea (<i>Cicer</i>) genotypes','lentil (<i>Lens culinaris</i>), chickpea (<i>Cicer</i>) and field pea (<i>Pisum</i>) genotypes')
+rep('Home.html','(2.0 million whole-genome SNPs; <a href="https://doi.org/10.1038/s41467-018-02867-z">von Wettberg et al. 2018</a>).</p>','(2.0 million whole-genome SNPs; <a href="https://doi.org/10.1038/s41467-018-02867-z">von Wettberg et al. 2018</a>), and 696 pea accessions on the Cameor v2 genome: the USDA Pea Single Plant Plus Collection (456 accessions, 270,306 GBS SNPs; <a href="https://doi.org/10.1093/g3journal/jkab227">Powers et al. 2021</a>) and the AMS panel of Aubert et al. 2023 (240 accessions, 641,081 SNPs; <a href="https://doi.org/10.1038/s41597-026-07347-4">Kreplak et al. 2026</a>).</p>')
+rep('Home.html','<li>Chickpea: <a href="https://data.legumeinfo.org/Cicer/arietinum/genomes/CDCFrontier.gnm1.GkHc/">CDC Frontier v1</a></li>','<li>Chickpea: <a href="https://data.legumeinfo.org/Cicer/arietinum/genomes/CDCFrontier.gnm1.GkHc/">CDC Frontier v1</a></li>\n                    <li>Pea: <a href="https://data.legumeinfo.org/Pisum/sativum/genomes/">Cameor v2</a></li>')
+rep('Download.html','(cite <a href="https://doi.org/10.1038/s41467-018-02867-z">von Wettberg et al. 2018</a>).</p>','(cite <a href="https://doi.org/10.1038/s41467-018-02867-z">von Wettberg et al. 2018</a>).</p>\n\t\t<p>Pea: USDA PSPPC GBS SNPs (Beagle-imputed by the authors; 431 <i>P. sativum</i> and 25 <i>P. fulvum</i>) and the AMS panel (PASS biallelic SNPs, &le;20% missing, MAF &ge;5%) on Cameor v2 are searchable here; full VCFs are in the <a href="https://data.legumeinfo.org/Pisum/sativum/diversity/">Legume Information System</a>. Search results and downloads for the OzBarley RNA-seq SNPs include each SNP&rsquo;s gene and predicted effect (SnpEff).</p>')
+rep('Lines.html','are from Wright et al. 2021;','are from Wright et al. 2021, and seed protein and 18 amino acids (NIRS, Rosthern and Sutherland 2016&ndash;2017) from Wright et al. 2025;')
+for f in ['Home.html','Download.html','Lines.html']: os.system(f'sudo cp /tmp/{f} {f}')
+print('ok')

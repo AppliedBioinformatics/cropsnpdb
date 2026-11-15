@@ -312,6 +312,9 @@ $(document).ready(function() {
 			coordinate.text(results[$(this).attr('id')][8])
 			genotypeAccession.text(results[$(this).attr('id')][9])
 			sourceSeq.text(results[$(this).attr('id')][10]) 
+			var geneEffect = results[$(this).attr('id')][12]
+			$('#geneEffectRow').toggle(!!geneEffect)
+			$('#geneEffect').text(geneEffect || '')
 			var current_species = results[$(this).attr('id')][1]
 			var coordinateInt=parseInt(results[$(this).attr('id')][8])
 			var start=coordinateInt-200

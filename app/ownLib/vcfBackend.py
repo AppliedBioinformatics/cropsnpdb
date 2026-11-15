@@ -3,7 +3,7 @@
 import pysam
 from mysqlQuerys import getCursor, getResult
 
-VCF_SPECIES = {'Triticum aestivum RefSeq v2.1', 'Brassica napus pangenome v81', 'Hordeum vulgare MorexV3', 'Hordeum vulgare MorexV3 RNA-seq', 'Lens culinaris CDC Redberry v2', 'Cicer arietinum CDC Frontier v1'}
+VCF_SPECIES = {'Triticum aestivum RefSeq v2.1', 'Brassica napus pangenome v81', 'Hordeum vulgare MorexV3', 'Hordeum vulgare MorexV3 RNA-seq', 'Lens culinaris CDC Redberry v2', 'Cicer arietinum CDC Frontier v1', 'Pisum sativum Cameor v2 PSPPC', 'Pisum sativum Cameor v2 AMS'}
 MAX_CALLS = 3000000   # accessions x markers per search
 
 def handles(species):
@@ -45,6 +45,9 @@ def search(species, cultivars, chrom, start, end):
 		for rec in vf.fetch(vchrom, start - 1, end):
 			alleles = rec.alleles
 			ref = '[{}/{}]'.format(rec.ref, ','.join(rec.alts or ()))
+			ann = ''
+			if 'GENE' in rec.header.info and 'GENE' in rec.info:
+				ann = '{}: {} ({})'.format(rec.info['GENE'], rec.info.get('EFFECT', ''), rec.info.get('IMPACT', ''))
 			for smp in present:
 				gt = rec.samples[smp]['GT']
 				if gt is None or None in gt:
@@ -52,6 +55,6 @@ def search(species, cultivars, chrom, start, end):
 				else:
 					g = alleles[gt[0]] + alleles[gt[1]]
 				r = info[smp]
-				out.append((r[5], species, r[0], r[1], rec.id, ref, 'NA', chrom, rec.pos, g, r[4]))
+				out.append((r[5], species, r[0], r[1], rec.id, ref, 'NA', chrom, rec.pos, g, r[4], ann))
 		vf.close()
 	return out

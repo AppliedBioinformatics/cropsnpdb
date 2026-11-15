@@ -76,6 +76,8 @@ def search():
 				snpsource = 'NA'
 			result = list(result)
 			result.insert(10,snpsource)
+			if len(result) < 13:
+				result.append('')   # gene effect (VCF INFO, e.g. OzBarley RNA-seq SnpEff)
 			result = tuple(result)
 			results[result[3]+result[4]] = result
 		if results:
@@ -152,9 +154,13 @@ def download():
             snpinfodict = defaultdict(list)
 
             for SNP in listOfSNPs:    
-                snpsource = probedf.loc[SNP[4],'probeseq']
+                try:
+                    snpsource = probedf.loc[SNP[4],'probeseq']
+                except KeyError:
+                    snpsource = 'NA'
                 SNP = list(SNP)
                 SNP.insert(10,snpsource)
+                effect = SNP[12] if len(SNP) > 12 and SNP[12] else 'NA'
                 unid = SNP[2].replace(" ","_") + "__" + SNP[3]
                 cultivars.add(unid)
                 SNPid = SNP[4]
@@ -175,7 +181,7 @@ def download():
                 if SNPid in snpinfodict:
                     pass
                 else: #add to snpinfodict which holds SNP meta information
-                    snpinfodict[SNPid] = [(probeseq,pos,strand,ref_snp,chrom,chip,species)]
+                    snpinfodict[SNPid] = [(effect.replace(',',';'),probeseq,pos,strand,ref_snp,chrom,chip,species)]
             all_cult_of_SNP = set()
             sorted_cult = sorted(list(cultivars))
             #print(sorted_cult)
@@ -189,7 +195,7 @@ def download():
             header = [] #header row for CSV output
             for cultivar in sorted_cult:
                 header.append(cultivar)
-            columnlist = ['SNPid','Species','Array','Chr','Ref_SNP','Strand','SNP_Position_On_Chr','Probe_Sequence']
+            columnlist = ['SNPid','Species','Array','Chr','Ref_SNP','Strand','SNP_Position_On_Chr','Probe_Sequence','Gene_effect']
             columnlist.reverse()
             for column in columnlist:
                 header.insert(0,column)

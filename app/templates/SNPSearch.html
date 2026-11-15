@@ -13,7 +13,7 @@ var results = {{results|tojson}};
 var gbrowseLink = {{gbrowseLink|tojson}};
 {% endif %}
 </script>	
-<script type='text/javascript' src="static/SNPSearch.js?v=20261029"></script>
+<script type='text/javascript' src="static/SNPSearch.js?v=20261116"></script>
 <div id="myModal" class="modal" role="dialog">
 	<!-- Modal content -->
 	<div class="modal-content">
@@ -105,6 +105,14 @@ var gbrowseLink = {{gbrowseLink|tojson}};
 					</div>
 					<div class="col-md-10">
 						<p id="referenceStrand"></p>
+					</div>
+				</div>
+				<div class="row" id="geneEffectRow" style="display:none">
+					<div class="col-md-2">
+						<b>Gene effect</b>
+					</div>
+					<div class="col-md-10">
+						<p id="geneEffect"></p>
 					</div>
 				</div>
 				<div class="row">

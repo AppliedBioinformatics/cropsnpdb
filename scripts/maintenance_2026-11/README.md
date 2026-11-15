@@ -40,3 +40,12 @@ Files in /data/cropsnpdb/caige/.
 ## Server: MySQL update watchdog (2026-11-15) – server/
 - mysql-server-8.0 postinst hangs on this server (temporary `mysqld --init-file` never exits): 2026-10 and 2026-11-01..15 (DB ran on the temporary server for 14 days, apt blocked).
 - Installed /usr/local/sbin/mysql-initfile-watchdog.sh + /etc/systemd/system/mysql-initfile-watchdog.{service,timer} (every 5 min, from 10 min after boot): SIGTERMs a process named exactly mysqld whose args contain --init-file= after 10 min; logs to journal tag mysql-initfile-watchdog. Tested with a dummy process.
+
+## 2026-11-16
+- Pea (pea/): LIS datastore, licence Open, Cameor v2. build_pea_vcfs.sh psppc|ams, load_pea.py psppc|ams dryrun|commit.
+  - "Pisum sativum Cameor v2 PSPPC" (aliases pea, pea_psppc): USDA Pea Single Plant Plus Collection GBS (Powers et al. 2021 G3 doi:10.1093/g3journal/jkab227; Beagle-imputed by authors), 270,306 biallelic SNPs x 456 (431 P. sativum, 25 P. fulvum); SRR sample IDs renamed to ENA sample aliases (PRJNA379298).
+  - "Pisum sativum Cameor v2 AMS" (alias pea_ams): AMS panel (Aubert et al. 2023) recalled on Cameor v2 (Kreplak et al. 2026 Sci Data doi:10.1038/s41597-026-07347-4): PASS biallelic SNPs, <=20% missing, MAF>=0.05 -> 641,081 SNPs x 240. Genotypes identical to source in spot regions.
+- Lentil protein (lentil/load_ldp_protein.py): 24,510 NIRS values (seed protein + 18 amino acids, Rosthern/Sutherland 2016-2017) for 324 LDP lines, Wright et al. 2025 Crop Sci doi:10.1002/csc2.70085 (github derekmichaelwright/AGILE_LDP_Protein Data/myY_NIRS.csv).
+- Gene effects (server/patch_snpeff.py): vcfBackend appends VCF INFO GENE/EFFECT/IMPACT as a 12th result field; search pop-up shows "Gene effect" when present; downloadSearch adds a Gene_effect column (and no longer fails on SNPs without probe sequences); genoapi tolerates the extra field. SNPSearch.js cache-buster v=20261116.
+- Front-end libraries (templates/base.html): jQuery 3.1.1 -> 3.7.1, Bootstrap 3.3.7 -> 3.4.1 (jsDelivr), DataTables 1.10.13 -> 1.13.11. Checked with headless Chromium: home/lines/download/search load without console errors, Lines filter, search results, modal pop-up (gene effect shown for barley RNA-seq, hidden for wheat 90K).
+- Deleted /var/lib/mysql.pre_move (1.8 GB) after confirming MySQL datadir is the /data/mysql bind mount.
