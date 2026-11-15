@@ -7,7 +7,7 @@
 /api/v1/compare?species=&line_a=&line_b=&chrom=[&start=&end=]
 /api/v1/haplotype?species=&line=&chrom=&start=&end=[&max_mismatch=0]
 /api/v1/phenotypes?line=&trait=
-species may be the full name or an alias: wheat40k (AGG, RefSeq v2.1), wheat90k (RefSeq v1), barley40k/ozbarley (OzBarley, MorexV3), barley_rnaseq (OzBarley elite RNA-seq SNPs), lentil/lentil_ldp (AGILE LDP exome capture, CDC Redberry v2).
+species may be the full name or an alias: wheat40k (AGG, RefSeq v2.1), wheat90k (RefSeq v1), barley40k/ozbarley (OzBarley, MorexV3), barley_rnaseq (OzBarley elite RNA-seq SNPs), lentil/lentil_ldp (AGILE LDP exome capture, CDC Redberry v2), chickpea/cicer_wgs (von Wettberg 2018 WGS, CDC Frontier v1).
 """
 import csv
 import io
@@ -19,7 +19,7 @@ from app import app
 from dataHandeler import useInputToSearchv2
 from mysqlQuerys import getCursor, getResult
 
-ALIASES = {'bnapus_pangenome': 'Brassica napus pangenome v81', 'barley40k': 'Hordeum vulgare MorexV3', 'ozbarley': 'Hordeum vulgare MorexV3', 'barley_rnaseq': 'Hordeum vulgare MorexV3 RNA-seq', 'lentil': 'Lens culinaris CDC Redberry v2', 'lentil_ldp': 'Lens culinaris CDC Redberry v2', 'wheat40k': 'Triticum aestivum RefSeq v2.1', 'agg': 'Triticum aestivum RefSeq v2.1',
+ALIASES = {'bnapus_pangenome': 'Brassica napus pangenome v81', 'barley40k': 'Hordeum vulgare MorexV3', 'ozbarley': 'Hordeum vulgare MorexV3', 'barley_rnaseq': 'Hordeum vulgare MorexV3 RNA-seq', 'lentil': 'Lens culinaris CDC Redberry v2', 'lentil_ldp': 'Lens culinaris CDC Redberry v2', 'chickpea': 'Cicer arietinum CDC Frontier v1', 'cicer_wgs': 'Cicer arietinum CDC Frontier v1', 'wheat40k': 'Triticum aestivum RefSeq v2.1', 'agg': 'Triticum aestivum RefSeq v2.1',
            'wheat90k': 'Triticum aestivum RefSeq v1 and Pan'}
 DEFAULT_SPECIES = 'Triticum aestivum RefSeq v2.1'
 MAX_LIMIT = 1000

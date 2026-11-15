@@ -3,7 +3,7 @@
 import pysam
 from mysqlQuerys import getCursor, getResult
 
-VCF_SPECIES = {'Triticum aestivum RefSeq v2.1', 'Brassica napus pangenome v81', 'Hordeum vulgare MorexV3', 'Hordeum vulgare MorexV3 RNA-seq', 'Lens culinaris CDC Redberry v2'}
+VCF_SPECIES = {'Triticum aestivum RefSeq v2.1', 'Brassica napus pangenome v81', 'Hordeum vulgare MorexV3', 'Hordeum vulgare MorexV3 RNA-seq', 'Lens culinaris CDC Redberry v2', 'Cicer arietinum CDC Frontier v1'}
 MAX_CALLS = 3000000   # accessions x markers per search
 
 def handles(species):
